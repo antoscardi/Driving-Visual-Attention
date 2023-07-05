@@ -1,0 +1,1 @@
+This is the repository for the project of the first module of the course Elective in Ai held by prof. Christian Napoli.
