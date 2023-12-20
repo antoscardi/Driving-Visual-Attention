@@ -1,11 +1,17 @@
 from pickle import load
-from typing_extensions import Self
+import cv2
+import torch.nn as nn
+import torch.optim as optim
+from torch.utils.data import DataLoader
+from torch.utils.data import Dataset
 from utility import*
 import json
 # alias
 from os.path import join as join_paths
 
-  
+''' 
+UTILITY FUNCTIONS
+'''  
 def read_file(file_path):
     # Returns List[dict]: A list of dictionaries representing the data.
     with open(file_path, 'r') as file:
@@ -27,6 +33,9 @@ def match_in_path(path, expression):
         print("No match found")
     return number
 
+'''
+WRAPPER FORD DATASET CLASS 
+'''
 class DataLoaderVisualizer:
     def __init__(self, root, file_path, percentage,  split='train'):
         self.root = root
@@ -36,7 +45,7 @@ class DataLoaderVisualizer:
         self.path_structure = self.create_paths()
         self.drivers = self.divide_drivers()
         self.data = self.check_existence()
-        Self.data_complete = []
+        self.data_complete = []
 
     def divide_drivers(self):
         list_of_driver_paths = os.listdir(self.root)
@@ -65,13 +74,13 @@ class DataLoaderVisualizer:
             print(f'--> Processing for {driver}')
             driver_info = {"road_view": {}, "driver_view": {}}
             # Check the driver folder exists
-            driver_path = join_paths(root, driver)
+            driver_path = join_paths(self.root, driver)
             if not os.path.isdir(driver_path) or not os.listdir(driver_path):
                 print(f'Skipping empty driver folder: {driver}')
                 continue
             # Get paths
-            driver_view_path = join_paths(root, driver, "driver_view")
-            road_view_path = join_paths(root, driver, "road_view")
+            driver_view_path = join_paths(self.root, driver, "driver_view")
+            road_view_path = join_paths(self.root, driver, "road_view")
             # List folders
             road_sample_folders = [folder for folder in os.listdir(road_view_path) if os.path.isdir(join_paths(road_view_path, folder))]
             driver_sample_folders = [folder for folder in os.listdir(driver_view_path) if os.path.isdir(join_paths(driver_view_path, folder))]
@@ -154,8 +163,9 @@ class DataLoaderVisualizer:
 
         plt.show()
 
-   
-
+'''
+PYTORCH DATASET CLASS 
+'''
 class DGAZEDataset(Dataset):
     def __init__(self, loader_class, split='train', save_file='train_paths.json'):
         self.split = split

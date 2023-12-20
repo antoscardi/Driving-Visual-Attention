@@ -1,17 +1,8 @@
 import random
 import os
 import numpy as np
-import torch
 import re
-import tqdm
-
 import torch
-import torch.nn as nn
-import torch.optim as optim
-from torch.utils.data import DataLoader
-from torch.utils.data import Dataset
-from torchvision import transforms
-
 
 # https://gist.github.com/ihoromi4/b681a9088f348942b01711f251e5f964
 def seed_everything(seed: int):
