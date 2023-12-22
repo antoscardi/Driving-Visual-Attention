@@ -32,11 +32,10 @@ def find_driver_paths(all_paths, driver):
     return driver_x_paths
 
 def get_frame_and_point(data_array, idx, sample_number):
-    count = 1
+    count = 0
     for row in data_array:
-        if  sample_number > 10:
-            print(row)
-            #frame_number = int(row[0].replace('frame', ''))
+        if sample_number > 10:
+            # frame_number = int(row[0].replace('frame', ''))
             bbox = row[1:]
             # Return only when you get to the correct frame_id
             if count == idx:
@@ -44,8 +43,12 @@ def get_frame_and_point(data_array, idx, sample_number):
             count += 1
         else:
             if count == idx:
-                return count, row , np.zeros(4) # there is no bbox use 4 zeros
+                return count, row, np.zeros(4)  # there is no bbox, use 4 zeros
             count += 1
+
+    # If no matching frame is found
+    print(f"Error: No matching frame found for idx={idx} and sample_number={sample_number}.")
+    return None
 
 class CropTransform:
     def __init__(self, crop_params):
