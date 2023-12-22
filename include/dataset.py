@@ -27,26 +27,30 @@ def write_file(output_path, data):
     return 
 
 def match_in_path(path, expression):
-    match = re.search(fr'{expression}(\d+)', path)
+    numbers = re.findall(r'\d+', expression)
+    if numbers:
+        one_number = ''.join(numbers)
+    result_string = re.sub(r'\d+', '', expression)
+    result_string = result_string.strip()
+    match = re.search(fr'\b{expression}\b', path)
     if match:
-        number = int(match.group(1))
+        return int(one_number)
     else:
-        print("No match found")
-    return number
+        print(f"Error: No match found for expression '{expression}' in the path.")
 
 '''
 WRAPPER FOR DATASET CLASS 
 '''
 class DataLoaderVisualizer:
     def __init__(self, root, file_path, percentage,  split='train'):
-        self.root = root
+        self.root = root + 'data/images_aligned'
         self.file_path = file_path
         self.split = split
         self.percentage = percentage
+        self.data_complete = []
         self.path_structure = self.create_paths()
         self.drivers = self.divide_drivers()
         self.data = self.check_existence()
-        self.data_complete = []
 
     def divide_drivers(self):
         list_of_driver_paths = os.listdir(self.root)
@@ -70,6 +74,7 @@ class DataLoaderVisualizer:
         return data
 
     def create_paths(self):
+        print('Building path structure\n')
         path_structure = {}
         for driver in os.listdir(self.root):
             print(f'--> Processing for {driver}')
@@ -87,12 +92,12 @@ class DataLoaderVisualizer:
             driver_sample_folders = [folder for folder in os.listdir(driver_view_path) if os.path.isdir(join_paths(driver_view_path, folder))]
             # Samples in road view
             for road_sample in road_sample_folders:
-                print(f'--> Processing for road_sample: {road_sample}')
+                #print(f'--> Processing for road_sample: {road_sample}')
                 sample_path = join_paths(road_view_path, road_sample)
                 driver_info["road_view"][road_sample] = sample_path
             # Samples in driver view
             for driver_sample in driver_sample_folders:
-                print(f'--> Processing for driver_sample: {driver_sample}')
+                #print(f'--> Processing for driver_sample: {driver_sample}')
                 sample_path = join_paths(driver_view_path, driver_sample)
                 driver_info["driver_view"][driver_sample] = sample_path   
             path_structure[driver] = driver_info
@@ -101,6 +106,7 @@ class DataLoaderVisualizer:
         return path_structure
     
     def load_data(self, percentage):
+        print('\nLoading data in file')
         data = []
         for driver, views in self.path_structure.items():
             driver_view_samples = views['driver_view']
@@ -117,9 +123,9 @@ class DataLoaderVisualizer:
                 for img in  selected_images:
                     # Save the image path
                     data_item['path'] = join_paths(sample_path, img)
-                    data_item_complete[' driver path'] = join_paths(sample_path, img)
+                    data_item_complete['driver path'] = join_paths(sample_path, img)
                     # Save road view path
-                    data_item_complete[' road view path'] = join_paths(sample_path.replace('driver_view', 'road_view'), img)
+                    data_item_complete['road view path'] = join_paths(sample_path.replace('driver_view', 'road_view'), img)
 
                     # Get frame number
                     frame_number = int(img.split("_")[1].split(".")[0])

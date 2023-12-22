@@ -3,6 +3,8 @@ import os
 import numpy as np
 import re
 import torch
+from torchvision import transforms
+
 
 # https://gist.github.com/ihoromi4/b681a9088f348942b01711f251e5f964
 def seed_everything(seed: int):
@@ -32,8 +34,9 @@ def find_driver_paths(all_paths, driver):
 def get_frame_and_point(data_array, idx, sample_number):
     count = 1
     for row in data_array:
-        if sample_number > 10:
-            frame_number = int(row[0].replace('frame', ''))
+        if  sample_number > 10:
+            print(row)
+            #frame_number = int(row[0].replace('frame', ''))
             bbox = row[1:]
             # Return only when you get to the correct frame_id
             if count == idx:
