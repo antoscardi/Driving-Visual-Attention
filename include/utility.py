@@ -20,7 +20,7 @@ def get_bbox_middle_point(bbox):
     x1, y1, x2, y2 = bbox
     middle_x = (x1 + x2) / 2
     middle_y = (y1 + y2) / 2
-    return middle_x, middle_y
+    return np.array([middle_x, middle_y])
 
 def find_driver_paths(all_paths, driver):
     driver_x_paths = []
@@ -34,16 +34,16 @@ def find_driver_paths(all_paths, driver):
 def get_frame_and_point(data_array, idx, sample_number):
     count = 0
     for row in data_array:
-        if sample_number > 10:
+        if sample_number >= 10:
             # frame_number = int(row[0].replace('frame', ''))
             bbox = row[1:]
             # Return only when you get to the correct frame_id
             if count == idx:
-                return count, get_bbox_middle_point(bbox), bbox
+                return count, get_bbox_middle_point(bbox).tolist(), bbox
             count += 1
         else:
             if count == idx:
-                return count, row, np.zeros(4)  # there is no bbox, use 4 zeros
+                return count, row.tolist(), np.zeros(4)  # there is no bbox, use 4 zeros
             count += 1
 
     # If no matching frame is found

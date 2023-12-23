@@ -19,9 +19,9 @@ def read_file(file_path):
         data = json.load(file)
     return data
 
-def write_file(output_path, data, percentage):
+def write_file(output_path, data):
     # Writes a list of dictionaries to a JSON file.
-    output_path = output_path + str(percentage)
+    output_path = output_path 
     with open(output_path, 'w') as file:
         json.dump(data, file, indent=2)  # indent for pretty formatting (optional)
     print(f'Written data to file: {output_path}')
@@ -67,13 +67,13 @@ class DataLoaderVisualizer:
         return drivers
 
     def check_existence(self):
-        if os.path.exists(self.file_path):
+        if os.path.exists(self.file_path) and str(self.percentage) in self.file_path:
             print("The dataset has already been prepared, ready to use")
             data = read_file(self.file_path)
         else:
             data = self.load_data(self.percentage)
             # write the data to the file if it does not exist
-            write_file(self.file_path,data,self.percentage)  
+            write_file(self.file_path,data)  
         return data
 
     def create_paths(self):
@@ -111,8 +111,6 @@ class DataLoaderVisualizer:
         data = []
         for driver, views in self.path_structure.items():
             driver_view_samples = views['driver_view']
-            data_item = {}
-            data_item_complete = {}
           
             for sample_name, sample_path in driver_view_samples.items():
                 video_images = [img for img in os.listdir(sample_path)]
@@ -122,6 +120,8 @@ class DataLoaderVisualizer:
                 selected_images = random.sample(video_images, num_images_to_load)
             
                 for img in  selected_images:
+                    data_item = {}
+                    data_item_complete = {}
                     # Save the image path
                     data_item['path'] = join_paths(sample_path, img)
                     data_item_complete['driver path'] = join_paths(sample_path, img)
@@ -138,8 +138,8 @@ class DataLoaderVisualizer:
                                                               f"frame_number_label={frame_number_label}, img_path ={img}, " \
                                                               f"array={gt_path}" 
                     # Save Label
-                    data_item['label']  = list(gaze_point)
-                    data_item_complete['label']  = list(gaze_point)
+                    data_item['label']  = gaze_point
+                    data_item_complete['label']  = gaze_point
                     data_item_complete['bbox']  = list(bbox)  
                     # Append data items to the list
                     data.append(data_item)
@@ -180,16 +180,16 @@ class DataLoaderVisualizer:
 PYTORCH DATASET CLASS 
 '''
 class DGAZEDataset(Dataset):
-    def __init__(self, loader_class, split='train', save_file='train_paths.json'):
+    def __init__(self, split='train', save_file='train_paths.json', transform = None):
         self.split = split
+        self.transform = transform
 
-        if match_in_path(save_file, split):
+        if split in save_file:
             self.save_file = save_file
         else:
             raise ValueError("You used the wrong path")
 
-        self.loader_class = loader_class
-        self.data = self.loader_class.check_existence() 
+        self.data = self.read_file(self.save_file) 
 
     def __len__(self):
         return len(self.data)
