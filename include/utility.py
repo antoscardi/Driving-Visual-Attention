@@ -3,6 +3,7 @@ import os
 import numpy as np
 import re
 import torch
+import cv2
 from torchvision import transforms
 
 
@@ -56,3 +57,38 @@ class CropTransform:
 
     def __call__(self, img):
         return transforms.functional.crop(img, *self.crop_params)
+    
+def log_random_images(example_images, random_percentage=0.2):
+    # Return list of randomly selected images to log
+    num_examples = len(example_images)
+    num_examples_to_log = int(random_percentage * num_examples)
+
+    random_indices = random.sample(range(num_examples), num_examples_to_log)
+
+    return random_indices
+
+def mark_image(path, pred_x, true_x):
+    # Load image
+    image = cv2.imread(path)
+    image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+
+    # Overlay "x" markings on the road_view image
+    image = cv2.drawMarker(
+        image,
+        pred_x, 
+        color=(255, 0, 0),  # Red color for predicted gaze point
+        markerType=cv2.MARKER_CROSS,
+        thickness=2,
+        markerSize=40,
+    )
+
+    image = cv2.drawMarker(
+        image,
+        true_x,
+        color=(0, 0, 255),  # Blue color for true gaze point
+        markerType=cv2.MARKER_CROSS,
+        thickness=2,
+        markerSize=40,
+    )
+
+    return image

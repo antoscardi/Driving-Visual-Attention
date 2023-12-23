@@ -1,4 +1,3 @@
-import cv2
 import matplotlib.patches as patches
 import matplotlib.pyplot as plt
 import json
@@ -209,4 +208,4 @@ class DGAZEDataset(Dataset):
         if self.transform:
             image = self.transform(image)
 
-        return image, torch.tensor(label, dtype=torch.float32)
+        return image, torch.tensor(label, dtype=torch.float32), img_path
