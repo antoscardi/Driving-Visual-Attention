@@ -109,8 +109,8 @@ class DataLoaderVisualizer:
     def load_data(self, percentage):
         print('Loading data in file')
         data = []
-        for driver, views in self.path_structure.items():
-            driver_view_samples = views['driver_view']
+        for driver in self.drivers:
+            driver_view_samples = self.path_structure[driver]['driver_view']
           
             for sample_name, sample_path in driver_view_samples.items():
                 video_images = [img for img in os.listdir(sample_path)]
@@ -145,6 +145,10 @@ class DataLoaderVisualizer:
                     data.append(data_item)
                     self.data_complete.append(data_item_complete)
         return data
+    
+    def __len__(self):
+        #assert len(self.data) == len(self.data_complete)
+        return len(self.data)
 
     def visualize_dataset(self):
         for driver in self.drivers:
@@ -189,7 +193,7 @@ class DGAZEDataset(Dataset):
         else:
             raise ValueError("You used the wrong path")
 
-        self.data = self.read_file(self.save_file) 
+        self.data = read_file(self.save_file) 
 
     def __len__(self):
         return len(self.data)
