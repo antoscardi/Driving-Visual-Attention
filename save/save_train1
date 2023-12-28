@@ -1,0 +1,7380 @@
+[
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample56/frame_0106.jpg",
+    "label": [
+      1859.0,
+      760.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample65/frame_0060.jpg",
+    "label": [
+      1107.0,
+      746.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample65/frame_0123.jpg",
+    "label": [
+      1219.5,
+      743.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample7/frame_0019.jpg",
+    "label": [
+      320,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample92/frame_0016.jpg",
+    "label": [
+      565.0,
+      696.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample2/frame_0070.jpg",
+    "label": [
+      960,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample35/frame_0046.jpg",
+    "label": [
+      994.5,
+      701.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample70/frame_0091.jpg",
+    "label": [
+      1268.0,
+      654.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample73/frame_0013.jpg",
+    "label": [
+      1075.0,
+      376.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample73/frame_0120.jpg",
+    "label": [
+      1056.0,
+      249.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample89/frame_0007.jpg",
+    "label": [
+      832.5,
+      977.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample87/frame_0030.jpg",
+    "label": [
+      877.0,
+      801.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample90/frame_0042.jpg",
+    "label": [
+      838.0,
+      817.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample80/frame_0016.jpg",
+    "label": [
+      1478.0,
+      225.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample69/frame_0031.jpg",
+    "label": [
+      1223.5,
+      674.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample21/frame_0033.jpg",
+    "label": [
+      926.5,
+      567.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample9/frame_0030.jpg",
+    "label": [
+      1600,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample11/frame_0004.jpg",
+    "label": [
+      1206.0,
+      617.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample47/frame_0100.jpg",
+    "label": [
+      1379.5,
+      728.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample34/frame_0016.jpg",
+    "label": [
+      1325.0,
+      704.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample41/frame_0132.jpg",
+    "label": [
+      1097.0,
+      821.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample27/frame_0031.jpg",
+    "label": [
+      927.5,
+      392.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample38/frame_0093.jpg",
+    "label": [
+      1106.0,
+      851.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample91/frame_0100.jpg",
+    "label": [
+      698.5,
+      871.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample39/frame_0029.jpg",
+    "label": [
+      1001.0,
+      822.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample22/frame_0041.jpg",
+    "label": [
+      982.5,
+      550.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample52/frame_0000.jpg",
+    "label": [
+      334.0,
+      355.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample52/frame_0191.jpg",
+    "label": [
+      51.0,
+      293.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample50/frame_0064.jpg",
+    "label": [
+      1153.0,
+      686.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample1/frame_0044.jpg",
+    "label": [
+      320,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample40/frame_0009.jpg",
+    "label": [
+      1030.5,
+      753.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample53/frame_0088.jpg",
+    "label": [
+      1163.5,
+      479.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample49/frame_0057.jpg",
+    "label": [
+      1135.5,
+      639.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample105/frame_0094.jpg",
+    "label": [
+      988.5,
+      785.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample6/frame_0064.jpg",
+    "label": [
+      1600,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample95/frame_0076.jpg",
+    "label": [
+      1702.0,
+      884.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample62/frame_0004.jpg",
+    "label": [
+      1227.5,
+      702.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample24/frame_0063.jpg",
+    "label": [
+      740.5,
+      624.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample97/frame_0021.jpg",
+    "label": [
+      1416.5,
+      847.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample26/frame_0060.jpg",
+    "label": [
+      1175.0,
+      600.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample36/frame_0002.jpg",
+    "label": [
+      1493.0,
+      617.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample109/frame_0120.jpg",
+    "label": [
+      620.5,
+      761.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample58/frame_0052.jpg",
+    "label": [
+      802.0,
+      663.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample106/frame_0105.jpg",
+    "label": [
+      678.5,
+      828.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample54/frame_0074.jpg",
+    "label": [
+      1103.5,
+      672.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample108/frame_0129.jpg",
+    "label": [
+      1353.0,
+      209.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample98/frame_0033.jpg",
+    "label": [
+      572.5,
+      723.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample5/frame_0013.jpg",
+    "label": [
+      960,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample107/frame_0111.jpg",
+    "label": [
+      1052.5,
+      687.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample4/frame_0010.jpg",
+    "label": [
+      320,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample67/frame_0060.jpg",
+    "label": [
+      738.5,
+      691.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample8/frame_0084.jpg",
+    "label": [
+      960,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample45/frame_0065.jpg",
+    "label": [
+      1265.0,
+      829.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample78/frame_0048.jpg",
+    "label": [
+      1147.5,
+      699.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample96/frame_0125.jpg",
+    "label": [
+      1015.5,
+      991.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample110/frame_0153.jpg",
+    "label": [
+      606.0,
+      771.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample110/frame_0038.jpg",
+    "label": [
+      606.0,
+      771.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample42/frame_0017.jpg",
+    "label": [
+      1203.0,
+      858.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample71/frame_0117.jpg",
+    "label": [
+      1087.5,
+      656.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample81/frame_0024.jpg",
+    "label": [
+      1150.5,
+      715.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample72/frame_0137.jpg",
+    "label": [
+      403.0,
+      646.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample25/frame_0025.jpg",
+    "label": [
+      840.5,
+      551.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample111/frame_0003.jpg",
+    "label": [
+      1070.0,
+      908.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample44/frame_0107.jpg",
+    "label": [
+      1224.5,
+      859.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample99/frame_0085.jpg",
+    "label": [
+      953.0,
+      783.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample20/frame_0026.jpg",
+    "label": [
+      711.5,
+      568.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample3/frame_0064.jpg",
+    "label": [
+      1600,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample85/frame_0135.jpg",
+    "label": [
+      1160.5,
+      553.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample29/frame_0068.jpg",
+    "label": [
+      1308.0,
+      607.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample83/frame_0026.jpg",
+    "label": [
+      1023.5,
+      562.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample94/frame_0102.jpg",
+    "label": [
+      1208.0,
+      758.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver20/driver_view/sample86/frame_0026.jpg",
+    "label": [
+      1115.0,
+      572.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample56/frame_0002.jpg",
+    "label": [
+      591.0,
+      797.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample65/frame_0056.jpg",
+    "label": [
+      1095.5,
+      742.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample65/frame_0045.jpg",
+    "label": [
+      1071.5,
+      725.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample7/frame_0093.jpg",
+    "label": [
+      320,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample92/frame_0030.jpg",
+    "label": [
+      538.0,
+      699.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample2/frame_0090.jpg",
+    "label": [
+      960,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample35/frame_0066.jpg",
+    "label": [
+      911.5,
+      711.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample70/frame_0088.jpg",
+    "label": [
+      1249.5,
+      650.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample73/frame_0010.jpg",
+    "label": [
+      1074.0,
+      380.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample73/frame_0109.jpg",
+    "label": [
+      1052.5,
+      263.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample89/frame_0116.jpg",
+    "label": [
+      971.5,
+      962.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample87/frame_0102.jpg",
+    "label": [
+      1002.5,
+      772.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample90/frame_0016.jpg",
+    "label": [
+      773.0,
+      841.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample80/frame_0104.jpg",
+    "label": [
+      1060.5,
+      76.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample69/frame_0004.jpg",
+    "label": [
+      1216.5,
+      668.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample21/frame_0067.jpg",
+    "label": [
+      906.5,
+      548.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample9/frame_0023.jpg",
+    "label": [
+      1600,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample11/frame_0096.jpg",
+    "label": [
+      808.0,
+      548.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample47/frame_0019.jpg",
+    "label": [
+      1223.0,
+      716.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample34/frame_0120.jpg",
+    "label": [
+      1398.0,
+      668.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample41/frame_0002.jpg",
+    "label": [
+      1066.5,
+      831.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample27/frame_0124.jpg",
+    "label": [
+      924.5,
+      391.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample38/frame_0027.jpg",
+    "label": [
+      1149.0,
+      869.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample91/frame_0042.jpg",
+    "label": [
+      928.5,
+      824.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample39/frame_0084.jpg",
+    "label": [
+      994.5,
+      807.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample22/frame_0017.jpg",
+    "label": [
+      947.5,
+      541.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample52/frame_0165.jpg",
+    "label": [
+      52.5,
+      292.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample52/frame_0130.jpg",
+    "label": [
+      51.0,
+      293.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample50/frame_0006.jpg",
+    "label": [
+      1142.5,
+      693.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample1/frame_0072.jpg",
+    "label": [
+      320,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample40/frame_0008.jpg",
+    "label": [
+      1031.5,
+      750.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample53/frame_0079.jpg",
+    "label": [
+      1164.5,
+      479.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample49/frame_0114.jpg",
+    "label": [
+      1115.0,
+      629.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample105/frame_0134.jpg",
+    "label": [
+      975.0,
+      790.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample6/frame_0035.jpg",
+    "label": [
+      1600,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample95/frame_0141.jpg",
+    "label": [
+      1392.5,
+      866.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample62/frame_0049.jpg",
+    "label": [
+      1123.0,
+      698.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample24/frame_0027.jpg",
+    "label": [
+      675.5,
+      636.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample97/frame_0091.jpg",
+    "label": [
+      1734.0,
+      864.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample26/frame_0087.jpg",
+    "label": [
+      1127.0,
+      604.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample36/frame_0090.jpg",
+    "label": [
+      1449.0,
+      629.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample109/frame_0068.jpg",
+    "label": [
+      619.5,
+      762.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample109/frame_0059.jpg",
+    "label": [
+      619.0,
+      760.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample58/frame_0116.jpg",
+    "label": [
+      -161.5,
+      951.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample106/frame_0131.jpg",
+    "label": [
+      226.5,
+      737.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample54/frame_0104.jpg",
+    "label": [
+      1181.5,
+      679.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample108/frame_0005.jpg",
+    "label": [
+      1457.0,
+      600.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample98/frame_0000.jpg",
+    "label": [
+      215.0,
+      720.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample5/frame_0011.jpg",
+    "label": [
+      960,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample107/frame_0121.jpg",
+    "label": [
+      1110.5,
+      706.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample67/frame_0055.jpg",
+    "label": [
+      747.5,
+      685.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample8/frame_0069.jpg",
+    "label": [
+      960,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample45/frame_0030.jpg",
+    "label": [
+      1296.5,
+      816.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample78/frame_0003.jpg",
+    "label": [
+      1195.0,
+      728.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample96/frame_0115.jpg",
+    "label": [
+      989.5,
+      972.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample110/frame_0198.jpg",
+    "label": [
+      608.0,
+      771.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample110/frame_0191.jpg",
+    "label": [
+      605.0,
+      770.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample42/frame_0086.jpg",
+    "label": [
+      1215.5,
+      880.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample71/frame_0035.jpg",
+    "label": [
+      1057.0,
+      672.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample51/frame_0026.jpg",
+    "label": [
+      1116.0,
+      688.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample100/frame_0065.jpg",
+    "label": [
+      1515.0,
+      375.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample81/frame_0104.jpg",
+    "label": [
+      1028.5,
+      713.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample72/frame_0082.jpg",
+    "label": [
+      488.0,
+      645.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample25/frame_0073.jpg",
+    "label": [
+      817.5,
+      566.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample111/frame_0156.jpg",
+    "label": [
+      800.5,
+      900.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample44/frame_0111.jpg",
+    "label": [
+      1214.0,
+      852.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample99/frame_0026.jpg",
+    "label": [
+      1077.5,
+      692.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample20/frame_0047.jpg",
+    "label": [
+      679.5,
+      583.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample3/frame_0023.jpg",
+    "label": [
+      1600,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample85/frame_0085.jpg",
+    "label": [
+      1162.5,
+      553.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample29/frame_0034.jpg",
+    "label": [
+      1350.0,
+      602.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample104/frame_0083.jpg",
+    "label": [
+      608.0,
+      583.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample94/frame_0006.jpg",
+    "label": [
+      1029.5,
+      790.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver22/driver_view/sample86/frame_0111.jpg",
+    "label": [
+      1415.5,
+      378.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample65/frame_0007.jpg",
+    "label": [
+      984.5,
+      666.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample92/frame_0067.jpg",
+    "label": [
+      409.5,
+      635.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample73/frame_0021.jpg",
+    "label": [
+      1076.0,
+      356.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample89/frame_0048.jpg",
+    "label": [
+      1010.0,
+      966.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample11/frame_0016.jpg",
+    "label": [
+      1101.5,
+      589.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample41/frame_0102.jpg",
+    "label": [
+      1052.0,
+      827.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample27/frame_0029.jpg",
+    "label": [
+      927.5,
+      392.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample91/frame_0044.jpg",
+    "label": [
+      906.0,
+      817.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample22/frame_0089.jpg",
+    "label": [
+      983.0,
+      552.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample52/frame_0104.jpg",
+    "label": [
+      54.0,
+      293.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample1/frame_0042.jpg",
+    "label": [
+      320,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample49/frame_0013.jpg",
+    "label": [
+      1156.5,
+      646.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample105/frame_0091.jpg",
+    "label": [
+      1035.0,
+      749.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample24/frame_0015.jpg",
+    "label": [
+      663.5,
+      635.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample26/frame_0119.jpg",
+    "label": [
+      1149.5,
+      603.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample109/frame_0021.jpg",
+    "label": [
+      619.5,
+      761.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample106/frame_0097.jpg",
+    "label": [
+      383.0,
+      786.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample98/frame_0078.jpg",
+    "label": [
+      946.0,
+      718.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample110/frame_0070.jpg",
+    "label": [
+      607.0,
+      771.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample42/frame_0015.jpg",
+    "label": [
+      1204.0,
+      859.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample71/frame_0079.jpg",
+    "label": [
+      1105.0,
+      671.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample25/frame_0110.jpg",
+    "label": [
+      804.5,
+      565.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample111/frame_0059.jpg",
+    "label": [
+      927.0,
+      907.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample20/frame_0086.jpg",
+    "label": [
+      516.5,
+      595.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample3/frame_0038.jpg",
+    "label": [
+      1600,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample85/frame_0043.jpg",
+    "label": [
+      1153.0,
+      553.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver21/driver_view/sample86/frame_0097.jpg",
+    "label": [
+      1478.0,
+      354.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample56/frame_0115.jpg",
+    "label": [
+      2003.5,
+      757.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample65/frame_0032.jpg",
+    "label": [
+      1035.0,
+      701.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample65/frame_0006.jpg",
+    "label": [
+      981.0,
+      661.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample7/frame_0044.jpg",
+    "label": [
+      320,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample92/frame_0098.jpg",
+    "label": [
+      324.5,
+      661.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample2/frame_0083.jpg",
+    "label": [
+      960,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample35/frame_0047.jpg",
+    "label": [
+      984.5,
+      701.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample70/frame_0081.jpg",
+    "label": [
+      1268.5,
+      665.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample73/frame_0107.jpg",
+    "label": [
+      1052.5,
+      266.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample73/frame_0132.jpg",
+    "label": [
+      1060.0,
+      232.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample89/frame_0072.jpg",
+    "label": [
+      1007.0,
+      978.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample87/frame_0011.jpg",
+    "label": [
+      829.5,
+      824.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample90/frame_0003.jpg",
+    "label": [
+      741.5,
+      844.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample80/frame_0100.jpg",
+    "label": [
+      1001.5,
+      92.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample69/frame_0013.jpg",
+    "label": [
+      1225.0,
+      671.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample21/frame_0021.jpg",
+    "label": [
+      948.5,
+      567.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample9/frame_0065.jpg",
+    "label": [
+      1600,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample11/frame_0061.jpg",
+    "label": [
+      895.0,
+      587.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample47/frame_0082.jpg",
+    "label": [
+      1321.0,
+      731.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample34/frame_0030.jpg",
+    "label": [
+      1319.5,
+      686.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample41/frame_0073.jpg",
+    "label": [
+      1005.5,
+      823.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample27/frame_0113.jpg",
+    "label": [
+      925.0,
+      392.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample38/frame_0091.jpg",
+    "label": [
+      1113.0,
+      854.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample91/frame_0118.jpg",
+    "label": [
+      729.5,
+      871.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample39/frame_0011.jpg",
+    "label": [
+      1026.5,
+      818.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample22/frame_0036.jpg",
+    "label": [
+      976.5,
+      550.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample52/frame_0026.jpg",
+    "label": [
+      116.5,
+      300.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample52/frame_0138.jpg",
+    "label": [
+      55.5,
+      293.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample1/frame_0025.jpg",
+    "label": [
+      320,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample40/frame_0008.jpg",
+    "label": [
+      1031.5,
+      750.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample53/frame_0063.jpg",
+    "label": [
+      1164.5,
+      479.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample49/frame_0058.jpg",
+    "label": [
+      1128.0,
+      637.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample105/frame_0054.jpg",
+    "label": [
+      1198.0,
+      716.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample6/frame_0039.jpg",
+    "label": [
+      1600,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample95/frame_0135.jpg",
+    "label": [
+      1431.0,
+      847.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample62/frame_0016.jpg",
+    "label": [
+      1210.0,
+      692.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample24/frame_0132.jpg",
+    "label": [
+      752.0,
+      619.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample97/frame_0105.jpg",
+    "label": [
+      1840.5,
+      875.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample26/frame_0102.jpg",
+    "label": [
+      1113.5,
+      597.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample36/frame_0076.jpg",
+    "label": [
+      1463.0,
+      628.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample109/frame_0076.jpg",
+    "label": [
+      619.5,
+      761.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample109/frame_0124.jpg",
+    "label": [
+      619.0,
+      761.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample58/frame_0052.jpg",
+    "label": [
+      802.0,
+      663.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample106/frame_0047.jpg",
+    "label": [
+      1152.0,
+      753.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample54/frame_0083.jpg",
+    "label": [
+      1126.0,
+      674.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample108/frame_0054.jpg",
+    "label": [
+      1219.5,
+      536.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample98/frame_0119.jpg",
+    "label": [
+      941.0,
+      730.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample107/frame_0088.jpg",
+    "label": [
+      949.5,
+      707.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample4/frame_0044.jpg",
+    "label": [
+      320,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample67/frame_0053.jpg",
+    "label": [
+      747.5,
+      689.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample8/frame_0073.jpg",
+    "label": [
+      960,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample45/frame_0078.jpg",
+    "label": [
+      1264.5,
+      821.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample78/frame_0053.jpg",
+    "label": [
+      1148.0,
+      693.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample96/frame_0054.jpg",
+    "label": [
+      841.0,
+      975.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample110/frame_0177.jpg",
+    "label": [
+      608.5,
+      770.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample110/frame_0123.jpg",
+    "label": [
+      605.0,
+      771.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample42/frame_0018.jpg",
+    "label": [
+      1204.0,
+      859.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample71/frame_0030.jpg",
+    "label": [
+      1045.0,
+      672.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample51/frame_0098.jpg",
+    "label": [
+      857.0,
+      705.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample100/frame_0045.jpg",
+    "label": [
+      1560.5,
+      400.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample81/frame_0080.jpg",
+    "label": [
+      1031.0,
+      715.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample72/frame_0066.jpg",
+    "label": [
+      603.5,
+      603.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample25/frame_0096.jpg",
+    "label": [
+      813.0,
+      575.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample111/frame_0151.jpg",
+    "label": [
+      784.0,
+      896.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample44/frame_0086.jpg",
+    "label": [
+      1202.0,
+      856.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample99/frame_0032.jpg",
+    "label": [
+      1082.0,
+      703.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample20/frame_0114.jpg",
+    "label": [
+      451.0,
+      602.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample3/frame_0070.jpg",
+    "label": [
+      1600,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample85/frame_0026.jpg",
+    "label": [
+      1156.0,
+      554.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample29/frame_0006.jpg",
+    "label": [
+      1373.0,
+      623.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample83/frame_0066.jpg",
+    "label": [
+      987.5,
+      565.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample104/frame_0086.jpg",
+    "label": [
+      580.5,
+      602.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample94/frame_0085.jpg",
+    "label": [
+      1190.5,
+      781.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver3/driver_view/sample86/frame_0140.jpg",
+    "label": [
+      1643.5,
+      166.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample56/frame_0014.jpg",
+    "label": [
+      789.0,
+      788.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample65/frame_0191.jpg",
+    "label": [
+      1296.0,
+      720.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample65/frame_0269.jpg",
+    "label": [
+      1283.0,
+      695.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample7/frame_0025.jpg",
+    "label": [
+      320,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample92/frame_0118.jpg",
+    "label": [
+      217.0,
+      649.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample2/frame_0098.jpg",
+    "label": [
+      960,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample35/frame_0007.jpg",
+    "label": [
+      1108.0,
+      690.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample70/frame_0099.jpg",
+    "label": [
+      1246.5,
+      658.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample73/frame_0089.jpg",
+    "label": [
+      1071.0,
+      284.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample73/frame_0141.jpg",
+    "label": [
+      1058.5,
+      218.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample89/frame_0093.jpg",
+    "label": [
+      971.0,
+      975.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample87/frame_0085.jpg",
+    "label": [
+      988.0,
+      774.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample90/frame_0117.jpg",
+    "label": [
+      583.0,
+      845.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample80/frame_0012.jpg",
+    "label": [
+      1488.0,
+      228.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample69/frame_0090.jpg",
+    "label": [
+      1243.5,
+      683.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample21/frame_0063.jpg",
+    "label": [
+      907.0,
+      546.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample9/frame_0021.jpg",
+    "label": [
+      1600,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample11/frame_0036.jpg",
+    "label": [
+      979.0,
+      575.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample34/frame_0043.jpg",
+    "label": [
+      1324.0,
+      671.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample41/frame_0116.jpg",
+    "label": [
+      1046.0,
+      816.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample27/frame_0145.jpg",
+    "label": [
+      927.5,
+      392.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample38/frame_0068.jpg",
+    "label": [
+      1116.5,
+      866.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample91/frame_0102.jpg",
+    "label": [
+      716.0,
+      875.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample39/frame_0078.jpg",
+    "label": [
+      1013.0,
+      813.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample22/frame_0008.jpg",
+    "label": [
+      936.5,
+      540.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample52/frame_0070.jpg",
+    "label": [
+      52.0,
+      292.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample52/frame_0163.jpg",
+    "label": [
+      51.0,
+      292.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample50/frame_0070.jpg",
+    "label": [
+      1151.5,
+      691.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample1/frame_0053.jpg",
+    "label": [
+      320,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample40/frame_0087.jpg",
+    "label": [
+      892.0,
+      739.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample105/frame_0007.jpg",
+    "label": [
+      1091.0,
+      704.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample6/frame_0085.jpg",
+    "label": [
+      1600,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample62/frame_0099.jpg",
+    "label": [
+      1004.5,
+      697.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample24/frame_0128.jpg",
+    "label": [
+      743.5,
+      620.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample97/frame_0030.jpg",
+    "label": [
+      1419.0,
+      840.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample26/frame_0107.jpg",
+    "label": [
+      1110.0,
+      598.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample36/frame_0050.jpg",
+    "label": [
+      1481.5,
+      644.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample109/frame_0018.jpg",
+    "label": [
+      619.5,
+      761.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample109/frame_0142.jpg",
+    "label": [
+      620.5,
+      761.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample58/frame_0105.jpg",
+    "label": [
+      189.0,
+      802.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample106/frame_0148.jpg",
+    "label": [
+      168.5,
+      746.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample54/frame_0109.jpg",
+    "label": [
+      1180.5,
+      682.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample108/frame_0005.jpg",
+    "label": [
+      1457.0,
+      600.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample98/frame_0126.jpg",
+    "label": [
+      939.0,
+      736.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample5/frame_0008.jpg",
+    "label": [
+      960,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample107/frame_0096.jpg",
+    "label": [
+      942.5,
+      705.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample4/frame_0044.jpg",
+    "label": [
+      320,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample8/frame_0027.jpg",
+    "label": [
+      960,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample45/frame_0070.jpg",
+    "label": [
+      1260.5,
+      824.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample78/frame_0101.jpg",
+    "label": [
+      1051.0,
+      687.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample96/frame_0018.jpg",
+    "label": [
+      880.0,
+      1059.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample110/frame_0001.jpg",
+    "label": [
+      607.0,
+      771.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample110/frame_0035.jpg",
+    "label": [
+      606.0,
+      771.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample42/frame_0013.jpg",
+    "label": [
+      1208.0,
+      859.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample71/frame_0103.jpg",
+    "label": [
+      1098.0,
+      663.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample51/frame_0038.jpg",
+    "label": [
+      1088.5,
+      697.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample100/frame_0064.jpg",
+    "label": [
+      1522.5,
+      373.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample81/frame_0080.jpg",
+    "label": [
+      1031.0,
+      715.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample72/frame_0070.jpg",
+    "label": [
+      577.0,
+      607.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample111/frame_0124.jpg",
+    "label": [
+      708.5,
+      894.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample44/frame_0120.jpg",
+    "label": [
+      1216.0,
+      849.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample99/frame_0013.jpg",
+    "label": [
+      1110.5,
+      685.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample20/frame_0022.jpg",
+    "label": [
+      722.0,
+      565.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample3/frame_0003.jpg",
+    "label": [
+      1600,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample85/frame_0031.jpg",
+    "label": [
+      1161.0,
+      553.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample29/frame_0062.jpg",
+    "label": [
+      1314.5,
+      591.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample104/frame_0018.jpg",
+    "label": [
+      631.0,
+      648.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample94/frame_0098.jpg",
+    "label": [
+      1204.5,
+      757.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver13/driver_view/sample86/frame_0119.jpg",
+    "label": [
+      1499.0,
+      339.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample56/frame_0049.jpg",
+    "label": [
+      1313.0,
+      770.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample65/frame_0126.jpg",
+    "label": [
+      1235.0,
+      744.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample65/frame_0213.jpg",
+    "label": [
+      1333.5,
+      721.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample7/frame_0065.jpg",
+    "label": [
+      320,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample92/frame_0056.jpg",
+    "label": [
+      466.5,
+      762.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample2/frame_0017.jpg",
+    "label": [
+      960,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample35/frame_0014.jpg",
+    "label": [
+      1096.0,
+      697.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample70/frame_0017.jpg",
+    "label": [
+      1225.5,
+      617.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample73/frame_0114.jpg",
+    "label": [
+      1059.0,
+      257.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample73/frame_0028.jpg",
+    "label": [
+      1076.0,
+      356.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample89/frame_0025.jpg",
+    "label": [
+      942.5,
+      968.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample87/frame_0060.jpg",
+    "label": [
+      935.0,
+      784.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample90/frame_0097.jpg",
+    "label": [
+      607.5,
+      878.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample80/frame_0074.jpg",
+    "label": [
+      920.0,
+      165.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample69/frame_0112.jpg",
+    "label": [
+      1201.0,
+      690.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample21/frame_0126.jpg",
+    "label": [
+      996.0,
+      557.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample9/frame_0034.jpg",
+    "label": [
+      1600,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample11/frame_0065.jpg",
+    "label": [
+      878.5,
+      569.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample34/frame_0114.jpg",
+    "label": [
+      1395.5,
+      668.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample41/frame_0132.jpg",
+    "label": [
+      1097.0,
+      821.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample27/frame_0015.jpg",
+    "label": [
+      926.0,
+      390.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample38/frame_0079.jpg",
+    "label": [
+      1100.0,
+      856.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample91/frame_0027.jpg",
+    "label": [
+      940.5,
+      750.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample39/frame_0037.jpg",
+    "label": [
+      994.0,
+      816.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample22/frame_0112.jpg",
+    "label": [
+      963.0,
+      552.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample52/frame_0089.jpg",
+    "label": [
+      54.5,
+      293.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample52/frame_0108.jpg",
+    "label": [
+      54.0,
+      293.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample1/frame_0072.jpg",
+    "label": [
+      320,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample40/frame_0112.jpg",
+    "label": [
+      632.0,
+      749.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample53/frame_0070.jpg",
+    "label": [
+      1163.5,
+      479.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample49/frame_0106.jpg",
+    "label": [
+      1114.0,
+      629.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample105/frame_0081.jpg",
+    "label": [
+      1151.5,
+      728.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample6/frame_0095.jpg",
+    "label": [
+      1600,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample62/frame_0057.jpg",
+    "label": [
+      1112.5,
+      699.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample24/frame_0022.jpg",
+    "label": [
+      670.0,
+      630.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample97/frame_0105.jpg",
+    "label": [
+      1840.5,
+      875.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample26/frame_0022.jpg",
+    "label": [
+      1160.0,
+      584.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample36/frame_0110.jpg",
+    "label": [
+      1485.5,
+      628.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample109/frame_0110.jpg",
+    "label": [
+      621.5,
+      762.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample109/frame_0133.jpg",
+    "label": [
+      621.5,
+      761.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample58/frame_0020.jpg",
+    "label": [
+      847.5,
+      650.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample106/frame_0062.jpg",
+    "label": [
+      1208.5,
+      768.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample54/frame_0010.jpg",
+    "label": [
+      1023.0,
+      689.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample108/frame_0091.jpg",
+    "label": [
+      1173.5,
+      463.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample98/frame_0017.jpg",
+    "label": [
+      329.0,
+      714.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample5/frame_0010.jpg",
+    "label": [
+      960,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample107/frame_0113.jpg",
+    "label": [
+      1049.5,
+      694.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample4/frame_0042.jpg",
+    "label": [
+      320,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample67/frame_0070.jpg",
+    "label": [
+      728.0,
+      685.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample8/frame_0050.jpg",
+    "label": [
+      960,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample45/frame_0067.jpg",
+    "label": [
+      1266.0,
+      826.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample78/frame_0030.jpg",
+    "label": [
+      1162.0,
+      697.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample110/frame_0112.jpg",
+    "label": [
+      606.5,
+      771.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample110/frame_0107.jpg",
+    "label": [
+      605.0,
+      771.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample42/frame_0087.jpg",
+    "label": [
+      1223.0,
+      879.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample71/frame_0116.jpg",
+    "label": [
+      1083.5,
+      657.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample51/frame_0105.jpg",
+    "label": [
+      805.5,
+      713.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample100/frame_0098.jpg",
+    "label": [
+      1583.0,
+      304.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample81/frame_0026.jpg",
+    "label": [
+      1168.0,
+      715.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample72/frame_0114.jpg",
+    "label": [
+      365.5,
+      655.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample25/frame_0047.jpg",
+    "label": [
+      831.0,
+      552.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample111/frame_0022.jpg",
+    "label": [
+      1068.0,
+      888.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample44/frame_0049.jpg",
+    "label": [
+      1239.0,
+      862.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample99/frame_0091.jpg",
+    "label": [
+      901.0,
+      799.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample20/frame_0012.jpg",
+    "label": [
+      746.0,
+      561.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample3/frame_0081.jpg",
+    "label": [
+      1600,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample85/frame_0065.jpg",
+    "label": [
+      1153.5,
+      553.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample29/frame_0061.jpg",
+    "label": [
+      1312.5,
+      591.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample83/frame_0046.jpg",
+    "label": [
+      1005.0,
+      553.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample104/frame_0070.jpg",
+    "label": [
+      686.0,
+      580.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample94/frame_0071.jpg",
+    "label": [
+      1187.0,
+      779.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver23/driver_view/sample86/frame_0064.jpg",
+    "label": [
+      1120.5,
+      536.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample56/frame_0078.jpg",
+    "label": [
+      1564.0,
+      760.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample65/frame_0269.jpg",
+    "label": [
+      1267.5,
+      688.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample65/frame_0190.jpg",
+    "label": [
+      1308.0,
+      719.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample7/frame_0023.jpg",
+    "label": [
+      320,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample92/frame_0037.jpg",
+    "label": [
+      520.5,
+      705.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample2/frame_0042.jpg",
+    "label": [
+      960,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample35/frame_0055.jpg",
+    "label": [
+      957.5,
+      709.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample70/frame_0058.jpg",
+    "label": [
+      1298.5,
+      636.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample73/frame_0031.jpg",
+    "label": [
+      1068.0,
+      353.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample73/frame_0003.jpg",
+    "label": [
+      1075.5,
+      386.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample89/frame_0061.jpg",
+    "label": [
+      1007.5,
+      971.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample87/frame_0016.jpg",
+    "label": [
+      848.5,
+      821.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample90/frame_0108.jpg",
+    "label": [
+      584.0,
+      862.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample80/frame_0080.jpg",
+    "label": [
+      861.0,
+      142.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample69/frame_0031.jpg",
+    "label": [
+      1223.5,
+      674.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample21/frame_0044.jpg",
+    "label": [
+      918.0,
+      564.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample11/frame_0072.jpg",
+    "label": [
+      869.5,
+      555.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample47/frame_0019.jpg",
+    "label": [
+      1223.0,
+      716.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample34/frame_0076.jpg",
+    "label": [
+      1336.5,
+      677.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample41/frame_0054.jpg",
+    "label": [
+      1060.5,
+      823.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample27/frame_0028.jpg",
+    "label": [
+      927.5,
+      392.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample38/frame_0125.jpg",
+    "label": [
+      1133.5,
+      837.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample91/frame_0145.jpg",
+    "label": [
+      816.5,
+      876.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample39/frame_0034.jpg",
+    "label": [
+      978.5,
+      807.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample22/frame_0069.jpg",
+    "label": [
+      997.0,
+      568.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample52/frame_0152.jpg",
+    "label": [
+      53.5,
+      293.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample52/frame_0053.jpg",
+    "label": [
+      51.5,
+      288.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample50/frame_0053.jpg",
+    "label": [
+      1146.5,
+      691.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample1/frame_0007.jpg",
+    "label": [
+      320,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample112/frame_0041.jpg",
+    "label": [
+      278.0,
+      940.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample40/frame_0048.jpg",
+    "label": [
+      998.5,
+      760.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample53/frame_0031.jpg",
+    "label": [
+      1163.0,
+      479.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample49/frame_0069.jpg",
+    "label": [
+      1126.0,
+      642.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample105/frame_0110.jpg",
+    "label": [
+      990.0,
+      778.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample6/frame_0049.jpg",
+    "label": [
+      1600,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample95/frame_0105.jpg",
+    "label": [
+      1503.0,
+      851.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample62/frame_0050.jpg",
+    "label": [
+      1127.0,
+      695.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample24/frame_0126.jpg",
+    "label": [
+      740.5,
+      615.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample97/frame_0064.jpg",
+    "label": [
+      1704.5,
+      862.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample26/frame_0106.jpg",
+    "label": [
+      1115.0,
+      599.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample36/frame_0013.jpg",
+    "label": [
+      1496.5,
+      625.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample109/frame_0146.jpg",
+    "label": [
+      619.5,
+      762.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample58/frame_0015.jpg",
+    "label": [
+      854.5,
+      648.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample106/frame_0055.jpg",
+    "label": [
+      1191.0,
+      764.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample54/frame_0088.jpg",
+    "label": [
+      1138.5,
+      683.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample108/frame_0005.jpg",
+    "label": [
+      1457.0,
+      600.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample98/frame_0104.jpg",
+    "label": [
+      943.0,
+      716.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample5/frame_0095.jpg",
+    "label": [
+      960,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample107/frame_0021.jpg",
+    "label": [
+      1110.5,
+      702.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample4/frame_0087.jpg",
+    "label": [
+      320,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample67/frame_0013.jpg",
+    "label": [
+      760.0,
+      671.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample45/frame_0026.jpg",
+    "label": [
+      1300.0,
+      822.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample110/frame_0063.jpg",
+    "label": [
+      605.5,
+      769.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample42/frame_0051.jpg",
+    "label": [
+      1203.0,
+      869.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample71/frame_0046.jpg",
+    "label": [
+      1073.0,
+      679.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample51/frame_0011.jpg",
+    "label": [
+      1159.0,
+      688.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample100/frame_0075.jpg",
+    "label": [
+      1515.0,
+      328.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample81/frame_0102.jpg",
+    "label": [
+      1025.5,
+      719.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample72/frame_0041.jpg",
+    "label": [
+      734.5,
+      618.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample25/frame_0090.jpg",
+    "label": [
+      813.5,
+      582.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample44/frame_0031.jpg",
+    "label": [
+      1224.0,
+      855.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample20/frame_0011.jpg",
+    "label": [
+      743.0,
+      558.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample3/frame_0019.jpg",
+    "label": [
+      1600,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample85/frame_0025.jpg",
+    "label": [
+      1156.0,
+      554.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample29/frame_0108.jpg",
+    "label": [
+      1277.5,
+      619.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample83/frame_0078.jpg",
+    "label": [
+      981.5,
+      562.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample104/frame_0009.jpg",
+    "label": [
+      578.0,
+      644.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample94/frame_0007.jpg",
+    "label": [
+      1025.0,
+      791.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver5/driver_view/sample86/frame_0045.jpg",
+    "label": [
+      1093.0,
+      549.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample56/frame_0116.jpg",
+    "label": [
+      2001.0,
+      755.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample65/frame_0088.jpg",
+    "label": [
+      1160.5,
+      742.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample65/frame_0081.jpg",
+    "label": [
+      1159.0,
+      746.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample7/frame_0084.jpg",
+    "label": [
+      320,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample92/frame_0133.jpg",
+    "label": [
+      130.0,
+      651.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample2/frame_0055.jpg",
+    "label": [
+      960,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample35/frame_0046.jpg",
+    "label": [
+      994.5,
+      701.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample70/frame_0028.jpg",
+    "label": [
+      1254.5,
+      631.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample73/frame_0175.jpg",
+    "label": [
+      1057.5,
+      134.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample73/frame_0184.jpg",
+    "label": [
+      1056.5,
+      96.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample89/frame_0096.jpg",
+    "label": [
+      980.5,
+      976.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample87/frame_0015.jpg",
+    "label": [
+      823.5,
+      818.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample90/frame_0023.jpg",
+    "label": [
+      803.0,
+      828.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample80/frame_0040.jpg",
+    "label": [
+      1385.5,
+      218.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample69/frame_0076.jpg",
+    "label": [
+      1231.5,
+      681.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample21/frame_0054.jpg",
+    "label": [
+      914.0,
+      551.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample9/frame_0077.jpg",
+    "label": [
+      1600,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample11/frame_0078.jpg",
+    "label": [
+      862.5,
+      566.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample47/frame_0076.jpg",
+    "label": [
+      1278.5,
+      729.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample34/frame_0029.jpg",
+    "label": [
+      1328.0,
+      679.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample41/frame_0092.jpg",
+    "label": [
+      1023.5,
+      817.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample27/frame_0084.jpg",
+    "label": [
+      927.5,
+      392.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample38/frame_0017.jpg",
+    "label": [
+      1159.5,
+      884.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample91/frame_0107.jpg",
+    "label": [
+      704.5,
+      873.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample39/frame_0135.jpg",
+    "label": [
+      1047.0,
+      829.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample22/frame_0057.jpg",
+    "label": [
+      998.0,
+      562.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample52/frame_0155.jpg",
+    "label": [
+      54.5,
+      294.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample52/frame_0016.jpg",
+    "label": [
+      180.5,
+      318.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample50/frame_0061.jpg",
+    "label": [
+      1150.5,
+      685.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample1/frame_0010.jpg",
+    "label": [
+      320,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample40/frame_0080.jpg",
+    "label": [
+      915.0,
+      758.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample49/frame_0146.jpg",
+    "label": [
+      1089.0,
+      629.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample105/frame_0065.jpg",
+    "label": [
+      1202.0,
+      723.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample6/frame_0080.jpg",
+    "label": [
+      1600,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample62/frame_0088.jpg",
+    "label": [
+      1035.5,
+      695.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample24/frame_0027.jpg",
+    "label": [
+      675.5,
+      636.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample97/frame_0031.jpg",
+    "label": [
+      1417.5,
+      839.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample26/frame_0049.jpg",
+    "label": [
+      1180.5,
+      605.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample36/frame_0083.jpg",
+    "label": [
+      1454.5,
+      623.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample109/frame_0048.jpg",
+    "label": [
+      619.5,
+      761.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample109/frame_0054.jpg",
+    "label": [
+      618.5,
+      761.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample58/frame_0035.jpg",
+    "label": [
+      846.0,
+      650.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample106/frame_0054.jpg",
+    "label": [
+      1181.5,
+      749.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample54/frame_0045.jpg",
+    "label": [
+      1061.0,
+      682.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample108/frame_0119.jpg",
+    "label": [
+      1272.0,
+      313.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample98/frame_0060.jpg",
+    "label": [
+      908.0,
+      710.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample5/frame_0027.jpg",
+    "label": [
+      960,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample107/frame_0032.jpg",
+    "label": [
+      1095.0,
+      701.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample4/frame_0057.jpg",
+    "label": [
+      320,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample67/frame_0076.jpg",
+    "label": [
+      710.5,
+      689.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample8/frame_0056.jpg",
+    "label": [
+      960,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample45/frame_0033.jpg",
+    "label": [
+      1299.0,
+      811.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample78/frame_0095.jpg",
+    "label": [
+      1065.0,
+      696.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample96/frame_0044.jpg",
+    "label": [
+      782.0,
+      972.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample110/frame_0210.jpg",
+    "label": [
+      605.0,
+      771.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample110/frame_0097.jpg",
+    "label": [
+      608.5,
+      771.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample42/frame_0101.jpg",
+    "label": [
+      1216.5,
+      886.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample71/frame_0043.jpg",
+    "label": [
+      1071.5,
+      682.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample51/frame_0107.jpg",
+    "label": [
+      792.5,
+      714.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample100/frame_0061.jpg",
+    "label": [
+      1531.0,
+      378.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample81/frame_0017.jpg",
+    "label": [
+      1144.0,
+      729.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample72/frame_0001.jpg",
+    "label": [
+      684.5,
+      617.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample25/frame_0000.jpg",
+    "label": [
+      839.0,
+      561.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample111/frame_0019.jpg",
+    "label": [
+      1069.5,
+      892.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample44/frame_0088.jpg",
+    "label": [
+      1207.0,
+      856.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample99/frame_0073.jpg",
+    "label": [
+      1035.5,
+      762.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample20/frame_0025.jpg",
+    "label": [
+      721.0,
+      567.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample3/frame_0042.jpg",
+    "label": [
+      1600,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample85/frame_0054.jpg",
+    "label": [
+      1157.0,
+      553.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample29/frame_0066.jpg",
+    "label": [
+      1305.0,
+      599.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample83/frame_0034.jpg",
+    "label": [
+      1017.5,
+      560.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample104/frame_0002.jpg",
+    "label": [
+      548.0,
+      644.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample94/frame_0084.jpg",
+    "label": [
+      1189.5,
+      781.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver8/driver_view/sample86/frame_0039.jpg",
+    "label": [
+      1078.0,
+      565.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample56/frame_0000.jpg",
+    "label": [
+      587.5,
+      800.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample65/frame_0266.jpg",
+    "label": [
+      1280.0,
+      703.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample65/frame_0220.jpg",
+    "label": [
+      1328.0,
+      726.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample7/frame_0018.jpg",
+    "label": [
+      320,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample92/frame_0059.jpg",
+    "label": [
+      468.5,
+      754.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample2/frame_0061.jpg",
+    "label": [
+      960,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample35/frame_0101.jpg",
+    "label": [
+      963.5,
+      762.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample70/frame_0086.jpg",
+    "label": [
+      1270.5,
+      657.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample73/frame_0156.jpg",
+    "label": [
+      1057.0,
+      184.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample73/frame_0201.jpg",
+    "label": [
+      1075.5,
+      26.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample89/frame_0158.jpg",
+    "label": [
+      765.0,
+      957.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample87/frame_0084.jpg",
+    "label": [
+      982.5,
+      772.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample90/frame_0083.jpg",
+    "label": [
+      691.0,
+      855.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample80/frame_0110.jpg",
+    "label": [
+      1175.0,
+      41.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample69/frame_0044.jpg",
+    "label": [
+      1227.0,
+      673.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample21/frame_0000.jpg",
+    "label": [
+      991.0,
+      560.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample9/frame_0043.jpg",
+    "label": [
+      1600,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample11/frame_0041.jpg",
+    "label": [
+      956.5,
+      584.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample47/frame_0018.jpg",
+    "label": [
+      1222.5,
+      716.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample34/frame_0042.jpg",
+    "label": [
+      1316.0,
+      672.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample41/frame_0034.jpg",
+    "label": [
+      1082.0,
+      825.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample27/frame_0078.jpg",
+    "label": [
+      924.5,
+      392.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample38/frame_0130.jpg",
+    "label": [
+      1147.0,
+      840.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample91/frame_0058.jpg",
+    "label": [
+      884.5,
+      825.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample39/frame_0119.jpg",
+    "label": [
+      1014.0,
+      840.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample22/frame_0001.jpg",
+    "label": [
+      925.5,
+      543.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample52/frame_0051.jpg",
+    "label": [
+      56.0,
+      289.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample52/frame_0013.jpg",
+    "label": [
+      207.5,
+      320.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample1/frame_0008.jpg",
+    "label": [
+      320,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample112/frame_0168.jpg",
+    "label": [
+      824.5,
+      925.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample40/frame_0053.jpg",
+    "label": [
+      992.0,
+      764.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample53/frame_0064.jpg",
+    "label": [
+      1162.5,
+      478.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample105/frame_0153.jpg",
+    "label": [
+      912.5,
+      791.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample6/frame_0009.jpg",
+    "label": [
+      1600,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample95/frame_0098.jpg",
+    "label": [
+      1592.0,
+      889.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample62/frame_0030.jpg",
+    "label": [
+      1178.0,
+      685.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample24/frame_0045.jpg",
+    "label": [
+      712.5,
+      638.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample97/frame_0029.jpg",
+    "label": [
+      1414.5,
+      838.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample26/frame_0048.jpg",
+    "label": [
+      1198.0,
+      606.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample36/frame_0076.jpg",
+    "label": [
+      1463.0,
+      628.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample109/frame_0102.jpg",
+    "label": [
+      618.5,
+      761.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample109/frame_0081.jpg",
+    "label": [
+      618.5,
+      761.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample58/frame_0077.jpg",
+    "label": [
+      671.5,
+      697.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample106/frame_0146.jpg",
+    "label": [
+      177.5,
+      745.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample54/frame_0028.jpg",
+    "label": [
+      1050.5,
+      690.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample108/frame_0093.jpg",
+    "label": [
+      1176.5,
+      456.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample98/frame_0075.jpg",
+    "label": [
+      950.0,
+      698.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample5/frame_0040.jpg",
+    "label": [
+      960,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample107/frame_0117.jpg",
+    "label": [
+      1082.0,
+      688.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample4/frame_0000.jpg",
+    "label": [
+      320,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample67/frame_0027.jpg",
+    "label": [
+      756.0,
+      671.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample8/frame_0029.jpg",
+    "label": [
+      960,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample45/frame_0014.jpg",
+    "label": [
+      1292.5,
+      826.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample78/frame_0043.jpg",
+    "label": [
+      1158.0,
+      703.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample96/frame_0024.jpg",
+    "label": [
+      847.5,
+      970.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample110/frame_0055.jpg",
+    "label": [
+      606.5,
+      772.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample110/frame_0129.jpg",
+    "label": [
+      604.5,
+      770.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample42/frame_0158.jpg",
+    "label": [
+      1119.0,
+      885.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample71/frame_0041.jpg",
+    "label": [
+      1063.5,
+      681.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample51/frame_0066.jpg",
+    "label": [
+      1005.0,
+      713.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample100/frame_0020.jpg",
+    "label": [
+      1584.5,
+      432.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample81/frame_0023.jpg",
+    "label": [
+      1158.5,
+      718.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample72/frame_0021.jpg",
+    "label": [
+      741.0,
+      606.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample25/frame_0029.jpg",
+    "label": [
+      840.0,
+      552.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample111/frame_0116.jpg",
+    "label": [
+      720.5,
+      892.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample44/frame_0070.jpg",
+    "label": [
+      1212.0,
+      868.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample99/frame_0007.jpg",
+    "label": [
+      1141.5,
+      686.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample20/frame_0103.jpg",
+    "label": [
+      492.5,
+      595.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample3/frame_0098.jpg",
+    "label": [
+      1600,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample85/frame_0031.jpg",
+    "label": [
+      1161.0,
+      553.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample29/frame_0069.jpg",
+    "label": [
+      1301.0,
+      609.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample83/frame_0012.jpg",
+    "label": [
+      1017.0,
+      565.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample104/frame_0110.jpg",
+    "label": [
+      195.0,
+      722.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample94/frame_0060.jpg",
+    "label": [
+      1170.0,
+      767.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver15/driver_view/sample86/frame_0131.jpg",
+    "label": [
+      1601.0,
+      279.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample56/frame_0050.jpg",
+    "label": [
+      1346.0,
+      770.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample65/frame_0197.jpg",
+    "label": [
+      1313.5,
+      718.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample65/frame_0006.jpg",
+    "label": [
+      981.0,
+      661.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample7/frame_0014.jpg",
+    "label": [
+      320,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample92/frame_0000.jpg",
+    "label": [
+      599.0,
+      696.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample2/frame_0097.jpg",
+    "label": [
+      960,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample35/frame_0001.jpg",
+    "label": [
+      1118.5,
+      688.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample70/frame_0066.jpg",
+    "label": [
+      1297.0,
+      658.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample73/frame_0073.jpg",
+    "label": [
+      1063.5,
+      306.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample73/frame_0069.jpg",
+    "label": [
+      1070.0,
+      309.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample89/frame_0000.jpg",
+    "label": [
+      770.5,
+      993.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample87/frame_0062.jpg",
+    "label": [
+      939.5,
+      783.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample90/frame_0016.jpg",
+    "label": [
+      773.0,
+      841.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample80/frame_0102.jpg",
+    "label": [
+      1034.0,
+      85.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample69/frame_0078.jpg",
+    "label": [
+      1231.5,
+      681.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample21/frame_0119.jpg",
+    "label": [
+      995.5,
+      553.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample9/frame_0022.jpg",
+    "label": [
+      1600,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample11/frame_0070.jpg",
+    "label": [
+      872.5,
+      554.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample47/frame_0075.jpg",
+    "label": [
+      1291.5,
+      728.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample34/frame_0037.jpg",
+    "label": [
+      1320.0,
+      690.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample41/frame_0012.jpg",
+    "label": [
+      1079.0,
+      794.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample27/frame_0109.jpg",
+    "label": [
+      927.5,
+      393.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample38/frame_0156.jpg",
+    "label": [
+      1147.0,
+      848.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample91/frame_0097.jpg",
+    "label": [
+      695.5,
+      870.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample39/frame_0104.jpg",
+    "label": [
+      1004.5,
+      840.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample22/frame_0070.jpg",
+    "label": [
+      996.5,
+      565.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample52/frame_0048.jpg",
+    "label": [
+      53.5,
+      288.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample52/frame_0133.jpg",
+    "label": [
+      54.0,
+      293.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample1/frame_0006.jpg",
+    "label": [
+      320,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample40/frame_0100.jpg",
+    "label": [
+      796.0,
+      747.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample53/frame_0036.jpg",
+    "label": [
+      1164.0,
+      479.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample49/frame_0087.jpg",
+    "label": [
+      1121.0,
+      639.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample105/frame_0087.jpg",
+    "label": [
+      1129.0,
+      730.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample6/frame_0072.jpg",
+    "label": [
+      1600,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample95/frame_0110.jpg",
+    "label": [
+      1537.5,
+      870.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample62/frame_0065.jpg",
+    "label": [
+      1091.0,
+      705.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample24/frame_0028.jpg",
+    "label": [
+      686.5,
+      640.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample97/frame_0038.jpg",
+    "label": [
+      1425.5,
+      855.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample26/frame_0067.jpg",
+    "label": [
+      1156.0,
+      600.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample36/frame_0052.jpg",
+    "label": [
+      1481.5,
+      616.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample109/frame_0195.jpg",
+    "label": [
+      619.5,
+      761.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample109/frame_0060.jpg",
+    "label": [
+      619.5,
+      761.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample58/frame_0079.jpg",
+    "label": [
+      656.0,
+      703.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample106/frame_0148.jpg",
+    "label": [
+      168.5,
+      746.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample54/frame_0003.jpg",
+    "label": [
+      1015.0,
+      668.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample108/frame_0029.jpg",
+    "label": [
+      1319.5,
+      572.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample98/frame_0062.jpg",
+    "label": [
+      918.5,
+      712.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample5/frame_0067.jpg",
+    "label": [
+      960,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample107/frame_0048.jpg",
+    "label": [
+      1031.0,
+      702.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample4/frame_0098.jpg",
+    "label": [
+      320,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample67/frame_0016.jpg",
+    "label": [
+      763.0,
+      678.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample8/frame_0003.jpg",
+    "label": [
+      960,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample45/frame_0041.jpg",
+    "label": [
+      1289.5,
+      813.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample78/frame_0035.jpg",
+    "label": [
+      1167.0,
+      699.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample110/frame_0111.jpg",
+    "label": [
+      605.0,
+      771.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample110/frame_0192.jpg",
+    "label": [
+      606.0,
+      771.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample42/frame_0019.jpg",
+    "label": [
+      1197.5,
+      859.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample71/frame_0077.jpg",
+    "label": [
+      1105.0,
+      669.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample51/frame_0051.jpg",
+    "label": [
+      1050.0,
+      695.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample100/frame_0118.jpg",
+    "label": [
+      1771.0,
+      179.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample81/frame_0048.jpg",
+    "label": [
+      1107.5,
+      713.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample72/frame_0152.jpg",
+    "label": [
+      443.0,
+      645.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample25/frame_0010.jpg",
+    "label": [
+      843.0,
+      554.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample111/frame_0127.jpg",
+    "label": [
+      706.5,
+      900.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample44/frame_0122.jpg",
+    "label": [
+      1219.5,
+      853.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample99/frame_0001.jpg",
+    "label": [
+      1186.5,
+      688.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample20/frame_0145.jpg",
+    "label": [
+      269.5,
+      623.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample3/frame_0075.jpg",
+    "label": [
+      1600,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample85/frame_0090.jpg",
+    "label": [
+      1162.5,
+      553.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample29/frame_0013.jpg",
+    "label": [
+      1373.0,
+      616.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample83/frame_0062.jpg",
+    "label": [
+      990.0,
+      563.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample104/frame_0046.jpg",
+    "label": [
+      725.0,
+      638.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample94/frame_0022.jpg",
+    "label": [
+      1015.0,
+      790.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver18/driver_view/sample86/frame_0052.jpg",
+    "label": [
+      1104.5,
+      543.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample56/frame_0116.jpg",
+    "label": [
+      2001.0,
+      755.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample7/frame_0092.jpg",
+    "label": [
+      320,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample92/frame_0093.jpg",
+    "label": [
+      354.0,
+      652.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample2/frame_0077.jpg",
+    "label": [
+      960,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample35/frame_0012.jpg",
+    "label": [
+      1099.0,
+      695.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample70/frame_0094.jpg",
+    "label": [
+      1249.0,
+      652.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample73/frame_0023.jpg",
+    "label": [
+      1073.5,
+      363.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample73/frame_0093.jpg",
+    "label": [
+      1068.0,
+      279.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample90/frame_0007.jpg",
+    "label": [
+      744.0,
+      839.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample80/frame_0037.jpg",
+    "label": [
+      1407.0,
+      224.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample21/frame_0118.jpg",
+    "label": [
+      991.0,
+      554.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample9/frame_0008.jpg",
+    "label": [
+      1600,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample47/frame_0022.jpg",
+    "label": [
+      1213.0,
+      718.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample34/frame_0076.jpg",
+    "label": [
+      1336.5,
+      677.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample41/frame_0073.jpg",
+    "label": [
+      1005.5,
+      823.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample27/frame_0146.jpg",
+    "label": [
+      931.0,
+      392.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample39/frame_0122.jpg",
+    "label": [
+      1040.0,
+      838.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample22/frame_0106.jpg",
+    "label": [
+      969.0,
+      558.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample40/frame_0082.jpg",
+    "label": [
+      910.0,
+      754.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample53/frame_0035.jpg",
+    "label": [
+      1164.5,
+      479.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample6/frame_0077.jpg",
+    "label": [
+      1600,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample26/frame_0021.jpg",
+    "label": [
+      1154.0,
+      584.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample36/frame_0063.jpg",
+    "label": [
+      1464.5,
+      648.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample109/frame_0016.jpg",
+    "label": [
+      619.5,
+      761.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample106/frame_0102.jpg",
+    "label": [
+      619.0,
+      811.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample54/frame_0109.jpg",
+    "label": [
+      1180.5,
+      682.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample5/frame_0098.jpg",
+    "label": [
+      960,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample107/frame_0115.jpg",
+    "label": [
+      1068.0,
+      679.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample4/frame_0099.jpg",
+    "label": [
+      320,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample67/frame_0070.jpg",
+    "label": [
+      728.0,
+      685.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample8/frame_0084.jpg",
+    "label": [
+      960,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample45/frame_0096.jpg",
+    "label": [
+      1281.5,
+      851.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample110/frame_0071.jpg",
+    "label": [
+      605.0,
+      771.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample42/frame_0122.jpg",
+    "label": [
+      1218.5,
+      888.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample71/frame_0042.jpg",
+    "label": [
+      1062.5,
+      680.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample51/frame_0094.jpg",
+    "label": [
+      878.0,
+      707.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample81/frame_0023.jpg",
+    "label": [
+      1158.5,
+      718.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample72/frame_0082.jpg",
+    "label": [
+      488.0,
+      645.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample25/frame_0039.jpg",
+    "label": [
+      834.5,
+      555.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample111/frame_0082.jpg",
+    "label": [
+      879.5,
+      899.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample99/frame_0070.jpg",
+    "label": [
+      1059.5,
+      748.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample3/frame_0065.jpg",
+    "label": [
+      1600,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver12/driver_view/sample29/frame_0001.jpg",
+    "label": [
+      1387.5,
+      621.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample56/frame_0047.jpg",
+    "label": [
+      1289.5,
+      771.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample7/frame_0075.jpg",
+    "label": [
+      320,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample92/frame_0003.jpg",
+    "label": [
+      589.0,
+      695.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample2/frame_0045.jpg",
+    "label": [
+      960,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample35/frame_0046.jpg",
+    "label": [
+      994.5,
+      701.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample70/frame_0079.jpg",
+    "label": [
+      1276.5,
+      667.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample73/frame_0133.jpg",
+    "label": [
+      1051.0,
+      226.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample90/frame_0023.jpg",
+    "label": [
+      803.0,
+      828.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample80/frame_0024.jpg",
+    "label": [
+      1460.5,
+      218.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample21/frame_0126.jpg",
+    "label": [
+      996.0,
+      557.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample9/frame_0097.jpg",
+    "label": [
+      1600,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample47/frame_0077.jpg",
+    "label": [
+      1300.5,
+      730.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample34/frame_0036.jpg",
+    "label": [
+      1324.5,
+      680.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample41/frame_0036.jpg",
+    "label": [
+      1086.0,
+      827.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample27/frame_0077.jpg",
+    "label": [
+      928.0,
+      392.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample91/frame_0076.jpg",
+    "label": [
+      773.5,
+      867.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample39/frame_0104.jpg",
+    "label": [
+      1004.5,
+      840.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample22/frame_0050.jpg",
+    "label": [
+      995.5,
+      553.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample112/frame_0156.jpg",
+    "label": [
+      796.5,
+      926.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample40/frame_0057.jpg",
+    "label": [
+      978.5,
+      746.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample53/frame_0081.jpg",
+    "label": [
+      1165.0,
+      479.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample6/frame_0068.jpg",
+    "label": [
+      1600,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample95/frame_0094.jpg",
+    "label": [
+      1612.5,
+      889.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample97/frame_0018.jpg",
+    "label": [
+      1411.5,
+      849.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample26/frame_0012.jpg",
+    "label": [
+      1146.5,
+      577.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample36/frame_0029.jpg",
+    "label": [
+      1502.0,
+      641.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample54/frame_0052.jpg",
+    "label": [
+      1063.0,
+      677.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample5/frame_0008.jpg",
+    "label": [
+      960,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample107/frame_0042.jpg",
+    "label": [
+      1081.0,
+      692.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample4/frame_0090.jpg",
+    "label": [
+      320,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample67/frame_0101.jpg",
+    "label": [
+      615.0,
+      704.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample8/frame_0006.jpg",
+    "label": [
+      960,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample45/frame_0081.jpg",
+    "label": [
+      1262.0,
+      822.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample78/frame_0032.jpg",
+    "label": [
+      1167.0,
+      699.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample96/frame_0011.jpg",
+    "label": [
+      902.5,
+      1068.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample110/frame_0001.jpg",
+    "label": [
+      607.0,
+      771.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample42/frame_0081.jpg",
+    "label": [
+      1223.5,
+      876.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample71/frame_0031.jpg",
+    "label": [
+      1046.5,
+      673.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample51/frame_0002.jpg",
+    "label": [
+      1197.0,
+      683.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample81/frame_0063.jpg",
+    "label": [
+      1062.0,
+      732.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample72/frame_0055.jpg",
+    "label": [
+      688.5,
+      610.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample25/frame_0005.jpg",
+    "label": [
+      837.5,
+      555.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample111/frame_0028.jpg",
+    "label": [
+      1066.5,
+      894.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample3/frame_0053.jpg",
+    "label": [
+      1600,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample29/frame_0063.jpg",
+    "label": [
+      1315.0,
+      592.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver10/driver_view/sample86/frame_0054.jpg",
+    "label": [
+      1105.0,
+      545.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample56/frame_0030.jpg",
+    "label": [
+      1042.5,
+      778.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample65/frame_0280.jpg",
+    "label": [
+      1257.5,
+      694.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample65/frame_0173.jpg",
+    "label": [
+      1264.5,
+      731.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample7/frame_0068.jpg",
+    "label": [
+      320,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample92/frame_0099.jpg",
+    "label": [
+      318.5,
+      663.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample2/frame_0045.jpg",
+    "label": [
+      960,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample35/frame_0042.jpg",
+    "label": [
+      1013.5,
+      698.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample70/frame_0025.jpg",
+    "label": [
+      1248.5,
+      633.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample73/frame_0131.jpg",
+    "label": [
+      1052.5,
+      233.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample73/frame_0045.jpg",
+    "label": [
+      1070.0,
+      336.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample89/frame_0133.jpg",
+    "label": [
+      929.5,
+      952.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample87/frame_0082.jpg",
+    "label": [
+      983.5,
+      774.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample90/frame_0059.jpg",
+    "label": [
+      786.5,
+      846.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample80/frame_0072.jpg",
+    "label": [
+      933.5,
+      168.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample69/frame_0020.jpg",
+    "label": [
+      1218.0,
+      671.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample21/frame_0035.jpg",
+    "label": [
+      925.5,
+      565.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample9/frame_0083.jpg",
+    "label": [
+      1600,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample11/frame_0021.jpg",
+    "label": [
+      1061.5,
+      588.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample47/frame_0018.jpg",
+    "label": [
+      1222.5,
+      716.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample34/frame_0068.jpg",
+    "label": [
+      1332.0,
+      680.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample41/frame_0078.jpg",
+    "label": [
+      1012.0,
+      820.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample27/frame_0076.jpg",
+    "label": [
+      928.0,
+      392.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample38/frame_0139.jpg",
+    "label": [
+      1151.5,
+      857.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample91/frame_0148.jpg",
+    "label": [
+      789.5,
+      876.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample39/frame_0019.jpg",
+    "label": [
+      1023.0,
+      829.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample22/frame_0005.jpg",
+    "label": [
+      931.5,
+      540.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample52/frame_0036.jpg",
+    "label": [
+      73.5,
+      288.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample52/frame_0138.jpg",
+    "label": [
+      55.5,
+      293.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample50/frame_0010.jpg",
+    "label": [
+      1138.0,
+      692.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample1/frame_0051.jpg",
+    "label": [
+      320,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample40/frame_0105.jpg",
+    "label": [
+      751.5,
+      765.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample53/frame_0022.jpg",
+    "label": [
+      1164.5,
+      479.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample105/frame_0162.jpg",
+    "label": [
+      858.5,
+      798.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample6/frame_0013.jpg",
+    "label": [
+      1600,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample62/frame_0106.jpg",
+    "label": [
+      984.5,
+      696.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample24/frame_0016.jpg",
+    "label": [
+      674.5,
+      640.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample97/frame_0002.jpg",
+    "label": [
+      1326.5,
+      839.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample26/frame_0104.jpg",
+    "label": [
+      1107.0,
+      598.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample36/frame_0007.jpg",
+    "label": [
+      1491.5,
+      623.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample109/frame_0003.jpg",
+    "label": [
+      621.0,
+      761.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample109/frame_0056.jpg",
+    "label": [
+      619.5,
+      761.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample58/frame_0019.jpg",
+    "label": [
+      863.5,
+      649.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample106/frame_0155.jpg",
+    "label": [
+      196.5,
+      741.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample54/frame_0041.jpg",
+    "label": [
+      1059.0,
+      688.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample108/frame_0007.jpg",
+    "label": [
+      1443.5,
+      597.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample98/frame_0109.jpg",
+    "label": [
+      951.0,
+      714.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample5/frame_0078.jpg",
+    "label": [
+      960,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample107/frame_0026.jpg",
+    "label": [
+      1101.5,
+      695.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample4/frame_0084.jpg",
+    "label": [
+      320,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample8/frame_0054.jpg",
+    "label": [
+      960,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample45/frame_0077.jpg",
+    "label": [
+      1264.0,
+      825.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample78/frame_0075.jpg",
+    "label": [
+      1092.0,
+      695.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample110/frame_0172.jpg",
+    "label": [
+      609.0,
+      771.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample110/frame_0166.jpg",
+    "label": [
+      607.0,
+      771.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample42/frame_0151.jpg",
+    "label": [
+      1144.5,
+      891.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample71/frame_0072.jpg",
+    "label": [
+      1098.0,
+      665.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample51/frame_0054.jpg",
+    "label": [
+      1032.0,
+      682.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample100/frame_0084.jpg",
+    "label": [
+      1525.0,
+      310.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample81/frame_0096.jpg",
+    "label": [
+      1018.0,
+      731.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample72/frame_0107.jpg",
+    "label": [
+      370.5,
+      653.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample111/frame_0095.jpg",
+    "label": [
+      813.0,
+      896.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample44/frame_0105.jpg",
+    "label": [
+      1224.5,
+      857.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample99/frame_0059.jpg",
+    "label": [
+      1095.5,
+      730.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample20/frame_0047.jpg",
+    "label": [
+      679.5,
+      583.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample85/frame_0005.jpg",
+    "label": [
+      1154.5,
+      553.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample29/frame_0086.jpg",
+    "label": [
+      1291.0,
+      626.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample104/frame_0065.jpg",
+    "label": [
+      715.5,
+      566.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample94/frame_0011.jpg",
+    "label": [
+      1021.0,
+      798.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver17/driver_view/sample86/frame_0057.jpg",
+    "label": [
+      1104.0,
+      542.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample56/frame_0105.jpg",
+    "label": [
+      1822.0,
+      760.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample65/frame_0132.jpg",
+    "label": [
+      1237.0,
+      738.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample65/frame_0094.jpg",
+    "label": [
+      1177.5,
+      745.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample92/frame_0073.jpg",
+    "label": [
+      428.5,
+      631.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample2/frame_0035.jpg",
+    "label": [
+      960,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample35/frame_0061.jpg",
+    "label": [
+      936.0,
+      705.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample70/frame_0055.jpg",
+    "label": [
+      1306.5,
+      631.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample73/frame_0022.jpg",
+    "label": [
+      1075.0,
+      365.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample73/frame_0051.jpg",
+    "label": [
+      1068.5,
+      331.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample89/frame_0154.jpg",
+    "label": [
+      669.0,
+      992.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample80/frame_0030.jpg",
+    "label": [
+      1433.0,
+      219.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample69/frame_0100.jpg",
+    "label": [
+      1230.0,
+      686.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample21/frame_0067.jpg",
+    "label": [
+      906.5,
+      548.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample9/frame_0039.jpg",
+    "label": [
+      1600,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample11/frame_0079.jpg",
+    "label": [
+      855.0,
+      568.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample47/frame_0036.jpg",
+    "label": [
+      1199.0,
+      723.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample34/frame_0055.jpg",
+    "label": [
+      1309.0,
+      654.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample41/frame_0075.jpg",
+    "label": [
+      1010.5,
+      825.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample27/frame_0074.jpg",
+    "label": [
+      930.0,
+      392.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample38/frame_0118.jpg",
+    "label": [
+      1138.0,
+      856.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample91/frame_0097.jpg",
+    "label": [
+      697.5,
+      872.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample39/frame_0097.jpg",
+    "label": [
+      996.0,
+      822.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample22/frame_0072.jpg",
+    "label": [
+      995.0,
+      562.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample52/frame_0025.jpg",
+    "label": [
+      118.0,
+      301.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample52/frame_0119.jpg",
+    "label": [
+      52.0,
+      293.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample50/frame_0059.jpg",
+    "label": [
+      1143.0,
+      685.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample112/frame_0083.jpg",
+    "label": [
+      522.5,
+      936.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample40/frame_0002.jpg",
+    "label": [
+      1034.0,
+      756.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample53/frame_0023.jpg",
+    "label": [
+      1162.0,
+      479.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample49/frame_0090.jpg",
+    "label": [
+      1115.0,
+      636.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample105/frame_0067.jpg",
+    "label": [
+      1183.5,
+      723.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample95/frame_0055.jpg",
+    "label": [
+      1686.5,
+      883.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample62/frame_0011.jpg",
+    "label": [
+      1219.5,
+      700.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample24/frame_0104.jpg",
+    "label": [
+      747.5,
+      614.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample97/frame_0060.jpg",
+    "label": [
+      1657.0,
+      860.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample26/frame_0071.jpg",
+    "label": [
+      1154.0,
+      599.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample36/frame_0036.jpg",
+    "label": [
+      1490.0,
+      638.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample109/frame_0081.jpg",
+    "label": [
+      619.5,
+      761.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample58/frame_0089.jpg",
+    "label": [
+      550.0,
+      726.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample106/frame_0013.jpg",
+    "label": [
+      1135.5,
+      734.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample54/frame_0040.jpg",
+    "label": [
+      1053.0,
+      688.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample108/frame_0009.jpg",
+    "label": [
+      1430.0,
+      594.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample98/frame_0071.jpg",
+    "label": [
+      960.5,
+      688.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample5/frame_0028.jpg",
+    "label": [
+      960,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample107/frame_0076.jpg",
+    "label": [
+      965.5,
+      702.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample4/frame_0019.jpg",
+    "label": [
+      320,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample67/frame_0048.jpg",
+    "label": [
+      747.0,
+      687.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample45/frame_0080.jpg",
+    "label": [
+      1266.5,
+      821.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample110/frame_0110.jpg",
+    "label": [
+      607.0,
+      771.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample42/frame_0114.jpg",
+    "label": [
+      1228.5,
+      884.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample71/frame_0001.jpg",
+    "label": [
+      1020.0,
+      674.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample51/frame_0085.jpg",
+    "label": [
+      927.5,
+      710.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample100/frame_0097.jpg",
+    "label": [
+      1620.5,
+      257.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample72/frame_0100.jpg",
+    "label": [
+      382.5,
+      649.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample25/frame_0025.jpg",
+    "label": [
+      840.5,
+      551.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample111/frame_0064.jpg",
+    "label": [
+      954.5,
+      898.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample44/frame_0026.jpg",
+    "label": [
+      1202.5,
+      850.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample99/frame_0086.jpg",
+    "label": [
+      953.5,
+      787.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample20/frame_0001.jpg",
+    "label": [
+      767.0,
+      552.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample3/frame_0020.jpg",
+    "label": [
+      1600,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample85/frame_0114.jpg",
+    "label": [
+      1156.5,
+      553.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample29/frame_0050.jpg",
+    "label": [
+      1328.0,
+      620.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample83/frame_0016.jpg",
+    "label": [
+      1020.5,
+      570.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample104/frame_0033.jpg",
+    "label": [
+      691.5,
+      643.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample94/frame_0099.jpg",
+    "label": [
+      1202.5,
+      757.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver2/driver_view/sample86/frame_0051.jpg",
+    "label": [
+      1094.0,
+      544.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample56/frame_0058.jpg",
+    "label": [
+      1440.5,
+      766.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample65/frame_0266.jpg",
+    "label": [
+      1280.0,
+      703.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample65/frame_0205.jpg",
+    "label": [
+      1320.0,
+      720.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample7/frame_0021.jpg",
+    "label": [
+      320,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample92/frame_0128.jpg",
+    "label": [
+      159.5,
+      649.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample2/frame_0057.jpg",
+    "label": [
+      960,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample35/frame_0071.jpg",
+    "label": [
+      901.5,
+      724.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample70/frame_0000.jpg",
+    "label": [
+      1181.5,
+      628.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample73/frame_0055.jpg",
+    "label": [
+      1074.5,
+      321.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample73/frame_0134.jpg",
+    "label": [
+      1061.5,
+      231.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample89/frame_0104.jpg",
+    "label": [
+      979.5,
+      961.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample87/frame_0086.jpg",
+    "label": [
+      989.5,
+      774.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample90/frame_0099.jpg",
+    "label": [
+      599.5,
+      878.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample80/frame_0058.jpg",
+    "label": [
+      1163.5,
+      184.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample69/frame_0097.jpg",
+    "label": [
+      1220.5,
+      686.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample21/frame_0013.jpg",
+    "label": [
+      956.5,
+      564.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample9/frame_0081.jpg",
+    "label": [
+      1600,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample11/frame_0019.jpg",
+    "label": [
+      1082.0,
+      587.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample47/frame_0017.jpg",
+    "label": [
+      1222.5,
+      716.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample34/frame_0072.jpg",
+    "label": [
+      1327.0,
+      679.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample41/frame_0035.jpg",
+    "label": [
+      1077.0,
+      827.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample27/frame_0053.jpg",
+    "label": [
+      928.0,
+      392.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample38/frame_0109.jpg",
+    "label": [
+      1127.5,
+      858.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample91/frame_0015.jpg",
+    "label": [
+      967.5,
+      745.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample39/frame_0003.jpg",
+    "label": [
+      1049.0,
+      814.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample22/frame_0038.jpg",
+    "label": [
+      976.0,
+      548.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample52/frame_0081.jpg",
+    "label": [
+      56.5,
+      293.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample52/frame_0201.jpg",
+    "label": [
+      54.0,
+      293.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample1/frame_0052.jpg",
+    "label": [
+      320,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample40/frame_0120.jpg",
+    "label": [
+      493.0,
+      784.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample53/frame_0036.jpg",
+    "label": [
+      1164.0,
+      479.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample49/frame_0091.jpg",
+    "label": [
+      1118.0,
+      637.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample105/frame_0090.jpg",
+    "label": [
+      1105.5,
+      729.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample6/frame_0015.jpg",
+    "label": [
+      1600,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample95/frame_0057.jpg",
+    "label": [
+      1710.0,
+      884.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample62/frame_0106.jpg",
+    "label": [
+      984.5,
+      696.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample24/frame_0054.jpg",
+    "label": [
+      730.0,
+      634.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample97/frame_0101.jpg",
+    "label": [
+      1782.5,
+      890.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample26/frame_0075.jpg",
+    "label": [
+      1133.0,
+      600.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample36/frame_0096.jpg",
+    "label": [
+      1454.0,
+      627.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample109/frame_0163.jpg",
+    "label": [
+      619.5,
+      762.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample109/frame_0175.jpg",
+    "label": [
+      621.0,
+      762.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample58/frame_0070.jpg",
+    "label": [
+      716.5,
+      688.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample106/frame_0035.jpg",
+    "label": [
+      1095.5,
+      753.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample54/frame_0045.jpg",
+    "label": [
+      1061.0,
+      682.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample108/frame_0048.jpg",
+    "label": [
+      1237.0,
+      545.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample98/frame_0109.jpg",
+    "label": [
+      951.0,
+      714.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample5/frame_0034.jpg",
+    "label": [
+      960,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample107/frame_0124.jpg",
+    "label": [
+      1134.0,
+      679.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample4/frame_0078.jpg",
+    "label": [
+      320,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample67/frame_0101.jpg",
+    "label": [
+      615.0,
+      704.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample8/frame_0085.jpg",
+    "label": [
+      960,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample45/frame_0103.jpg",
+    "label": [
+      1293.0,
+      846.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample78/frame_0072.jpg",
+    "label": [
+      1092.0,
+      696.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample110/frame_0191.jpg",
+    "label": [
+      605.0,
+      770.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample110/frame_0143.jpg",
+    "label": [
+      607.0,
+      771.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample42/frame_0127.jpg",
+    "label": [
+      1203.0,
+      892.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample71/frame_0121.jpg",
+    "label": [
+      1077.0,
+      658.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample51/frame_0102.jpg",
+    "label": [
+      826.0,
+      711.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample100/frame_0087.jpg",
+    "label": [
+      1533.0,
+      290.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample81/frame_0088.jpg",
+    "label": [
+      1031.5,
+      715.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample72/frame_0073.jpg",
+    "label": [
+      550.5,
+      613.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample25/frame_0085.jpg",
+    "label": [
+      809.5,
+      580.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample111/frame_0038.jpg",
+    "label": [
+      1046.0,
+      878.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample44/frame_0044.jpg",
+    "label": [
+      1242.0,
+      857.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample20/frame_0068.jpg",
+    "label": [
+      600.0,
+      575.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample3/frame_0022.jpg",
+    "label": [
+      1600,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample85/frame_0015.jpg",
+    "label": [
+      1155.5,
+      554.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample29/frame_0010.jpg",
+    "label": [
+      1382.0,
+      622.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample83/frame_0108.jpg",
+    "label": [
+      956.5,
+      560.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample104/frame_0080.jpg",
+    "label": [
+      627.5,
+      580.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample94/frame_0031.jpg",
+    "label": [
+      1020.0,
+      789.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver24/driver_view/sample86/frame_0094.jpg",
+    "label": [
+      1270.0,
+      471.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample56/frame_0011.jpg",
+    "label": [
+      735.5,
+      793.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample65/frame_0037.jpg",
+    "label": [
+      1060.0,
+      711.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample65/frame_0138.jpg",
+    "label": [
+      1241.5,
+      738.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample7/frame_0053.jpg",
+    "label": [
+      320,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample92/frame_0067.jpg",
+    "label": [
+      456.0,
+      670.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample2/frame_0080.jpg",
+    "label": [
+      960,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample35/frame_0103.jpg",
+    "label": [
+      976.5,
+      758.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample70/frame_0029.jpg",
+    "label": [
+      1261.0,
+      627.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample73/frame_0005.jpg",
+    "label": [
+      1079.5,
+      385.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample73/frame_0035.jpg",
+    "label": [
+      1078.0,
+      350.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample89/frame_0113.jpg",
+    "label": [
+      970.5,
+      958.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample87/frame_0039.jpg",
+    "label": [
+      907.5,
+      800.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample90/frame_0021.jpg",
+    "label": [
+      787.5,
+      828.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample80/frame_0069.jpg",
+    "label": [
+      972.0,
+      172.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample69/frame_0008.jpg",
+    "label": [
+      1211.0,
+      667.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample21/frame_0046.jpg",
+    "label": [
+      917.5,
+      562.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample9/frame_0071.jpg",
+    "label": [
+      1600,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample11/frame_0110.jpg",
+    "label": [
+      762.5,
+      556.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample47/frame_0049.jpg",
+    "label": [
+      1210.0,
+      734.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample34/frame_0121.jpg",
+    "label": [
+      1396.0,
+      666.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample41/frame_0117.jpg",
+    "label": [
+      1040.0,
+      823.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample27/frame_0041.jpg",
+    "label": [
+      928.5,
+      392.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample38/frame_0084.jpg",
+    "label": [
+      1102.5,
+      844.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample91/frame_0119.jpg",
+    "label": [
+      731.5,
+      872.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample39/frame_0001.jpg",
+    "label": [
+      1057.0,
+      819.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample22/frame_0027.jpg",
+    "label": [
+      958.0,
+      547.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample52/frame_0065.jpg",
+    "label": [
+      54.5,
+      292.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample52/frame_0098.jpg",
+    "label": [
+      54.5,
+      292.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample50/frame_0007.jpg",
+    "label": [
+      1143.5,
+      694.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample1/frame_0052.jpg",
+    "label": [
+      320,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample112/frame_0034.jpg",
+    "label": [
+      251.0,
+      940.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample40/frame_0067.jpg",
+    "label": [
+      960.5,
+      765.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample53/frame_0080.jpg",
+    "label": [
+      1163.0,
+      479.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample49/frame_0007.jpg",
+    "label": [
+      1160.0,
+      649.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample105/frame_0164.jpg",
+    "label": [
+      842.5,
+      798.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample6/frame_0069.jpg",
+    "label": [
+      1600,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample95/frame_0090.jpg",
+    "label": [
+      1650.0,
+      896.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample62/frame_0065.jpg",
+    "label": [
+      1091.0,
+      705.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample24/frame_0126.jpg",
+    "label": [
+      740.5,
+      615.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample97/frame_0051.jpg",
+    "label": [
+      1542.0,
+      840.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample26/frame_0079.jpg",
+    "label": [
+      1123.0,
+      596.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample36/frame_0066.jpg",
+    "label": [
+      1472.0,
+      632.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample109/frame_0096.jpg",
+    "label": [
+      621.0,
+      761.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample109/frame_0066.jpg",
+    "label": [
+      618.5,
+      761.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample58/frame_0046.jpg",
+    "label": [
+      824.5,
+      659.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample106/frame_0154.jpg",
+    "label": [
+      202.5,
+      743.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample54/frame_0053.jpg",
+    "label": [
+      1057.0,
+      679.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample108/frame_0067.jpg",
+    "label": [
+      1192.5,
+      519.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample98/frame_0032.jpg",
+    "label": [
+      562.0,
+      726.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample5/frame_0024.jpg",
+    "label": [
+      960,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample107/frame_0075.jpg",
+    "label": [
+      959.5,
+      703.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample4/frame_0047.jpg",
+    "label": [
+      320,
+      540
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample67/frame_0073.jpg",
+    "label": [
+      723.0,
+      685.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample8/frame_0061.jpg",
+    "label": [
+      960,
+      900
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample45/frame_0056.jpg",
+    "label": [
+      1268.5,
+      832.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample78/frame_0126.jpg",
+    "label": [
+      1022.0,
+      686.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample96/frame_0058.jpg",
+    "label": [
+      847.0,
+      981.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample110/frame_0175.jpg",
+    "label": [
+      606.0,
+      771.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample110/frame_0142.jpg",
+    "label": [
+      608.0,
+      771.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample42/frame_0068.jpg",
+    "label": [
+      1219.0,
+      883.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample71/frame_0039.jpg",
+    "label": [
+      1064.0,
+      680.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample51/frame_0086.jpg",
+    "label": [
+      917.5,
+      711.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample100/frame_0000.jpg",
+    "label": [
+      1604.5,
+      416.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample81/frame_0027.jpg",
+    "label": [
+      1138.5,
+      716.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample72/frame_0051.jpg",
+    "label": [
+      706.5,
+      613.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample25/frame_0032.jpg",
+    "label": [
+      840.0,
+      552.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample111/frame_0053.jpg",
+    "label": [
+      998.5,
+      907.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample44/frame_0073.jpg",
+    "label": [
+      1209.0,
+      855.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample99/frame_0054.jpg",
+    "label": [
+      1100.0,
+      721.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample20/frame_0057.jpg",
+    "label": [
+      643.5,
+      572.5
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample3/frame_0067.jpg",
+    "label": [
+      1600,
+      180
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample85/frame_0045.jpg",
+    "label": [
+      1155.0,
+      554.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample29/frame_0066.jpg",
+    "label": [
+      1305.0,
+      599.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample83/frame_0049.jpg",
+    "label": [
+      999.5,
+      554.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample104/frame_0019.jpg",
+    "label": [
+      632.5,
+      648.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample94/frame_0102.jpg",
+    "label": [
+      1208.0,
+      758.0
+    ]
+  },
+  {
+    "path": "/home/anto/University/Driving-Visual-Attention/data/images_aligned/driver16/driver_view/sample86/frame_0082.jpg",
+    "label": [
+      1205.0,
+      508.5
+    ]
+  }
+]
