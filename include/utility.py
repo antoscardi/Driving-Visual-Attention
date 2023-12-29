@@ -5,6 +5,8 @@ import re
 import torch
 import cv2
 from torchvision import transforms
+import wandb
+from torchvision import utils
 
 
 # https://gist.github.com/ihoromi4/b681a9088f348942b01711f251e5f964
@@ -92,3 +94,29 @@ def mark_image(path, pred_x, true_x):
     )
 
     return image
+
+def log_image(dataloader, model, device, percentage=None):
+    with torch.no_grad():
+        model.eval()
+        # Log example images and predictions 
+        example_batch = next(iter(dataloader))
+        example_images, example_labels, img_paths = example_batch
+        # Calculate gaze point prediction
+        example_predictions = model(example_images.to(device))
+        # Log a single random image with predictions
+        random_index = random.randint(0, len(example_images) - 1)
+        pred, label, img_path = (
+            example_predictions[random_index].cpu(),
+            example_labels[random_index].cpu(),
+            img_paths[random_index],
+        )
+
+        # Load the road_view image
+        respective_road_view = img_path.replace('driver_view', 'road_view')
+        
+        # Mark the road-view with the prediction
+        road_view_image = mark_image(respective_road_view, tuple(pred.numpy().astype(int)), tuple(label.numpy().astype(int)))
+
+        # Log the annotated road_view image to WandB
+        image = wandb.Image(road_view_image, caption=f"Prediction: {pred}, Actual: {label}")
+        wandb.log({"Validation Examples 1 per Epoch": image})
