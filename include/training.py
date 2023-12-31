@@ -1,7 +1,7 @@
 from utility import*
 from tqdm import tqdm
 
-def train_epoch(model, train_loader, criterion, optimizer, device, epoch):
+def train_epoch(model, train_loader, criterion, scheduler, optimizer, device, epoch):
     model.train(True)
     total_loss = 0.0
 
@@ -20,6 +20,7 @@ def train_epoch(model, train_loader, criterion, optimizer, device, epoch):
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
+            scheduler.step()
 
             total_loss += loss.detach().item()
 
