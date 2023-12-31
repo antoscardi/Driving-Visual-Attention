@@ -1,0 +1,186 @@
+No such comm: d329116fba224145ad163527fef2f818
+No such comm: 81ef92433f124eac83a2da00aa0f38bd
+No such comm: 1e445df8ff4c408f8850e8b974ea4797
+No such comm: d0d3381ac8b74f2fa99376b6339a9191
+No such comm: e673bf4ff9854f97b440eca18810071f
+No such comm: dbada8f7ddb1489b8d5c2dfb8eaf9efd
+No such comm: 83e74bedb0014fe6910a0d8bcbaea342
+No such comm: 27642dc1e6ca4619b58a5c0e10af2666
+No such comm: b287753f40fb4675b95208491d504e31
+No such comm: 58d055156c904122bd109c530574a721
+No such comm: b3892f2ddbb542818ce1f6f9715eaceb
+No such comm: 6791c03cfa14466d95248e9f7b55958c
+No such comm: 7d3be6112af8466db4e4cf23d2880902
+No such comm: 4367a42b22e94957b24e7eb244fe049e
+No such comm: f6580b07ee1c43ca9fdca3f8d1f1c62b
+No such comm: cbb5d080f0fe4c9eb198a61bd1816c67
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch 0: 100%|██████████| 65/65 [00:30<00:00,  2.11batch/s, batch loss=215.37]
+
+Validation Epoch 0: 100%|██████████| 8/8 [00:03<00:00,  2.65batch/s, batch accuracy=0.00%]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch 1: 100%|██████████| 65/65 [00:30<00:00,  2.12batch/s, batch loss=172.52]
+
+Validation Epoch 1: 100%|██████████| 8/8 [00:03<00:00,  2.44batch/s, batch accuracy=0.00%]
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch 2: 100%|██████████| 65/65 [00:27<00:00,  2.34batch/s, batch loss=229.81]
+Validation Epoch 2: 100%|██████████| 8/8 [00:02<00:00,  2.72batch/s, batch accuracy=0.00%]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch 3: 100%|██████████| 65/65 [00:30<00:00,  2.11batch/s, batch loss=164.49]
+
+Validation Epoch 3: 100%|██████████| 8/8 [00:03<00:00,  2.44batch/s, batch accuracy=0.00%]
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch 4: 100%|██████████| 65/65 [00:28<00:00,  2.32batch/s, batch loss=185.08]
+
+Validation Epoch 4: 100%|██████████| 8/8 [00:02<00:00,  2.75batch/s, batch accuracy=0.00%]
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch 5: 100%|██████████| 65/65 [00:27<00:00,  2.37batch/s, batch loss=187.62]
+
+Validation Epoch 5: 100%|██████████| 8/8 [00:02<00:00,  2.77batch/s, batch accuracy=0.00%]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch 6: 100%|██████████| 65/65 [00:29<00:00,  2.19batch/s, batch loss=191.98]
+
+Validation Epoch 6: 100%|██████████| 8/8 [00:03<00:00,  2.34batch/s, batch accuracy=0.00%]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch 7: 100%|██████████| 65/65 [00:30<00:00,  2.11batch/s, batch loss=200.71]
+
+
+Validation Epoch 7: 100%|██████████| 8/8 [00:03<00:00,  2.37batch/s, batch accuracy=0.00%]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch 8: 100%|██████████| 65/65 [00:32<00:00,  2.02batch/s, batch loss=222.83]
+
+Validation Epoch 8: 100%|██████████| 8/8 [00:03<00:00,  2.35batch/s, batch accuracy=0.00%]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch 9: 100%|██████████| 65/65 [00:31<00:00,  2.05batch/s, batch loss=124.38]
+
+Validation Epoch 9: 100%|██████████| 8/8 [00:03<00:00,  2.36batch/s, batch accuracy=0.00%]

@@ -61,8 +61,10 @@ class DataLoaderVisualizer:
             drivers = list_of_driver_paths[length-2:]
         elif self.split == 'val':
             drivers = list_of_driver_paths[length-4:length-2]
+        elif self.split == 'all':
+            drivers = list_of_driver_paths
         else:
-            raise ValueError("Invalid split. Use 'train', 'test', or 'val'.")
+            raise ValueError("Invalid split. Use 'train', 'test','val' or 'all'.")
         return drivers
 
     def check_existence(self):

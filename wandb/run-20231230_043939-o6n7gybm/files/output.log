@@ -1,0 +1,33 @@
+No such comm: e5d4e267530e41cc85449fa5ee307c6c
+No such comm: b5403cce600e4956a6b74ff732521ad1
+No such comm: 2117b053fb6e4b3dae9b3352d0ee8b1b
+No such comm: 1721ca8c3dcf4776bd7a1cfbfc200986
+No such comm: dd60b321c93247b4913ffd140e2c7966
+No such comm: 146196a98142456e9a3f6a80a7d5d87f
+No such comm: 7a91cf9c0e1744a596769865b21b00f5
+No such comm: a417b4b0be784c9883556bd6e0c8e8e3
+No such comm: 70e248dcfccf4c71b768d0004d16a81e
+No such comm: 86d53bef7f3c4e708f95d41470ece91a
+No such comm: 4076a5eed5c94d418f53d577b58a1375
+No such comm: 3a3793e3748f4beeb0f91d90b0b74908
+No such comm: 6cad66e7bd2847409bbabee451a94950
+No such comm: dcae7dd1ddd1466c898109f23097ccda
+No such comm: 7efb3c5ad43b4a6dad640410184a6e6d
+No such comm: 3757fc2808b44755b968574b5f6e0bf6
+Training Epoch 0:   0%|          | 0/65 [00:00<?, ?batch/s]
+We have  access to a GPU
+0
+<torch.cuda.device object at 0x7f6b42beb790>
+1
+NVIDIA GeForce RTX 3060 Laptop GPU
+cuda
+Building path structure
+The dataset has already been prepared, ready to use
+Building path structure
+The dataset has already been prepared, ready to use
+Building path structure
+The dataset has already been prepared, ready to use
+Train dataset len is 1054
+Val dataset len is 127
+Test dataset len is 126
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

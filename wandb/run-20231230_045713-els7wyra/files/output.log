@@ -1,0 +1,31 @@
+No such comm: b437b7b08a124a77a9dbf69e5a611f61
+No such comm: 007768262b3e4c5da30a879537bfb177
+No such comm: 21e96b442124457ca1b2e1c13b953243
+No such comm: 9ae70980106743d3b0bd144e56cdb78e
+No such comm: 0dec88f3a28c4d489a5a155b3f27d050
+No such comm: 6762984ff2c1464c913c617c5062a970
+No such comm: e82f682d66fe4ef28be5ad74e5897d76
+No such comm: 68a62cf99aaa482380a046d3fcca4b3d
+No such comm: 574a807a22e441f594e6df8236396da2
+No such comm: fba58ce96363457b8a5e09950b85c507
+No such comm: 10b6b41a803d4cd19d690a1e93cf3d6b
+No such comm: 9407aab5abe140b2891f66df1067b02f
+No such comm: a8f01d53b4c54edfa874319c9d72ee12
+No such comm: a1fa89d288f748ff848a8a78ec276ba4
+No such comm: 71f82cd25ee546f9a4517ae35f02664d
+No such comm: 5f4e556ab31148e2aa0094e86363f88b
+Training Epoch 0:   0%|          | 0/131 [00:00<?, ?batch/s]
+We have  access to a GPU
+0
+<torch.cuda.device object at 0x7f562056ba50>
+1
+NVIDIA GeForce RTX 3060 Laptop GPU
+cuda
+Building path structure
+The dataset has already been prepared, ready to use
+Building path structure
+The dataset has already been prepared, ready to use
+Building path structure
+The dataset has already been prepared, ready to use
+Train dataset len is 1054
+Val dataset len is 127

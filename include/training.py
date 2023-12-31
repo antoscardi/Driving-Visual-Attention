@@ -29,7 +29,7 @@ def train_epoch(model, train_loader, criterion, optimizer, device, epoch):
     average_loss = total_loss / len(train_loader)
     return average_loss
 
-def validate(model, val_loader, criterion, device, epoch):
+def validate(model, val_loader, threshold, criterion, device, epoch):
     model.train(False)
     model.eval()
     with torch.no_grad():
@@ -52,7 +52,7 @@ def validate(model, val_loader, criterion, device, epoch):
 
                 # Calculate accuracy
                 predicted_labels = outputs
-                current_correct_predictions = torch.sum(torch.norm(predicted_labels - labels) < 15.0) # Adjust threshold as needed
+                current_correct_predictions = torch.sum(torch.norm(predicted_labels - labels) < threshold) # Adjust threshold as needed
                 total_correct_predictions += current_correct_predictions
                 
                 total_samples += labels.size(0)
