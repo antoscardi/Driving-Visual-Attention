@@ -8,9 +8,10 @@ def train_epoch(model, train_loader, criterion, scheduler, optimizer, device, ep
     # Use tqdm for the progress bar
     with tqdm(train_loader, desc=f"Training Epoch {epoch}", unit="batch") as tbar:
         for batch in tbar:
-            eye_left,face_features,labels,_ = batch
+            batch = list(filter(lambda x : x is not None, batch))
+            eye_left, face_features, labels, _ = batch
             # Move data to GPU if available
-            eye_left, face_features, labels = eye_left.to(device),face_features.to(device),labels.to(device)
+            eye_left, face_features, labels = eye_left.to(device), face_features.to(device), labels.to(device)
 
             # Forward pass
             outputs = model(eye_left,face_features)
@@ -41,12 +42,13 @@ def validate(model, val_loader, threshold, criterion, device, epoch):
         # Use tqdm for the progress bar
         with tqdm(val_loader, desc=f"Validation Epoch {epoch}", unit="batch") as tbar:
             for batch in tbar:
-                images, labels, _ = batch
+                batch = list(filter(lambda x : x is not None, batch))
+                eye_left,face_features,labels,_ = batch
                 # Move data to GPU if available
-                images, labels = images.to(device), labels.to(device)
+                eye_left, face_features, labels = eye_left.to(device),face_features.to(device),labels.to(device)
 
                 # Forward pass
-                outputs = model(images)
+                outputs = model(eye_left,face_features)
                 loss = criterion(outputs, labels)
 
                 total_loss += loss.detach().item()

@@ -7,6 +7,7 @@ import cv2
 from torchvision import transforms
 import wandb
 from torchvision import utils
+import dlib
 
 
 # https://gist.github.com/ihoromi4/b681a9088f348942b01711f251e5f964

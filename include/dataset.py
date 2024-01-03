@@ -165,7 +165,7 @@ class DataLoaderVisualizer:
           driver_photo = cv2.imread(driver_img_path)
           driver_photo = cv2.cvtColor(driver_photo, cv2.COLOR_BGR2RGB)
           # Calculate landmarks and extract face and eye patches
-          face, eye_left, eye_right, pupil_left, pupil_right,  landmarks = get_face_n_eyes(driver_photo, return_landmarks=True)
+          face, eye_left, eye_right, pupil_left, pupil_right,  landmarks = get_face_n_eyes(driver_photo)
           for (x, y) in landmarks:
               cv2.circle(driver_photo, (x, y), 10, (0, 255, 0), -1)
           # Get headpose and plot it on the face 
@@ -202,10 +202,12 @@ class DataLoaderVisualizer:
 PYTORCH DATASET CLASS 
 '''
 class DGAZEDataset(Dataset):
-    def __init__(self, split='train', save_file='train_paths.json', transform = None, both_eyes= True):
+    def __init__(self, model, predictor, face_detector, split='train',save_file='train_paths.json', transform = None):
         self.split = split
         self.transform = transform
-        self.both_eyes= both_eyes
+        self.model=model
+        self.predictor = predictor
+        self.face_detector = face_detector
 
         if split in save_file:
             self.save_file = save_file
@@ -224,23 +226,24 @@ class DGAZEDataset(Dataset):
         image = cv2.imread(img_path)
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)  # OpenCV uses BGR, convert to RGB
 
+        # Check if the result is None
+        result = get_eyes(image, self.predictor, self.face_detector)
+        if result is None:
+            # Skip the current image
+            print(f"Skipping this image:{img_path}")
+            return None
+        
         # Get face and eyes
-        _ , eye_left, eye_right, pupil_left, pupil_right = get_face_n_eyes(image, return_landmarks=False)
-
+        eye_left, pupil_left, pupil_right = result[0], result[1], result[2]
         # Get headpose
-        pitch, yaw, roll = get_headpose(image, doPlot=False)
+        pitch, yaw, roll = get_headpose(image, self.model, doPlot=False)
 
         # Create additional feature tensor
         features_list = [pitch, yaw, roll, pupil_left[0],pupil_left[1],pupil_right[0],pupil_right[1]]
         # Concatenate all features into a single tensor
         additional_features = torch.tensor(features_list,dtype=torch.float32)
 
-
         if self.transform:
             eye_left= self.transform(eye_left)
-            eye_right= self.transform(eye_right)
 
-        if self.both_eyes:
-            return  eye_left, additional_features, torch.tensor(label, dtype=torch.float32), img_path, eye_right
-        else:
-            return  eye_left, additional_features, torch.tensor(label, dtype=torch.float32), img_path
+        return  eye_left, additional_features, torch.tensor(label, dtype=torch.float32), img_path

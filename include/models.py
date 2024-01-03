@@ -277,9 +277,6 @@ class ReSViT(nn.Module):
     
 
 class ConvolutionBlock(nn.Module):
-    """
-    Convolution block.
-    """
     def __init__(self):
         super().__init__()
         self.conv_block = nn.Conv2d(in_channels=32, stride=1, out_channels=32, kernel_size=3, padding = 1)
@@ -295,11 +292,8 @@ class ConvolutionBlock(nn.Module):
         return x
 
 class EyeFeatureExtractor(nn.Module):
-    def __init__(self, use_two_eyes=True):
+    def __init__(self):
         super(EyeFeatureExtractor, self).__init__()
-        self.use_two_eyes = use_two_eyes
-        # Output size attribute
-        self.output_size = 0
 
         # Increase channels for skip connections
         self.conv1 = nn.Conv2d(in_channels=3, out_channels=32, kernel_size=9, stride=1, padding=4)
@@ -311,7 +305,7 @@ class EyeFeatureExtractor(nn.Module):
         # Merge Branches
         self.flatten = nn.Flatten()
     
-    def forward(self, x1, x2=None):
+    def forward(self, x1):
         # 'Upsampling'
         x1 = self.conv1(x1)
         x1 = self.relu(x1)
@@ -324,40 +318,17 @@ class EyeFeatureExtractor(nn.Module):
         x1 = self.relu(x1)
         x1 = self.pool(x1)
 
-        # Branch 2
-        if self.use_two_eyes and x2 is not None:
-            x2 = self.conv1(x2)
-            x2 = self.relu(x2)
-            x2 = self.block(x2)
-            x2 = self.pool(x2)
-            x2 = self.dropout(x2)
-            x2 = self.conv2(x2)
-            x2 = self.relu(x2)
-            x2 = self.pool(x2)
-
-        # Merge Branches
         x1 = self.flatten(x1)
-        if self.use_two_eyes and x2 is not None:
-            x2 = self.flatten(x2)
-            x = torch.cat((x1, x2), dim=1)  # Concatenate along the feature dimension
-        else:
-            x = x1
 
-        # Set the output size during the first forward pass
-        if self.output_size == 0:
-            self.output_size = x.size(1)
-            print(f'The output shape of the eye feature model is {x.size(1)}')
-
-        return x
+        return x1
     
 class GazeCNN(nn.Module):
-    def __init__(self, use_two_eyes=True, additional_features_size=7, hidden_size=256):
+    def __init__(self, additional_features_size=7, hidden_size=256):
         super(GazeCNN, self).__init__()
-        self.use_two_eyes=use_two_eyes
         self.hidden_size = hidden_size
 
         # Eye feature extractor
-        self.eye_feature_extractor = EyeFeatureExtractor(use_two_eyes=use_two_eyes)
+        self.eye_feature_extractor = EyeFeatureExtractor()
 
         # Fully connected layers for additional features
         self.fc_additional = nn.Sequential(
@@ -368,18 +339,18 @@ class GazeCNN(nn.Module):
         )
 
         # Merge both the eye features and additional features, initialized to None
-        self.fc_merge = None
+        self.fc_merge = nn.Sequential(
+                nn.Linear( 4096 + self.hidden_size, self.hidden_size),
+                nn.PReLU()
+            )
 
         # Output layer for x-coordinate
         self.fc_output = nn.Linear(hidden_size, 2)
 
 
-    def forward(self, left_eye, x_additional, right_eye = None):
+    def forward(self, left_eye, x_additional):
         # Extract features from the eyes
-        if self.use_two_eyes and right_eye is not None:
-            eye_features = self.eye_feature_extractor(left_eye, right_eye)
-        else:
-            eye_features = self.eye_feature_extractor(left_eye)
+        eye_features = self.eye_feature_extractor(left_eye)
 
         # Process additional features
         additional_features = self.fc_additional(x_additional)
@@ -388,12 +359,6 @@ class GazeCNN(nn.Module):
         merged_features = torch.cat([eye_features, additional_features], dim=1)
 
         # Merge both features
-        # Initialize fc_merge during the first forward pass
-        if self.fc_merge is None:
-            self.fc_merge = nn.Sequential(
-                nn.Linear(self.eye_feature_extractor.output_size + self.hidden_size, self.hidden_size),
-                nn.PReLU()
-            )
         merged_features = self.fc_merge(merged_features)
 
         # Output layers for x and y coordinates
