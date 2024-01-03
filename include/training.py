@@ -8,12 +8,12 @@ def train_epoch(model, train_loader, criterion, scheduler, optimizer, device, ep
     # Use tqdm for the progress bar
     with tqdm(train_loader, desc=f"Training Epoch {epoch}", unit="batch") as tbar:
         for batch in tbar:
-            images, labels, _ = batch
+            eye_left,face_features,labels,_ = batch
             # Move data to GPU if available
-            images, labels = images.to(device), labels.to(device)
+            eye_left, face_features, labels = eye_left.to(device),face_features.to(device),labels.to(device)
 
             # Forward pass
-            outputs = model(images)
+            outputs = model(eye_left,face_features)
             loss = criterion(outputs, labels)
 
             # Backward pass and optimization

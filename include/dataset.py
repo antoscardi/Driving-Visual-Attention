@@ -5,6 +5,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, Dataset
 from utility import *
+from extract_features import*
 
 # alias
 from os.path import join as join_paths
@@ -47,10 +48,10 @@ class DataLoaderVisualizer:
         self.file_path = file_path
         self.split = split
         self.percentage = percentage
-        self.data_complete = []
         self.path_structure = self.create_paths()
         self.drivers = self.divide_drivers()
-        self.data = self.check_existence()
+        self.data, self.data_complete = self.check_existence()
+        
 
     def divide_drivers(self):
         list_of_driver_paths = os.listdir(self.root)
@@ -71,11 +72,12 @@ class DataLoaderVisualizer:
         if os.path.exists(self.file_path) and str(self.percentage) in self.file_path:
             print("The dataset has already been prepared, ready to use")
             data = read_file(self.file_path)
+            _ , data_complete = self.load_data(self.percentage)
         else:
-            data = self.load_data(self.percentage)
+            data, data_complete = self.load_data(self.percentage)
             # write the data to the file if it does not exist
-            write_file(self.file_path,data)  
-        return data
+            write_file(self.file_path, data)  
+        return data, data_complete
 
     def create_paths(self):
         print('Building path structure\n')
@@ -108,8 +110,9 @@ class DataLoaderVisualizer:
         return path_structure
     
     def load_data(self, percentage):
-        print('Loading data in file')
+        print('Loading data')
         data = []
+        data_complete = []
         for driver in self.drivers:
             driver_view_samples = self.path_structure[driver]['driver_view']
           
@@ -144,8 +147,8 @@ class DataLoaderVisualizer:
                     data_item_complete['bbox']  = list(bbox)  
                     # Append data items to the list
                     data.append(data_item)
-                    self.data_complete.append(data_item_complete)
-        return data
+                    data_complete.append(data_item_complete)
+        return data, data_complete
     
     def __len__(self):
         #assert len(self.data) == len(self.data_complete)
@@ -161,6 +164,13 @@ class DataLoaderVisualizer:
           # Load Images
           driver_photo = cv2.imread(driver_img_path)
           driver_photo = cv2.cvtColor(driver_photo, cv2.COLOR_BGR2RGB)
+          # Calculate landmarks and extract face and eye patches
+          face, eye_left, eye_right, pupil_left, pupil_right,  landmarks = get_face_n_eyes(driver_photo, return_landmarks=True)
+          for (x, y) in landmarks:
+              cv2.circle(driver_photo, (x, y), 10, (0, 255, 0), -1)
+          # Get headpose and plot it on the face 
+          face = get_headpose(face, doPlot = True)
+
           road_photo = cv2.imread(road_img_path)
           road_photo = cv2.cvtColor(road_photo, cv2.COLOR_BGR2RGB)
           # Get the bounding box
@@ -171,7 +181,8 @@ class DataLoaderVisualizer:
           # Get the gaze point
           gaze = matching_item['label']
           # Display
-          fig, (ax1, ax2) = plt.subplots(ncols=2, figsize=(11, 5))
+          cv2.circle(driver_photo, pupil_left, 10, (255, 0, 0), -1)
+          fig, (ax1, ax2, ax3, ax4) = plt.subplots(ncols=4, figsize=(20, 10))
           ax1.imshow(driver_photo)
           ax1.set_title(f'{driver} view photo'), ax1.set_xlabel('W'), ax1.set_ylabel('H')
           ax2.imshow(road_photo)
@@ -179,15 +190,22 @@ class DataLoaderVisualizer:
           ax2.add_patch(rect)
           ax2.set_title('road view photo'), ax2.set_xlabel('W'), ax2.set_ylabel('H')
           ax2.set_box_aspect(driver_photo.shape[0] / driver_photo.shape[1])
+          ax3.imshow(eye_left)
+          ax3.set_title('left eye'), ax3.set_xlabel('W'), ax3.set_ylabel('H')
+          ax3.set_box_aspect(driver_photo.shape[0] / driver_photo.shape[1])
+          ax4.imshow(face)
+          ax4.set_title('cropped face'), ax4.set_xlabel('W'), ax4.set_ylabel('H')
+          ax4.set_box_aspect(driver_photo.shape[0] / driver_photo.shape[1])
           plt.show()
 
 '''
 PYTORCH DATASET CLASS 
 '''
 class DGAZEDataset(Dataset):
-    def __init__(self, split='train', save_file='train_paths.json', transform = None):
+    def __init__(self, split='train', save_file='train_paths.json', transform = None, both_eyes= True):
         self.split = split
         self.transform = transform
+        self.both_eyes= both_eyes
 
         if split in save_file:
             self.save_file = save_file
@@ -206,8 +224,23 @@ class DGAZEDataset(Dataset):
         image = cv2.imread(img_path)
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)  # OpenCV uses BGR, convert to RGB
 
-        # Assuming self.transform is defined somewhere
-        if self.transform:
-            image = self.transform(image)
+        # Get face and eyes
+        _ , eye_left, eye_right, pupil_left, pupil_right = get_face_n_eyes(image, return_landmarks=False)
 
-        return image, torch.tensor(label, dtype=torch.float32), img_path
+        # Get headpose
+        pitch, yaw, roll = get_headpose(image, doPlot=False)
+
+        # Create additional feature tensor
+        features_list = [pitch, yaw, roll, pupil_left[0],pupil_left[1],pupil_right[0],pupil_right[1]]
+        # Concatenate all features into a single tensor
+        additional_features = torch.tensor(features_list,dtype=torch.float32)
+
+
+        if self.transform:
+            eye_left= self.transform(eye_left)
+            eye_right= self.transform(eye_right)
+
+        if self.both_eyes:
+            return  eye_left, additional_features, torch.tensor(label, dtype=torch.float32), img_path, eye_right
+        else:
+            return  eye_left, additional_features, torch.tensor(label, dtype=torch.float32), img_path

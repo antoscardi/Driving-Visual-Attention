@@ -1,4 +1,5 @@
 import copy
+import torch.nn.functional as F
 from utility import *
 from dataset import *
 
@@ -249,8 +250,6 @@ class ReSViT(nn.Module):
 
         self.feed = nn.Linear(maps, 2)
 
-
-
     def forward(self, x_in):
         feature = self.base_model(x_in)
         batch_size = feature.size(0)
@@ -273,5 +272,131 @@ class ReSViT(nn.Module):
         feature = feature[:,:,0]
 
         gaze = self.feed(feature)
+
+        return gaze
+    
+
+class ConvolutionBlock(nn.Module):
+    """
+    Convolution block.
+    """
+    def __init__(self):
+        super().__init__()
+        self.conv_block = nn.Conv2d(in_channels=32, stride=1, out_channels=32, kernel_size=3, padding = 1)
+        self.batch_norm_block = nn.BatchNorm2d(32)
+        self.prelu_block = nn.PReLU()
+
+    def forward(self, x):
+        start = x
+        x = self.conv_block(x)
+        x = self.batch_norm_block(x)
+        x = self.prelu_block(x)
+        x = start + x
+        return x
+
+class EyeFeatureExtractor(nn.Module):
+    def __init__(self, use_two_eyes=True):
+        super(EyeFeatureExtractor, self).__init__()
+        self.use_two_eyes = use_two_eyes
+        # Output size attribute
+        self.output_size = 0
+
+        # Increase channels for skip connections
+        self.conv1 = nn.Conv2d(in_channels=3, out_channels=32, kernel_size=9, stride=1, padding=4)
+        self.relu = nn.PReLU()
+        self.block = ConvolutionBlock()
+        self.pool = nn.MaxPool2d(kernel_size=2, stride=2)
+        self.dropout = nn.Dropout(0.25)
+        self.conv2 = nn.Conv2d(in_channels=32, out_channels=16, kernel_size=3, stride=1, padding=1)
+        # Merge Branches
+        self.flatten = nn.Flatten()
+    
+    def forward(self, x1, x2=None):
+        # 'Upsampling'
+        x1 = self.conv1(x1)
+        x1 = self.relu(x1)
+        # Branch 1
+        x1 = self.block(x1)
+        x1 = self.pool(x1)
+        x1 = self.dropout(x1)
+        # Downsampling
+        x1 = self.conv2(x1)
+        x1 = self.relu(x1)
+        x1 = self.pool(x1)
+
+        # Branch 2
+        if self.use_two_eyes and x2 is not None:
+            x2 = self.conv1(x2)
+            x2 = self.relu(x2)
+            x2 = self.block(x2)
+            x2 = self.pool(x2)
+            x2 = self.dropout(x2)
+            x2 = self.conv2(x2)
+            x2 = self.relu(x2)
+            x2 = self.pool(x2)
+
+        # Merge Branches
+        x1 = self.flatten(x1)
+        if self.use_two_eyes and x2 is not None:
+            x2 = self.flatten(x2)
+            x = torch.cat((x1, x2), dim=1)  # Concatenate along the feature dimension
+        else:
+            x = x1
+
+        # Set the output size during the first forward pass
+        if self.output_size == 0:
+            self.output_size = x.size(1)
+            print(f'The output shape of the eye feature model is {x.size(1)}')
+
+        return x
+    
+class GazeCNN(nn.Module):
+    def __init__(self, use_two_eyes=True, additional_features_size=7, hidden_size=256):
+        super(GazeCNN, self).__init__()
+        self.use_two_eyes=use_two_eyes
+        self.hidden_size = hidden_size
+
+        # Eye feature extractor
+        self.eye_feature_extractor = EyeFeatureExtractor(use_two_eyes=use_two_eyes)
+
+        # Fully connected layers for additional features
+        self.fc_additional = nn.Sequential(
+            nn.Linear(additional_features_size, hidden_size),
+            nn.PReLU(),
+            nn.Linear(hidden_size, hidden_size),
+            nn.PReLU()
+        )
+
+        # Merge both the eye features and additional features, initialized to None
+        self.fc_merge = None
+
+        # Output layer for x-coordinate
+        self.fc_output = nn.Linear(hidden_size, 2)
+
+
+    def forward(self, left_eye, x_additional, right_eye = None):
+        # Extract features from the eyes
+        if self.use_two_eyes and right_eye is not None:
+            eye_features = self.eye_feature_extractor(left_eye, right_eye)
+        else:
+            eye_features = self.eye_feature_extractor(left_eye)
+
+        # Process additional features
+        additional_features = self.fc_additional(x_additional)
+
+        # Concatenate eye features with additional features
+        merged_features = torch.cat([eye_features, additional_features], dim=1)
+
+        # Merge both features
+        # Initialize fc_merge during the first forward pass
+        if self.fc_merge is None:
+            self.fc_merge = nn.Sequential(
+                nn.Linear(self.eye_feature_extractor.output_size + self.hidden_size, self.hidden_size),
+                nn.PReLU()
+            )
+        merged_features = self.fc_merge(merged_features)
+
+        # Output layers for x and y coordinates
+        gaze = self.fc_output(merged_features)
 
         return gaze
