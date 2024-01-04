@@ -1,7 +1,6 @@
 import copy
-import torch.nn.functional as F
+import torch.nn as nn
 from utility import *
-from dataset import *
 
 '''
 ResNet

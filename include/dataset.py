@@ -2,11 +2,10 @@ import matplotlib.patches as patches
 import matplotlib.pyplot as plt
 import json
 import base64
-import torch.nn as nn
-import torch.optim as optim
 from torch.utils.data import DataLoader, Dataset
 from utility import *
 from extract_features import*
+from PIL import Image
 
 # alias
 from os.path import join as join_paths
@@ -54,7 +53,7 @@ class DataLoaderVisualizer:
         self.headpose_extractor = headpose_extractor
         self.path_structure = self.create_paths()
         self.drivers = self.divide_drivers()
-        self.data, self.data_complete = self.check_existence()
+        self.data = self.check_existence()
 
     def divide_drivers(self):
         list_of_driver_paths = os.listdir(self.root)
@@ -75,13 +74,11 @@ class DataLoaderVisualizer:
         if os.path.exists(self.file_path) and str(self.percentage) in self.file_path:
             print("The dataset has already been prepared, ready to use")
             data = read_file(self.file_path)
-            data_complete = read_file(self.file_path + 'complete')
         else:
-            data, data_complete = self.load_data(self.percentage)
+            data = self.load_data(self.percentage)
             # write the data to the file if it does not exist
-            write_file(self.file_path, data)
-            write_file(self.file_path + 'complete', data_complete)   
-        return data, data_complete
+            write_file(self.file_path, data) 
+        return data
 
     def create_paths(self):
         print('Building path structure\n')
@@ -116,17 +113,14 @@ class DataLoaderVisualizer:
     def load_data(self, percentage):
         print('Loading data')
         data = []
-        data_complete = []
         for driver in tqdm(self.drivers):
             driver_view_samples = self.path_structure[driver]['driver_view']  
             for sample_name, sample_path in driver_view_samples.items():
-                video_images = [img for img in os.listdir(sample_path)]
+                video_images = np.array(os.listdir(sample_path))
                 # Determine the number of images to load based on the specified percentage
                 num_images_to_load = int(len(video_images) * (percentage / 100))
-                selected_images = random.sample(video_images, num_images_to_load)
+                selected_images = np.random.choice(video_images, num_images_to_load, replace=False)
                 for img in  selected_images:
-                    data_item = {}
-                    data_item_complete = {}
                     # Get frame number
                     frame_number = int(img.split("_")[1].split(".")[0])
                     gt_path = sample_path.replace('driver_view', 'road_view') + '.npy'
@@ -134,39 +128,31 @@ class DataLoaderVisualizer:
                     sample_number = match_in_path(gt_path, sample_name)
                     frame_number_label, gaze_point, bbox = get_frame_and_point(gt_array, frame_number, sample_number)      
                     assert frame_number == frame_number_label, f"Not the same frame number: frame_number={frame_number}, " \
-                                                              f"frame_number_label={frame_number_label}, img_path ={img}, " \
-                                                              f"array={gt_path}" 
-                    # Load image
-                    image = cv2.imread(join_paths(sample_path, img))
-                    image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)  # OpenCV uses BGR, convert to RGB
+                                                               f"frame_number_label={frame_number_label}, img_path ={img}, " \
+                                                               f"array={gt_path}" 
+                    # Load imageù
+                    image = Image.open(join_paths(sample_path, img)).convert('RGB')
+                    image = np.array(image)  # Convert Pillow image to NumPy array
                     # Get eyes
                     result = get_eyes(image, self.predictor, self.face_detector)
                     if result is None:
                         # Skip the current image
-                        print(f"Skipping this image:{join_paths(sample_path, img)}")
-                        break
+                        #print(f"Skipping this image:{join_paths(sample_path, img)}")
+                        continue
                     else:
                         eye_left, pupil_left, pupil_right = result[0], result[1], result[2]
-                        # Save the image path
-                        data_item['path'] = join_paths(sample_path, img)
-                        data_item_complete['driver path'] = join_paths(sample_path, img)
-                        # Save road view path
-                        data_item_complete['road view path'] = join_paths(sample_path.replace('driver_view','road_view'), img)
                         # Get headpose angles
                         pitch,yaw,roll = get_headpose(image, self.headpose_extractor)                    
-                        data_item['feature list'] = [float(pitch), float(yaw), float(roll), float(pupil_left[0]), float(pupil_left[1]), float(pupil_right[0]), float(pupil_right[1])]
-                        # Save Label
-                        data_item['label']  = gaze_point
-                        data_item_complete['label']  = gaze_point
-                        data_item_complete['bbox']  = list(bbox) 
-                        # Encode the image of the left-eye
-                        # Convert the image to a string using base64 encoding
-                        eye_left_str = base64.b64encode(cv2.imencode('.jpg', eye_left)[1]).decode('utf-8')
-                        data_item['eye left'] = eye_left_str
                         # Append data items to the list
-                        data.append(data_item)
-                        data_complete.append(data_item_complete)
-        return data, data_complete
+                        data.append({
+                            'path': join_paths(sample_path, img),
+                            'road view path': join_paths(sample_path.replace('driver_view', 'road_view'), img),
+                            'feature list': [float(pitch), float(yaw), float(roll), float(pupil_left[0]), float(pupil_left[1]), float(pupil_right[0]), float(pupil_right[1])],
+                            'label': gaze_point,
+                            'bbox': list(bbox),
+                            'eye left': base64.b64encode(cv2.imencode('.jpg', eye_left)[1]).decode('utf-8')
+                            })
+        return data
     
     def __len__(self):
         #assert len(self.data) == len(self.data_complete)
@@ -174,7 +160,7 @@ class DataLoaderVisualizer:
 
     def visualize_dataset(self):
         for driver in self.drivers:
-          all_paths = [item['driver path'] for item in self.data_complete]
+          all_paths = [item['path'] for item in self.data]
           driver_x_paths = find_driver_paths(all_paths, driver)
           driver_img_path = random.sample(driver_x_paths,1)
           driver_img_path = driver_img_path[0]
@@ -183,15 +169,15 @@ class DataLoaderVisualizer:
           driver_photo = cv2.imread(driver_img_path)
           driver_photo = cv2.cvtColor(driver_photo, cv2.COLOR_BGR2RGB)
           # Calculate landmarks and extract face and eye patches
-          face, eye_left, eye_right, pupil_left, pupil_right,  landmarks = get_face_n_eyes(driver_photo, self.face_detector, self.predictor)
+          _, eye_left, eye_right, pupil_left, pupil_right,  landmarks = get_face_n_eyes(driver_photo, self.face_detector, self.predictor)
           for (x, y) in landmarks:
               cv2.circle(driver_photo, (x, y), 10, (0, 255, 0), -1)
           # Get headpose and plot it on the face 
-          face = get_headpose(face, self.headpose_extractor, doPlot = True)
+          face = get_headpose(driver_photo, self.headpose_extractor, doPlot = True)
           road_photo = cv2.imread(road_img_path)
           road_photo = cv2.cvtColor(road_photo, cv2.COLOR_BGR2RGB)
           # Get the bounding box
-          matching_item = next((item for item in self.data_complete if item['driver path'] == driver_img_path), None)
+          matching_item = next((item for item in self.data if item['path'] == driver_img_path), None)
           boundbox = matching_item['bbox']
           rect = patches.Rectangle((boundbox[0], boundbox[1]), boundbox[2]-boundbox[0], boundbox[3]-boundbox[1],
                                  linewidth=1, edgecolor='r', facecolor='none')

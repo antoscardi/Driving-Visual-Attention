@@ -52,7 +52,8 @@ def validate(model, val_loader, threshold, criterion, device, epoch):
 
                 # Calculate accuracy
                 predicted_labels = outputs
-                current_correct_predictions = torch.sum(torch.norm(predicted_labels - labels) < threshold) # Adjust threshold as needed
+                l2_norm = torch.norm(predicted_labels - labels, dim=1)
+                current_correct_predictions = torch.sum(l2_norm < threshold) # Adjust threshold 
                 total_correct_predictions += current_correct_predictions
                 
                 total_samples += labels.size(0)
