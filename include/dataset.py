@@ -5,7 +5,6 @@ import base64
 from torch.utils.data import DataLoader, Dataset
 from utility import *
 from extract_features import*
-from PIL import Image
 
 # alias
 from os.path import join as join_paths
@@ -81,7 +80,7 @@ class DataLoaderVisualizer:
         return data
 
     def create_paths(self):
-        print('Building path structure\n')
+        print('Building path structure')
         path_structure = {}
         for driver in os.listdir(self.root):
             #print(f'--> Processing for {driver}')
@@ -130,14 +129,13 @@ class DataLoaderVisualizer:
                     assert frame_number == frame_number_label, f"Not the same frame number: frame_number={frame_number}, " \
                                                                f"frame_number_label={frame_number_label}, img_path ={img}, " \
                                                                f"array={gt_path}" 
-                    # Load imageù
-                    image = Image.open(join_paths(sample_path, img)).convert('RGB')
-                    image = np.array(image)  # Convert Pillow image to NumPy array
+                    # Load the image 
+                    image = cv2.imread(join_paths(sample_path, img))
                     # Get eyes
                     result = get_eyes(image, self.predictor, self.face_detector)
                     if result is None:
                         # Skip the current image
-                        #print(f"Skipping this image:{join_paths(sample_path, img)}")
+                        print(f"Skipping this image:{join_paths(sample_path, img)}")
                         continue
                     else:
                         eye_left, pupil_left, pupil_right = result[0], result[1], result[2]
@@ -169,11 +167,11 @@ class DataLoaderVisualizer:
           driver_photo = cv2.imread(driver_img_path)
           driver_photo = cv2.cvtColor(driver_photo, cv2.COLOR_BGR2RGB)
           # Calculate landmarks and extract face and eye patches
-          _, eye_left, eye_right, pupil_left, pupil_right,  landmarks = get_face_n_eyes(driver_photo, self.face_detector, self.predictor)
+          face, eye_left, eye_right, pupil_left, pupil_right,  landmarks = get_face_n_eyes(driver_photo, self.face_detector, self.predictor)
           for (x, y) in landmarks:
               cv2.circle(driver_photo, (x, y), 10, (0, 255, 0), -1)
           # Get headpose and plot it on the face 
-          face = get_headpose(driver_photo, self.headpose_extractor, doPlot = True)
+          face = get_headpose(face, self.headpose_extractor, doPlot = True)
           road_photo = cv2.imread(road_img_path)
           road_photo = cv2.cvtColor(road_photo, cv2.COLOR_BGR2RGB)
           # Get the bounding box
