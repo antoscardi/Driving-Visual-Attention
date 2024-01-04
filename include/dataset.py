@@ -1,6 +1,7 @@
 import matplotlib.patches as patches
 import matplotlib.pyplot as plt
 import json
+import base64
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, Dataset
@@ -43,15 +44,17 @@ def match_in_path(path, expression):
 WRAPPER FOR DATASET CLASS 
 '''
 class DataLoaderVisualizer:
-    def __init__(self, root, file_path, percentage,  split='train'):
+    def __init__(self, root, file_path, percentage, predictor, face_detector, headpose_extractor,split='train'):
         self.root = root + 'data/images_aligned'
         self.file_path = file_path
         self.split = split
         self.percentage = percentage
+        self.face_detector = face_detector
+        self.predictor = predictor
+        self.headpose_extractor = headpose_extractor
         self.path_structure = self.create_paths()
         self.drivers = self.divide_drivers()
         self.data, self.data_complete = self.check_existence()
-        
 
     def divide_drivers(self):
         list_of_driver_paths = os.listdir(self.root)
@@ -72,11 +75,12 @@ class DataLoaderVisualizer:
         if os.path.exists(self.file_path) and str(self.percentage) in self.file_path:
             print("The dataset has already been prepared, ready to use")
             data = read_file(self.file_path)
-            _ , data_complete = self.load_data(self.percentage)
+            data_complete = read_file(self.file_path + 'complete')
         else:
             data, data_complete = self.load_data(self.percentage)
             # write the data to the file if it does not exist
-            write_file(self.file_path, data)  
+            write_file(self.file_path, data)
+            write_file(self.file_path + 'complete', data_complete)   
         return data, data_complete
 
     def create_paths(self):
@@ -113,25 +117,16 @@ class DataLoaderVisualizer:
         print('Loading data')
         data = []
         data_complete = []
-        for driver in self.drivers:
-            driver_view_samples = self.path_structure[driver]['driver_view']
-          
+        for driver in tqdm(self.drivers):
+            driver_view_samples = self.path_structure[driver]['driver_view']  
             for sample_name, sample_path in driver_view_samples.items():
                 video_images = [img for img in os.listdir(sample_path)]
-
                 # Determine the number of images to load based on the specified percentage
                 num_images_to_load = int(len(video_images) * (percentage / 100))
                 selected_images = random.sample(video_images, num_images_to_load)
-            
                 for img in  selected_images:
                     data_item = {}
                     data_item_complete = {}
-                    # Save the image path
-                    data_item['path'] = join_paths(sample_path, img)
-                    data_item_complete['driver path'] = join_paths(sample_path, img)
-                    # Save road view path
-                    data_item_complete['road view path'] = join_paths(sample_path.replace('driver_view', 'road_view'), img)
-
                     # Get frame number
                     frame_number = int(img.split("_")[1].split(".")[0])
                     gt_path = sample_path.replace('driver_view', 'road_view') + '.npy'
@@ -141,13 +136,36 @@ class DataLoaderVisualizer:
                     assert frame_number == frame_number_label, f"Not the same frame number: frame_number={frame_number}, " \
                                                               f"frame_number_label={frame_number_label}, img_path ={img}, " \
                                                               f"array={gt_path}" 
-                    # Save Label
-                    data_item['label']  = gaze_point
-                    data_item_complete['label']  = gaze_point
-                    data_item_complete['bbox']  = list(bbox)  
-                    # Append data items to the list
-                    data.append(data_item)
-                    data_complete.append(data_item_complete)
+                    # Load image
+                    image = cv2.imread(join_paths(sample_path, img))
+                    image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)  # OpenCV uses BGR, convert to RGB
+                    # Get eyes
+                    result = get_eyes(image, self.predictor, self.face_detector)
+                    if result is None:
+                        # Skip the current image
+                        print(f"Skipping this image:{join_paths(sample_path, img)}")
+                        break
+                    else:
+                        eye_left, pupil_left, pupil_right = result[0], result[1], result[2]
+                        # Save the image path
+                        data_item['path'] = join_paths(sample_path, img)
+                        data_item_complete['driver path'] = join_paths(sample_path, img)
+                        # Save road view path
+                        data_item_complete['road view path'] = join_paths(sample_path.replace('driver_view','road_view'), img)
+                        # Get headpose angles
+                        pitch,yaw,roll = get_headpose(image, self.headpose_extractor)                    
+                        data_item['feature list'] = [float(pitch), float(yaw), float(roll), float(pupil_left[0]), float(pupil_left[1]), float(pupil_right[0]), float(pupil_right[1])]
+                        # Save Label
+                        data_item['label']  = gaze_point
+                        data_item_complete['label']  = gaze_point
+                        data_item_complete['bbox']  = list(bbox) 
+                        # Encode the image of the left-eye
+                        # Convert the image to a string using base64 encoding
+                        eye_left_str = base64.b64encode(cv2.imencode('.jpg', eye_left)[1]).decode('utf-8')
+                        data_item['eye left'] = eye_left_str
+                        # Append data items to the list
+                        data.append(data_item)
+                        data_complete.append(data_item_complete)
         return data, data_complete
     
     def __len__(self):
@@ -165,12 +183,11 @@ class DataLoaderVisualizer:
           driver_photo = cv2.imread(driver_img_path)
           driver_photo = cv2.cvtColor(driver_photo, cv2.COLOR_BGR2RGB)
           # Calculate landmarks and extract face and eye patches
-          face, eye_left, eye_right, pupil_left, pupil_right,  landmarks = get_face_n_eyes(driver_photo)
+          face, eye_left, eye_right, pupil_left, pupil_right,  landmarks = get_face_n_eyes(driver_photo, self.face_detector, self.predictor)
           for (x, y) in landmarks:
               cv2.circle(driver_photo, (x, y), 10, (0, 255, 0), -1)
           # Get headpose and plot it on the face 
-          face = get_headpose(face, doPlot = True)
-
+          face = get_headpose(face, self.headpose_extractor, doPlot = True)
           road_photo = cv2.imread(road_img_path)
           road_photo = cv2.cvtColor(road_photo, cv2.COLOR_BGR2RGB)
           # Get the bounding box
@@ -202,12 +219,9 @@ class DataLoaderVisualizer:
 PYTORCH DATASET CLASS 
 '''
 class DGAZEDataset(Dataset):
-    def __init__(self, model, predictor, face_detector, split='train',save_file='train_paths.json', transform = None):
+    def __init__(self, split='train',save_file='train_paths.json', transform = None):
         self.split = split
         self.transform = transform
-        self.model=model
-        self.predictor = predictor
-        self.face_detector = face_detector
 
         if split in save_file:
             self.save_file = save_file
@@ -220,30 +234,16 @@ class DGAZEDataset(Dataset):
         return len(self.data)
 
     def __getitem__(self, idx):
-        img_path = self.data[idx]['path']
-        label = self.data[idx]['label']
+            label = self.data[idx]['label']
+            img_path = self.data[idx]['path']
+            eye_left_encoded = self.data[idx]['eye left']
+            additional_features = self.data[idx]['feature list']
+            # Decode the image
+            eye_left_decoded = base64.b64decode(eye_left_encoded)
+            eye_left_array = np.frombuffer(eye_left_decoded, dtype=np.uint8)
+            eye_left = cv2.imdecode(eye_left_array, flags=cv2.IMREAD_COLOR)
 
-        image = cv2.imread(img_path)
-        image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)  # OpenCV uses BGR, convert to RGB
+            if self.transform:
+                eye_left= self.transform(eye_left)
 
-        # Check if the result is None
-        result = get_eyes(image, self.predictor, self.face_detector)
-        if result is None:
-            # Skip the current image
-            print(f"Skipping this image:{img_path}")
-            return None
-        
-        # Get face and eyes
-        eye_left, pupil_left, pupil_right = result[0], result[1], result[2]
-        # Get headpose
-        pitch, yaw, roll = get_headpose(image, self.model, doPlot=False)
-
-        # Create additional feature tensor
-        features_list = [pitch, yaw, roll, pupil_left[0],pupil_left[1],pupil_right[0],pupil_right[1]]
-        # Concatenate all features into a single tensor
-        additional_features = torch.tensor(features_list,dtype=torch.float32)
-
-        if self.transform:
-            eye_left= self.transform(eye_left)
-
-        return  eye_left, additional_features, torch.tensor(label, dtype=torch.float32), img_path
+            return  eye_left, torch.tensor(additional_features, dtype=torch.float32) , torch.tensor(label, dtype=torch.float32), img_path  

@@ -299,9 +299,9 @@ class EyeFeatureExtractor(nn.Module):
         self.conv1 = nn.Conv2d(in_channels=3, out_channels=32, kernel_size=9, stride=1, padding=4)
         self.relu = nn.PReLU()
         self.block = ConvolutionBlock()
-        self.pool = nn.MaxPool2d(kernel_size=2, stride=2)
+        self.pool = nn.MaxPool2d(kernel_size=8, stride=2)
         self.dropout = nn.Dropout(0.25)
-        self.conv2 = nn.Conv2d(in_channels=32, out_channels=16, kernel_size=3, stride=1, padding=1)
+        self.conv2 = nn.Conv2d(in_channels=32, out_channels=8, kernel_size=9, stride=1, padding=1)
         # Merge Branches
         self.flatten = nn.Flatten()
     
@@ -334,13 +334,13 @@ class GazeCNN(nn.Module):
         self.fc_additional = nn.Sequential(
             nn.Linear(additional_features_size, hidden_size),
             nn.PReLU(),
-            nn.Linear(hidden_size, hidden_size),
+            nn.Linear(hidden_size, 16),
             nn.PReLU()
         )
 
         # Merge both the eye features and additional features, initialized to None
         self.fc_merge = nn.Sequential(
-                nn.Linear( 4096 + self.hidden_size, self.hidden_size),
+                nn.Linear(9216 + 16, self.hidden_size),
                 nn.PReLU()
             )
 

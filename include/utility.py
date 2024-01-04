@@ -2,6 +2,7 @@ import random
 import os
 import numpy as np
 import re
+from tqdm import tqdm
 import torch
 import cv2
 from torchvision import transforms
@@ -101,17 +102,16 @@ def log_image(dataloader, model, device, percentage=None):
         model.eval()
         # Log example images and predictions 
         example_batch = next(iter(dataloader))
-        example_images, example_labels, img_paths = example_batch
+        eyes, features , example_labels, img_paths = example_batch
         # Calculate gaze point prediction
-        example_predictions = model(example_images.to(device))
+        example_predictions = model(eyes.to(device), features.to(device))
         # Log a single random image with predictions
-        random_index = random.randint(0, len(example_images) - 1)
+        random_index = random.randint(0, len(eyes) - 1)
         pred, label, img_path = (
             example_predictions[random_index].cpu(),
             example_labels[random_index].cpu(),
             img_paths[random_index],
         )
-
         # Load the road_view image
         respective_road_view = img_path.replace('driver_view', 'road_view')
         

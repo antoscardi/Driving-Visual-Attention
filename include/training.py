@@ -1,5 +1,4 @@
 from utility import*
-from tqdm import tqdm
 
 def train_epoch(model, train_loader, criterion, scheduler, optimizer, device, epoch):
     model.train(True)
@@ -8,7 +7,6 @@ def train_epoch(model, train_loader, criterion, scheduler, optimizer, device, ep
     # Use tqdm for the progress bar
     with tqdm(train_loader, desc=f"Training Epoch {epoch}", unit="batch") as tbar:
         for batch in tbar:
-            batch = list(filter(lambda x : x is not None, batch))
             eye_left, face_features, labels, _ = batch
             # Move data to GPU if available
             eye_left, face_features, labels = eye_left.to(device), face_features.to(device), labels.to(device)
@@ -42,7 +40,6 @@ def validate(model, val_loader, threshold, criterion, device, epoch):
         # Use tqdm for the progress bar
         with tqdm(val_loader, desc=f"Validation Epoch {epoch}", unit="batch") as tbar:
             for batch in tbar:
-                batch = list(filter(lambda x : x is not None, batch))
                 eye_left,face_features,labels,_ = batch
                 # Move data to GPU if available
                 eye_left, face_features, labels = eye_left.to(device),face_features.to(device),labels.to(device)
