@@ -48,50 +48,22 @@ def get_headpose(image, model, doPlot = False):
     
 
 def get_eyes(image, predictor, face_detector):
-    #gray = cv2.cvtColor(src=image, code=cv2.COLOR_BGR2GRAY)
-    gray = cv2.cvtColor(src=image, code=cv2.COLOR_BGR2RGB)
     original_image = np.copy(image)
     x, y, w, h = 25, 100, 775, 900
-    image = gray[y:y+h, x:x+w] # Resize image and focus only on the region where the face is       
-    # Detect faces in the ROI
-    #face_detector.setInputSize((w, h))
-    #_, faces = face_detector.detect(image)
-    #faces = face_detector(image)
-    boxes, conf = face_detector.detect(image)
+    cropped = image[y:y+h, x:x+w] # Resize image and focus only on the region where the face is 
+    gray = cv2.cvtColor(src=cropped, code=cv2.COLOR_BGR2GRAY)     
+    faces = face_detector(gray)
     # Check the number of faces detected
-    '''
-    if len(faces) != 1 :
-        print(" No face detected")
+    if len(faces) != 1:
+        print("No face detected")
         # If zero or more than one face detected, return None
         return None
-    '''
-    # Check if at least one face is detected and if the confidence score is not None
-    if  conf is not None and len(boxes) == 1:
-        print(" No face detected")
-        return None
     else:
-        (x, y, w, h) = boxes[0]
-        #face = faces[0]
-        # Convert MTCNN bounding box to dlib rectangle
-        #x, y, w, h = face[0:4]
-        rect = dlib.rectangle(int(x), int(y), int(x + w), int(y + h))
-        #rect = face.rect
-        #box = list(map(int, face[:4]))
-        # Get facial landmarks for the detected face in the full image
-        #landmarks = predictor(image, dlib.rectangle(*box))
-        #landmarks = predictor(image, face)
-        landmarks = predictor(image, rect)
-        # Check if enough landmarks are present
-        if landmarks.num_parts != 68:
-            print("No landmarks")  # Adjust the number based on your predictor
-            return None
+        face = faces[0]
+        landmarks = predictor(gray, face)
         # Extract the left eye region directly from the original image
         left_eye = original_image[y + landmarks.part(37).y - 8:y + landmarks.part(40).y + 5,
                           x + landmarks.part(36).x:x + landmarks.part(39).x]
-        # Check if the left eye image is empty
-        if left_eye.size == 0:
-            print("No image")
-            return None
         # Calculate pupil coordinates for the left eye
         pupil_left = (
             x + landmarks.part(36).x + landmarks.part(39).x // 2,
