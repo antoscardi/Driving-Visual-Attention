@@ -34,10 +34,10 @@ def get_eyes(image_path, predictor, face_detector, eye_region_scale=1.1, doPlot=
     if left_eye_cropped.size == 0:
         result = None
         return result
-    #left_eye_cropped_rgb = cv2.cvtColor(left_eye_cropped, cv2.COLOR_BGR2RGB) #questo lo faccio dopo
     left_pupil = np.mean(left_eye_landmarks, axis=0, dtype=int)
     right_pupil = np.mean(right_eye_landmarks, axis=0, dtype=int)
     if doPlot:
+        left_eye_cropped = cv2.cvtColor(left_eye_cropped, cv2.COLOR_BGR2RGB)
         image_copy = image.copy()
         image_copy = cv2.cvtColor(image_copy, cv2.COLOR_BGR2RGB)
         for (x, y) in landmarks:
