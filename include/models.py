@@ -339,7 +339,7 @@ class GazeCNN(nn.Module):
 
         # Merge both the eye features and additional features, initialized to None
         self.fc_merge = nn.Sequential(
-                nn.Linear(9216 + 16, self.hidden_size),
+                nn.Linear(1536 + 16, self.hidden_size),
                 nn.PReLU()
             )
 

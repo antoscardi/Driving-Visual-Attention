@@ -113,6 +113,7 @@ class DataLoaderVisualizer:
         print('Loading data')
         data = []
         for driver in tqdm(self.drivers):
+            count = 0
             driver_view_samples = self.path_structure[driver]['driver_view']  
             for sample_name, sample_path in driver_view_samples.items():
                 video_images = np.array(os.listdir(sample_path))
@@ -129,18 +130,16 @@ class DataLoaderVisualizer:
                     assert frame_number == frame_number_label, f"Not the same frame number: frame_number={frame_number}, " \
                                                                f"frame_number_label={frame_number_label}, img_path ={img}, " \
                                                                f"array={gt_path}" 
-                    # Load the image 
-                    image = cv2.imread(join_paths(sample_path, img))
                     # Get eyes
-                    result = get_eyes(image, self.predictor, self.face_detector)
+                    result = get_eyes(join_paths(sample_path, img), self.predictor, self.face_detector)
                     if result is None:
+                        count += 1
                         # Skip the current image
-                        print(f"Skipping this image:{join_paths(sample_path, img)}")
                         continue
                     else:
                         eye_left, pupil_left, pupil_right = result[0], result[1], result[2]
                         # Get headpose angles
-                        pitch,yaw,roll = get_headpose(image, self.headpose_extractor)                    
+                        pitch,yaw,roll = get_headpose(join_paths(sample_path, img), self.headpose_extractor)                    
                         # Append data items to the list
                         data.append({
                             'path': join_paths(sample_path, img),
@@ -150,6 +149,8 @@ class DataLoaderVisualizer:
                             'bbox': list(bbox),
                             'eye left': base64.b64encode(cv2.imencode('.jpg', eye_left)[1]).decode('utf-8')
                             })
+            if count !=0:
+                print(f"In {driver} I skipped {count} images")
         return data
     
     def __len__(self):
@@ -167,11 +168,13 @@ class DataLoaderVisualizer:
           driver_photo = cv2.imread(driver_img_path)
           driver_photo = cv2.cvtColor(driver_photo, cv2.COLOR_BGR2RGB)
           # Calculate landmarks and extract face and eye patches
-          face, eye_left, eye_right, pupil_left, pupil_right,  landmarks = get_face_n_eyes(driver_photo, self.face_detector, self.predictor)
-          for (x, y) in landmarks:
-              cv2.circle(driver_photo, (x, y), 10, (0, 255, 0), -1)
+          result = get_eyes(driver_img_path, self.predictor,self.face_detector, doPlot=True)
+          if result:
+              eye_left, photo_draw = result[0], result[1]
+          else:
+              continue
           # Get headpose and plot it on the face 
-          face = get_headpose(face, self.headpose_extractor, doPlot = True)
+          face = get_headpose(driver_img_path, self.headpose_extractor, doPlot = True)
           road_photo = cv2.imread(road_img_path)
           road_photo = cv2.cvtColor(road_photo, cv2.COLOR_BGR2RGB)
           # Get the bounding box
@@ -182,9 +185,8 @@ class DataLoaderVisualizer:
           # Get the gaze point
           gaze = matching_item['label']
           # Display
-          cv2.circle(driver_photo, pupil_left, 10, (255, 0, 0), -1)
           fig, (ax1, ax2, ax3, ax4) = plt.subplots(ncols=4, figsize=(20, 10))
-          ax1.imshow(driver_photo)
+          ax1.imshow(photo_draw)
           ax1.set_title(f'{driver} view photo'), ax1.set_xlabel('W'), ax1.set_ylabel('H')
           ax2.imshow(road_photo)
           ax2.scatter(gaze[0], gaze[1], color='red', marker='x', s=100)
@@ -226,6 +228,7 @@ class DGAZEDataset(Dataset):
             eye_left_decoded = base64.b64decode(eye_left_encoded)
             eye_left_array = np.frombuffer(eye_left_decoded, dtype=np.uint8)
             eye_left = cv2.imdecode(eye_left_array, flags=cv2.IMREAD_COLOR)
+            eye_left = cv2.cvtColor(eye_left, cv2.COLOR_BGR2RGB)
 
             if self.transform:
                 eye_left= self.transform(eye_left)

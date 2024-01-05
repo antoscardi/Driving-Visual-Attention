@@ -1,0 +1,15 @@
+
+Training Epoch 0:   0%|          | 0/5835 [00:00<?, ?batch/s]
+We have  access to a GPU
+0
+<torch.cuda.device object at 0x7f67002b4b20>
+1
+NVIDIA GeForce RTX 3060 Laptop GPU
+cuda
+Building path structure
+The dataset has already been prepared, ready to use
+Building path structure
+The dataset has already been prepared, ready to use
+Train dataset len is 93368
+Val dataset len is 11612
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

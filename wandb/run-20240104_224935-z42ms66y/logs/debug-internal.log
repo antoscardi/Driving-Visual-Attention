@@ -1,0 +1,13 @@
+2024-01-04 22:49:35,779 INFO    StreamThr :22271 [internal.py:wandb_internal():86] W&B internal server running at pid: 22271, started at: 2024-01-04 22:49:35.778800
+2024-01-04 22:49:35,780 DEBUG   HandlerThread:22271 [handler.py:handle_request():146] handle_request: status
+2024-01-04 22:49:35,783 INFO    WriterThread:22271 [datastore.py:open_for_write():85] open: /home/anto/University/Driving-Visual-Attention/wandb/run-20240104_224935-z42ms66y/run-z42ms66y.wandb
+2024-01-04 22:49:35,784 DEBUG   SenderThread:22271 [sender.py:send():382] send: header
+2024-01-04 22:49:35,869 DEBUG   SenderThread:22271 [sender.py:send():382] send: run
+2024-01-04 22:49:36,476 INFO    SenderThread:22271 [dir_watcher.py:__init__():211] watching files in: /home/anto/University/Driving-Visual-Attention/wandb/run-20240104_224935-z42ms66y/files
+2024-01-04 22:49:36,476 INFO    SenderThread:22271 [sender.py:_start_run_threads():1136] run started: z42ms66y with start time 1704404975.779141
+2024-01-04 22:49:41,478 DEBUG   HandlerThread:22271 [handler.py:handle_request():146] handle_request: status_report
+2024-01-04 22:49:46,479 DEBUG   HandlerThread:22271 [handler.py:handle_request():146] handle_request: status_report
+2024-01-04 22:49:51,480 DEBUG   HandlerThread:22271 [handler.py:handle_request():146] handle_request: status_report
+2024-01-04 22:49:56,482 DEBUG   HandlerThread:22271 [handler.py:handle_request():146] handle_request: status_report
+2024-01-04 22:50:01,483 DEBUG   HandlerThread:22271 [handler.py:handle_request():146] handle_request: status_report
+2024-01-04 22:50:06,483 DEBUG   HandlerThread:22271 [handler.py:handle_request():146] handle_request: status_report

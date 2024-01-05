@@ -1,0 +1,131 @@
+2024-01-05 04:35:22,257 INFO    StreamThr :30130 [internal.py:wandb_internal():86] W&B internal server running at pid: 30130, started at: 2024-01-05 04:35:22.256567
+2024-01-05 04:35:22,258 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: status
+2024-01-05 04:35:22,260 INFO    WriterThread:30130 [datastore.py:open_for_write():85] open: /home/anto/University/Driving-Visual-Attention/wandb/run-20240105_043522-6o4ti3sq/run-6o4ti3sq.wandb
+2024-01-05 04:35:22,261 DEBUG   SenderThread:30130 [sender.py:send():382] send: header
+2024-01-05 04:35:22,375 DEBUG   SenderThread:30130 [sender.py:send():382] send: run
+2024-01-05 04:35:23,034 INFO    SenderThread:30130 [dir_watcher.py:__init__():211] watching files in: /home/anto/University/Driving-Visual-Attention/wandb/run-20240105_043522-6o4ti3sq/files
+2024-01-05 04:35:23,035 INFO    SenderThread:30130 [sender.py:_start_run_threads():1136] run started: 6o4ti3sq with start time 1704425722.256796
+2024-01-05 04:35:23,065 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: check_version
+2024-01-05 04:35:23,065 DEBUG   SenderThread:30130 [sender.py:send_request():409] send_request: check_version
+2024-01-05 04:35:23,153 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: run_start
+2024-01-05 04:35:23,178 DEBUG   HandlerThread:30130 [system_info.py:__init__():32] System info init
+2024-01-05 04:35:23,178 DEBUG   HandlerThread:30130 [system_info.py:__init__():47] System info init done
+2024-01-05 04:35:23,178 INFO    HandlerThread:30130 [system_monitor.py:start():194] Starting system monitor
+2024-01-05 04:35:23,179 INFO    SystemMonitor:30130 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-05 04:35:23,179 INFO    HandlerThread:30130 [system_monitor.py:probe():214] Collecting system info
+2024-01-05 04:35:23,179 INFO    SystemMonitor:30130 [interfaces.py:start():190] Started cpu monitoring
+2024-01-05 04:35:23,180 INFO    SystemMonitor:30130 [interfaces.py:start():190] Started disk monitoring
+2024-01-05 04:35:23,181 INFO    SystemMonitor:30130 [interfaces.py:start():190] Started gpu monitoring
+2024-01-05 04:35:23,181 INFO    SystemMonitor:30130 [interfaces.py:start():190] Started memory monitoring
+2024-01-05 04:35:23,181 INFO    SystemMonitor:30130 [interfaces.py:start():190] Started network monitoring
+2024-01-05 04:35:23,204 DEBUG   HandlerThread:30130 [system_info.py:probe():196] Probing system
+2024-01-05 04:35:23,207 DEBUG   HandlerThread:30130 [system_info.py:_probe_git():181] Probing git
+2024-01-05 04:35:23,215 DEBUG   HandlerThread:30130 [system_info.py:_probe_git():189] Probing git done
+2024-01-05 04:35:23,215 DEBUG   HandlerThread:30130 [system_info.py:probe():244] Probing system done
+2024-01-05 04:35:23,215 DEBUG   HandlerThread:30130 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-91-generic-x86_64-with-glibc2.17', 'python': '3.8.18', 'heartbeatAt': '2024-01-05T03:35:23.204275', 'startedAt': '2024-01-05T03:35:22.251398', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'git@github.com:antoscardi/Driving-Visual-Attention.git', 'commit': 'c89c0701a42cdbe9c0d1460530be219b13b54f0d'}, 'email': 'antonio.scard97@gmail.com', 'root': '/home/anto/University/Driving-Visual-Attention', 'host': 'anto', 'username': 'anto', 'executable': '/home/anto/Apps/Anaconda3/envs/dlib/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2.70875, 'min': 800.0, 'max': 5000.0}, 'cpu_freq_per_core': [{'current': 2.6, 'min': 800.0, 'max': 5000.0}, {'current': 2.6, 'min': 800.0, 'max': 5000.0}, {'current': 2.6, 'min': 800.0, 'max': 5000.0}, {'current': 2.6, 'min': 800.0, 'max': 5000.0}, {'current': 2.6, 'min': 800.0, 'max': 5000.0}, {'current': 2.6, 'min': 800.0, 'max': 5000.0}, {'current': 2.6, 'min': 800.0, 'max': 5000.0}, {'current': 2.6, 'min': 800.0, 'max': 5000.0}, {'current': 2.6, 'min': 800.0, 'max': 5000.0}, {'current': 2.6, 'min': 800.0, 'max': 5000.0}, {'current': 3.905, 'min': 800.0, 'max': 5000.0}, {'current': 2.6, 'min': 800.0, 'max': 5000.0}], 'disk': {'/': {'total': 455.9816589355469, 'used': 295.7962112426758}}, 'gpu': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060 Laptop GPU', 'memory_total': 6442450944}], 'memory': {'total': 15.438182830810547}}
+2024-01-05 04:35:23,216 INFO    HandlerThread:30130 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-05 04:35:23,216 INFO    HandlerThread:30130 [system_monitor.py:probe():227] Publishing system info
+2024-01-05 04:35:23,216 DEBUG   HandlerThread:30130 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-01-05 04:35:23,216 DEBUG   HandlerThread:30130 [system_info.py:_save_pip():68] Saving pip packages done
+2024-01-05 04:35:23,216 DEBUG   HandlerThread:30130 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-01-05 04:35:24,035 INFO    Thread-12 :30130 [dir_watcher.py:_on_file_created():271] file/dir created: /home/anto/University/Driving-Visual-Attention/wandb/run-20240105_043522-6o4ti3sq/files/conda-environment.yaml
+2024-01-05 04:35:24,036 INFO    Thread-12 :30130 [dir_watcher.py:_on_file_created():271] file/dir created: /home/anto/University/Driving-Visual-Attention/wandb/run-20240105_043522-6o4ti3sq/files/requirements.txt
+2024-01-05 04:35:25,035 INFO    Thread-12 :30130 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240105_043522-6o4ti3sq/files/conda-environment.yaml
+2024-01-05 04:35:25,124 DEBUG   HandlerThread:30130 [system_info.py:_save_conda():87] Saving conda packages done
+2024-01-05 04:35:25,124 INFO    HandlerThread:30130 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-05 04:35:25,126 DEBUG   SenderThread:30130 [sender.py:send():382] send: files
+2024-01-05 04:35:25,126 INFO    SenderThread:30130 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2024-01-05 04:35:25,135 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 04:35:25,135 DEBUG   SenderThread:30130 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 04:35:25,137 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 04:35:25,139 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: pause
+2024-01-05 04:35:25,139 INFO    HandlerThread:30130 [handler.py:handle_request_pause():705] stopping system metrics thread
+2024-01-05 04:35:25,139 INFO    HandlerThread:30130 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-05 04:35:25,139 DEBUG   SystemMonitor:30130 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-05 04:35:25,139 INFO    HandlerThread:30130 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-05 04:35:25,139 DEBUG   SystemMonitor:30130 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-05 04:35:25,139 INFO    HandlerThread:30130 [interfaces.py:finish():202] Joined disk monitor
+2024-01-05 04:35:25,139 DEBUG   SystemMonitor:30130 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-05 04:35:25,207 INFO    HandlerThread:30130 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-05 04:35:25,207 INFO    HandlerThread:30130 [interfaces.py:finish():202] Joined memory monitor
+2024-01-05 04:35:25,207 INFO    HandlerThread:30130 [interfaces.py:finish():202] Joined network monitor
+2024-01-05 04:35:25,207 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: resume
+2024-01-05 04:35:25,207 INFO    HandlerThread:30130 [handler.py:handle_request_resume():696] starting system metrics thread
+2024-01-05 04:35:25,207 INFO    HandlerThread:30130 [system_monitor.py:start():194] Starting system monitor
+2024-01-05 04:35:25,207 INFO    SystemMonitor:30130 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-05 04:35:25,208 INFO    SystemMonitor:30130 [interfaces.py:start():190] Started cpu monitoring
+2024-01-05 04:35:25,208 INFO    SystemMonitor:30130 [interfaces.py:start():190] Started disk monitoring
+2024-01-05 04:35:25,208 INFO    SystemMonitor:30130 [interfaces.py:start():190] Started gpu monitoring
+2024-01-05 04:35:25,208 INFO    SystemMonitor:30130 [interfaces.py:start():190] Started memory monitoring
+2024-01-05 04:35:25,209 INFO    SystemMonitor:30130 [interfaces.py:start():190] Started network monitoring
+2024-01-05 04:35:25,587 DEBUG   SenderThread:30130 [sender.py:send():382] send: telemetry
+2024-01-05 04:35:25,588 DEBUG   SenderThread:30130 [sender.py:send():382] send: stats
+2024-01-05 04:35:25,914 INFO    wandb-upload_0:30130 [upload_job.py:push():131] Uploaded file /tmp/tmpv3uu4t81wandb/yjm4s6is-wandb-metadata.json
+2024-01-05 04:35:26,035 INFO    Thread-12 :30130 [dir_watcher.py:_on_file_created():271] file/dir created: /home/anto/University/Driving-Visual-Attention/wandb/run-20240105_043522-6o4ti3sq/files/output.log
+2024-01-05 04:35:26,035 INFO    Thread-12 :30130 [dir_watcher.py:_on_file_created():271] file/dir created: /home/anto/University/Driving-Visual-Attention/wandb/run-20240105_043522-6o4ti3sq/files/wandb-metadata.json
+2024-01-05 04:35:26,389 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: pause
+2024-01-05 04:35:26,389 INFO    HandlerThread:30130 [handler.py:handle_request_pause():705] stopping system metrics thread
+2024-01-05 04:35:26,389 INFO    HandlerThread:30130 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-05 04:35:26,389 DEBUG   SystemMonitor:30130 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-05 04:35:26,390 DEBUG   SystemMonitor:30130 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-05 04:35:26,390 DEBUG   SystemMonitor:30130 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-05 04:35:26,390 INFO    HandlerThread:30130 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-05 04:35:26,391 INFO    HandlerThread:30130 [interfaces.py:finish():202] Joined disk monitor
+2024-01-05 04:35:26,439 INFO    HandlerThread:30130 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-05 04:35:26,440 INFO    HandlerThread:30130 [interfaces.py:finish():202] Joined memory monitor
+2024-01-05 04:35:26,440 INFO    HandlerThread:30130 [interfaces.py:finish():202] Joined network monitor
+2024-01-05 04:35:26,440 DEBUG   SenderThread:30130 [sender.py:send():382] send: stats
+2024-01-05 04:35:27,440 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 04:35:28,037 INFO    Thread-12 :30130 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240105_043522-6o4ti3sq/files/output.log
+2024-01-05 04:35:32,442 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 04:35:37,444 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 04:35:40,135 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 04:35:40,135 DEBUG   SenderThread:30130 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 04:35:40,137 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 04:35:43,303 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 04:35:45,113 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: resume
+2024-01-05 04:35:45,113 INFO    HandlerThread:30130 [handler.py:handle_request_resume():696] starting system metrics thread
+2024-01-05 04:35:45,113 INFO    HandlerThread:30130 [system_monitor.py:start():194] Starting system monitor
+2024-01-05 04:35:45,114 INFO    SystemMonitor:30130 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-05 04:35:45,114 INFO    SystemMonitor:30130 [interfaces.py:start():190] Started cpu monitoring
+2024-01-05 04:35:45,114 INFO    SystemMonitor:30130 [interfaces.py:start():190] Started disk monitoring
+2024-01-05 04:35:45,115 INFO    SystemMonitor:30130 [interfaces.py:start():190] Started gpu monitoring
+2024-01-05 04:35:45,116 INFO    SystemMonitor:30130 [interfaces.py:start():190] Started memory monitoring
+2024-01-05 04:35:45,116 INFO    SystemMonitor:30130 [interfaces.py:start():190] Started network monitoring
+2024-01-05 04:35:45,239 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: pause
+2024-01-05 04:35:45,239 INFO    HandlerThread:30130 [handler.py:handle_request_pause():705] stopping system metrics thread
+2024-01-05 04:35:45,239 INFO    HandlerThread:30130 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-05 04:35:45,239 DEBUG   SystemMonitor:30130 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-05 04:35:45,239 DEBUG   SystemMonitor:30130 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-05 04:35:45,239 DEBUG   SystemMonitor:30130 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-05 04:35:45,239 INFO    HandlerThread:30130 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-05 04:35:45,240 INFO    HandlerThread:30130 [interfaces.py:finish():202] Joined disk monitor
+2024-01-05 04:35:45,291 INFO    HandlerThread:30130 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-05 04:35:45,291 INFO    HandlerThread:30130 [interfaces.py:finish():202] Joined memory monitor
+2024-01-05 04:35:45,291 INFO    HandlerThread:30130 [interfaces.py:finish():202] Joined network monitor
+2024-01-05 04:35:45,291 DEBUG   SenderThread:30130 [sender.py:send():382] send: stats
+2024-01-05 04:35:48,048 INFO    Thread-12 :30130 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240105_043522-6o4ti3sq/files/output.log
+2024-01-05 04:35:49,293 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 04:35:54,299 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 04:35:55,051 INFO    Thread-12 :30130 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240105_043522-6o4ti3sq/files/config.yaml
+2024-01-05 04:35:55,136 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 04:35:55,137 DEBUG   SenderThread:30130 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 04:35:55,145 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 04:36:00,385 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 04:36:05,386 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 04:36:10,136 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 04:36:10,137 DEBUG   SenderThread:30130 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 04:36:10,178 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 04:36:11,335 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 04:36:16,337 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 04:36:21,338 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 04:36:25,136 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 04:36:25,137 DEBUG   SenderThread:30130 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 04:36:25,178 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 04:36:26,491 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 04:36:31,492 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 04:36:36,493 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: status_report
+2024-01-05 04:36:40,136 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-05 04:36:40,136 DEBUG   SenderThread:30130 [sender.py:send_request():409] send_request: stop_status
+2024-01-05 04:36:40,178 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-05 04:36:42,440 DEBUG   HandlerThread:30130 [handler.py:handle_request():146] handle_request: status_report

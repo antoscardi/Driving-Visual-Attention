@@ -1,81 +1,52 @@
 from utility import*
-
-def get_face_n_eyes(photo, face_detector, predictor):
-    image = np.copy(photo)  
-    # Detect faces in the image
-    faces = face_detector(image, 1)
-    face = faces[0]
-    # Get facial landmarks for the detected face
-    landmarks = predictor(image, face)
-    # Get the face bounding box from the detector
-    x1 = face.left()    # Punto più a sinistra
-    y1 = face.top()     # Punto più in alto
-    x2 = face.right()   # Punto più a destra
-    y2 = face.bottom()  # Punto più in basso
-    face_image = image[y1:y2, x1:x2]
-    # Estrai e salva le immagini degli occhi
-    for i in range(2):  # Due occhi
-        # Coordinate dell'occhio
-        x1 = landmarks.part(36 + i * 6).x
-        y1 = landmarks.part(37 + i * 6).y
-        x2 = landmarks.part(39 + i * 6).x
-        y2 = landmarks.part(40 + i * 6).y
-        if i==0:
-            left_eye = image[y1-8:y2+5, x1:x2]
-            # x y della pupilla sono stati presi as midpoint between landmarks corresponding to the corners of the eyes
-            pupil_left = (
-                landmarks.part(36 + i * 6).x + landmarks.part(39 + i * 6).x) // 2, (landmarks.part(37 + i * 6).y + landmarks.part(40 + i * 6).y) // 2
-        if i==1:
-            right_eye = image[y1-8:y2+5, x1:x2]
-            pupil_right = (
-                landmarks.part(42 + i * 6).x + landmarks.part(45 + i * 6).x) // 2, (landmarks.part(43 + i * 6).y + landmarks.part(46 + i * 6).y) // 2
-
-    landmarks = [(landmark.x, landmark.y) for landmark in landmarks.parts()]
-    return face_image, left_eye, right_eye, pupil_left, pupil_right, landmarks
     
-    
-def get_headpose(image, model, doPlot = False):
+def get_headpose(path, model, doPlot = False):
+    image = cv2.imread(path)
+    rgb = cv2.cvtColor(src=image, code=cv2.COLOR_BGR2RGB)
+    x, y, w, h = 25, 100, 775, 900
+    cropped = rgb[y:y+h, x:x+w]
     if doPlot:
-        pitch, yaw, roll = model.predict(image)
-        model.draw_axis(image, yaw, pitch, roll)
-        return image
-    else:
-        rgb = cv2.cvtColor(src=image, code=cv2.COLOR_BGR2RGB)
-        x, y, w, h = 25, 100, 775, 900
-        cropped = rgb[y:y+h, x:x+w]      
+        pitch, yaw, roll = model.predict(cropped)
+        model.draw_axis(cropped, yaw, pitch, roll)
+        return cropped
+    else:      
         pitch, yaw, roll = model.predict(cropped)
         return pitch[0], yaw[0], roll[0]
     
 
-def get_eyes(image, predictor, face_detector):
-    original_image = np.copy(image)
-    x, y, w, h = 25, 100, 775, 900
-    cropped = image[y:y+h, x:x+w] # Resize image and focus only on the region where the face is 
-    gray = cv2.cvtColor(src=cropped, code=cv2.COLOR_BGR2GRAY)     
-    faces = face_detector(gray)
-    # Check the number of faces detected
+def get_eyes(image_path, predictor, face_detector, eye_region_scale=1.1, doPlot=False):
+    image = cv2.imread(image_path)
+    x, y, w, h = 25, 100, 700, 700
+    image_cropped = image[y:y+h, x:x+w]
+    image_cropped_gray = cv2.cvtColor(image_cropped, cv2.COLOR_BGR2GRAY)
+    faces = face_detector(image_cropped_gray, upsample_num_times=0)
     if len(faces) != 1:
-        print("No face detected")
-        # If zero or more than one face detected, return None
-        return None
-    else:
-        face = faces[0]
-        landmarks = predictor(gray, face)
-        # Extract the left eye region directly from the original image
-        left_eye = original_image[y + landmarks.part(37).y - 8:y + landmarks.part(40).y + 5,
-                          x + landmarks.part(36).x:x + landmarks.part(39).x]
-        # Calculate pupil coordinates for the left eye
-        pupil_left = (
-            x + landmarks.part(36).x + landmarks.part(39).x // 2,
-            y + landmarks.part(37).y + landmarks.part(40).y // 2
-        )
-        # Calculate pupil coordinates for the right eye
-        pupil_right = (
-            x + landmarks.part(42).x + landmarks.part(45).x // 2,
-            y + landmarks.part(43).y + landmarks.part(46).y // 2
-        )
-        return [left_eye, pupil_left, pupil_right]
-    
-    
+        result = None
+        return result
+    shape = predictor(image_cropped_gray, faces[0])
+    landmarks = [(shape.part(i).x + x, shape.part(i).y + y) for i in range(shape.num_parts)]
+    left_eye_landmarks = landmarks[36:42]
+    right_eye_landmarks = landmarks[42:48]
+    left_eye_pts = np.array(left_eye_landmarks, dtype=int)
+    eye_region_size = int(np.linalg.norm(left_eye_pts[0] - left_eye_pts[3]) * eye_region_scale)
+    left_eye_cropped = image[max(0, left_eye_pts[0][1] - eye_region_size//2):min(image.shape[0], left_eye_pts[3][1] + eye_region_size//2),
+                             max(0, left_eye_pts[0][0] - eye_region_size//2):min(image.shape[1], left_eye_pts[2][0] + eye_region_size//2)]
+    if left_eye_cropped.size == 0:
+        result = None
+        return result
+    #left_eye_cropped_rgb = cv2.cvtColor(left_eye_cropped, cv2.COLOR_BGR2RGB) #questo lo faccio dopo
+    left_pupil = np.mean(left_eye_landmarks, axis=0, dtype=int)
+    right_pupil = np.mean(right_eye_landmarks, axis=0, dtype=int)
+    if doPlot:
+        image_copy = image.copy()
+        image_copy = cv2.cvtColor(image_copy, cv2.COLOR_BGR2RGB)
+        for (x, y) in landmarks:
+            cv2.circle(image_copy, (x, y), 10, (0, 255, 0), -1)
+        cv2.circle(image_copy, tuple(left_pupil), 10, (255, 0, 0), -1)
+        cv2.circle(image_copy, tuple(right_pupil), 10, (255, 0, 0), -1)
+        result = [left_eye_cropped, image_copy]
+        return result
+    result = [left_eye_cropped, left_pupil, right_pupil]
+    return result
 
 
