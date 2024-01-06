@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+
+
+Training Epoch 0:   9%|▉         | 514/5858 [00:17<03:03, 29.16batch/s, batch loss=182.98]
+We have  access to a GPU
+0
+<torch.cuda.device object at 0x7f35ffae54c0>
+1
+NVIDIA GeForce RTX 3060 Laptop GPU
+cuda
+Building path structure
+The dataset has already been prepared, ready to use
+Building path structure
+The dataset has already been prepared, ready to use
+Train dataset len is 187458
+Val dataset len is 23317
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

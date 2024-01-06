@@ -25,8 +25,6 @@ class EyeFeatureExtractor(nn.Module):
         self.pool = nn.MaxPool2d(kernel_size=8, stride=2)
         self.dropout = nn.Dropout(0.25)
         self.conv2 = nn.Conv2d(in_channels=32, out_channels=8, kernel_size=9, stride=1, padding=1)
-        # Merge Branches
-        self.flatten = nn.Flatten()
     
     def forward(self, x1):
         # 'Upsampling'
@@ -41,7 +39,6 @@ class EyeFeatureExtractor(nn.Module):
         x1 = self.relu(x1)
         x1 = self.pool(x1)
 
-        x1 = self.flatten(x1)
         return x1
 
 class MLPHead(nn.Module):
@@ -76,9 +73,11 @@ class GazeCNN(nn.Module):
     def __init__(self, additional_features_size=7, hidden_size=256):
         super(GazeCNN, self).__init__()
         self.eye_feature_extractor = EyeFeatureExtractor()
+        self.flatten = nn.Flatten()
         self. mlp_head = MLPHead(input_size=1536 + 16,additional_features_size=additional_features_size,hidden_size=hidden_size)
     
     def forward(self, left_eye, x_additional):
         eye_features = self.eye_feature_extractor(left_eye)
+        eye_features = self.flatten(eye_features)
         gaze = self.mlp_head(eye_features,x_additional)
         return gaze

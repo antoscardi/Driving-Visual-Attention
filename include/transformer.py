@@ -12,11 +12,12 @@ class PositionWiseFeedForward(nn.Module):
     def forward(self, x):
         return self.fc2(self.dropout(self.relu(self.fc1(x))))
 
+
 class TransformerEncoderLayer(nn.Module):
     def __init__(self, d_maps, nhead, dim_feedforward=512, dropout=0.1):
         super().__init__()
         self.self_attn = nn.MultiheadAttention(d_maps, nhead, dropout=dropout)
-        self.feed_forward = PositionWiseFeedForward(d_maps, dim_feedforward,dropout)
+        self.feed_forward = PositionWiseFeedForward(d_maps, dim_feedforward, dropout)
         self.norm1 = nn.LayerNorm(d_maps)
         self.norm2 = nn.LayerNorm(d_maps)
         self.dropout = nn.Dropout(dropout)
@@ -36,6 +37,7 @@ class TransformerEncoderLayer(nn.Module):
         src = self.norm2(src)
         return src
 
+
 class TransformerEncoder(nn.Module):
     def __init__(self, encoder_layer, num_layers, norm):
         super().__init__()
@@ -50,43 +52,35 @@ class TransformerEncoder(nn.Module):
             output = self.norm(output)
         return output
 
+
 class CNNTrans(nn.Module):
-    '''
-    params:
-        - nhead: seq num
-        - d_maps: dim of Q, K, V
-        - dim_feedforward: dim of hidden linear layers
-        - num__layer: deeps of layers
-        - mlp_size: size of the mlp head
-    '''
-    def __init__(self, device, batch_size, d_maps=16, nhead=4, dim_feature=12*12, dim_feedforward=256, dropout=0.1, num_layers=4,additional_feature_size=7,mlp_size=256):
+    def __init__(self, d_maps=8, nhead=4, dim_feature=12 * 12, dim_feedforward=256, dropout=0.1, num_layers=4,
+                 additional_feature_size=7, mlp_size=256):
         super(CNNTrans, self).__init__()
         ### Params
         encoder_layer = TransformerEncoderLayer(
-                  d_maps,
-                  nhead,
-                  dim_feedforward,
-                  dropout)
+            d_maps,
+            nhead,
+            dim_feedforward,
+            dropout)
         encoder_norm = nn.LayerNorm(d_maps)
-        self.device = device
-        self.BATCH_SIZE = batch_size
         ### Modules
         self.eye_feature_extractor = EyeFeatureExtractor()
         self.encoder = TransformerEncoder(encoder_layer, num_layers, encoder_norm)
         self.cls_token = nn.Parameter(torch.randn(1, 1, d_maps))
-        self.pos_embedding = nn.Embedding(dim_feature+1, d_maps)
-        self.mpl_head = MLPHead(additional_features_size= additional_feature_size,hidden_size=mlp_size)
+        self.pos_embedding = nn.Embedding(dim_feature + 1, d_maps)
+        self.mpl_head = MLPHead(additional_features_size=additional_feature_size, hidden_size=mlp_size)
 
     def forward(self, x_in, additional_features):
         feature = self.eye_feature_extractor(x_in)
         feature = feature.flatten(2).permute(2, 0, 1)
-        cls = self.cls_token.repeat( (1, self.BATCH_SIZE, 1))
+        cls = self.cls_token.repeat((1, feature.size(1), 1))
         feature = torch.cat([cls, feature], 0)
-        position = torch.from_numpy(np.arange(0, 145)).to(self.device)
+        position = torch.arange(0, feature.size(0), device=feature.device)
         pos_feature = self.pos_embedding(position)
         # feature is [HxW, batch, channel]
         feature = self.encoder(feature, pos_feature)
         feature = feature.permute(1, 2, 0)
-        feature = feature[:,:,0]
+        feature = feature[:, :, 0]
         gaze = self.mpl_head(feature, additional_features)
         return gaze

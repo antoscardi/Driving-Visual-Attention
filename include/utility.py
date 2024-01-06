@@ -9,7 +9,6 @@ from torchvision import transforms
 import wandb
 from torchvision import utils
 import torch.nn as nn
-import dlib
 import copy
 
 
