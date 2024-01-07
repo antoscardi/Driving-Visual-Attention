@@ -9,7 +9,6 @@ from torchvision import transforms
 import wandb
 from torchvision import utils
 import torch.nn as nn
-import copy
 
 
 # https://gist.github.com/ihoromi4/b681a9088f348942b01711f251e5f964
@@ -122,7 +121,3 @@ def log_image(dataloader, model, device, percentage=None):
         # Log the annotated road_view image to WandB
         image = wandb.Image(road_view_image, caption=f"Prediction: {pred}, Actual: {label}")
         wandb.log({"Validation Examples 1 per Epoch": image})
-
-
-def get_clones(module, N):
-    return nn.ModuleList([copy.deepcopy(module) for _ in range(N)])

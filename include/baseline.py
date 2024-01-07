@@ -61,6 +61,7 @@ class MLPHead(nn.Module):
     def forward(self, eye_features, additional_features):
         # Process additional features
         additional_features = self.fc_additional(additional_features)
+        print(additional_features.size())
         # Concatenate eye features with additional features
         merged_features = torch.cat([eye_features, additional_features], dim=1)
         # Merge both features
