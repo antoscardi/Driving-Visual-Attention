@@ -121,3 +121,21 @@ def log_image(dataloader, model, device, percentage=None):
         # Log the annotated road_view image to WandB
         image = wandb.Image(road_view_image, caption=f"Prediction: {pred}, Actual: {label}")
         wandb.log({"Validation Examples 1 per Epoch": image})
+
+def bbox_accuracy(point, bbox):
+    """
+    Verifica se un punto si trova all'interno di un rettangolo definito dagli estremi della diagonale.
+
+    Args:
+        point (tuple): Coordinate del punto nel formato (x, y).
+        rectangle_diagonal_ends (Tensor): Tensor con le coordinate degli estremi opposti della diagonale del rettangolo.
+
+    Returns:
+        bool: True se il punto è all'interno del rettangolo, False altrimenti.
+    """
+    x, y = point
+    (x1, y1), (x2, y2) = rectangle_diagonal_ends
+
+    accuracy = min(x1, x2) <= x <= max(x1, x2) and min(y1, y2) <= y <= max(y1, y2)
+
+    return accuracy

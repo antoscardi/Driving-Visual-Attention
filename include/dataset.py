@@ -224,6 +224,7 @@ class DGAZEDataset(Dataset):
             img_path = self.data[idx]['path']
             eye_left_encoded = self.data[idx]['eye left']
             additional_features = self.data[idx]['feature list']
+            #bbox = self.data['bbox']
             # Decode the image
             eye_left_decoded = base64.b64decode(eye_left_encoded)
             eye_left_array = np.frombuffer(eye_left_decoded, dtype=np.uint8)

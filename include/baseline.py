@@ -30,7 +30,7 @@ class EyeFeatureExtractor(nn.Module):
         # 'Upsampling'
         x1 = self.conv1(x1)
         x1 = self.relu(x1)
-        # Branch 1
+        # Convolution block 
         x1 = self.block(x1)
         x1 = self.pool(x1)
         x1 = self.dropout(x1)
@@ -42,7 +42,7 @@ class EyeFeatureExtractor(nn.Module):
         return x1
 
 class MLPHead(nn.Module):
-    def __init__(self, input_size = 1536 + 16, additional_features_size=7, hidden_size=256):
+    def __init__(self, input_size = 1536 + 16, additional_features_size=7, hidden_size=512):
         super(MLPHead, self).__init__()
         self.fc_additional = nn.Sequential(
             nn.Linear(additional_features_size, hidden_size),
@@ -61,7 +61,6 @@ class MLPHead(nn.Module):
     def forward(self, eye_features, additional_features):
         # Process additional features
         additional_features = self.fc_additional(additional_features)
-        print(additional_features.size())
         # Concatenate eye features with additional features
         merged_features = torch.cat([eye_features, additional_features], dim=1)
         # Merge both features
@@ -71,7 +70,7 @@ class MLPHead(nn.Module):
         return gaze
     
 class GazeCNN(nn.Module):
-    def __init__(self, additional_features_size=7, hidden_size=256):
+    def __init__(self, additional_features_size=7, hidden_size=512):
         super(GazeCNN, self).__init__()
         self.eye_feature_extractor = EyeFeatureExtractor()
         self.flatten = nn.Flatten()
