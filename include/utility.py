@@ -128,9 +128,9 @@ class BBoxAccuracy:
 
     def is_point_inside_bbox(self, point, bbox):
         x, y = point
-        x_min, y_min, x_max, y_max = bbox
+        x1, y1, x2, y2 = bbox
 
-        return x_min <= x <= x_max and y_min <= y <= y_max
+        return min(x1, x2) <= x <= max(x1, x2) and min(y1, y2) <= y <= max(y1, y2)
 
     def __call__(self, predictions, bbox):
         """

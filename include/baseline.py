@@ -23,7 +23,7 @@ class EyeFeatureExtractor(nn.Module):
         self.relu = nn.PReLU()
         self.block = ConvolutionBlock()
         self.pool = nn.MaxPool2d(kernel_size=8, stride=2)
-        self.dropout = nn.Dropout(0.25)
+        self.dropout = nn.Dropout(0.2)
         self.conv2 = nn.Conv2d(in_channels=32, out_channels=8, kernel_size=9, stride=1, padding=1)
     
     def forward(self, x1):
