@@ -1,0 +1,6 @@
+
+tensor([1397.,  506., 2550., 1010.])
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+The bbox is :tensor([1397.,  506., 2550., 1010.])
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+The bbox is: tensor([1397.,  506., 2550., 1010.])

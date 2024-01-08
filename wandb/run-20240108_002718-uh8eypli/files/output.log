@@ -1,0 +1,2 @@
+torch.Size([32])
+tensor(0, device='cuda:0')

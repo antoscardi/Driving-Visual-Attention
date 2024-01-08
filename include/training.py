@@ -1,4 +1,5 @@
 from utility import*
+ 
 
 def train_epoch(model, train_loader, criterion, scheduler, optimizer, device, epoch):
     model.train(True)
@@ -7,7 +8,7 @@ def train_epoch(model, train_loader, criterion, scheduler, optimizer, device, ep
     # Use tqdm for the progress bar
     with tqdm(train_loader, desc=f"Training Epoch {epoch}", unit="batch") as tbar:
         for batch in tbar:
-            eye_left, face_features, labels, _ = batch
+            eye_left, face_features, labels,_,_ = batch
             # Move data to GPU if available
             eye_left, face_features, labels = eye_left.to(device), face_features.to(device), labels.to(device)
 
@@ -29,41 +30,51 @@ def train_epoch(model, train_loader, criterion, scheduler, optimizer, device, ep
     average_loss = total_loss / len(train_loader)
     return average_loss
 
-def validate(model, val_loader, threshold, criterion, device, epoch):
+def validate(model, bbox_accuracy, val_loader, threshold, criterion, device, epoch, BATCH_SIZE):
     model.train(False)
     model.eval()
     with torch.no_grad():
         total_loss = 0.0
-        total_correct_predictions = 0
-        total_samples = 0
+        total_threshold_accuracy = 0.0
+        total_bbox_accuracy = 0.0
+        total_paper_accuracy = 0.0
+
 
         # Use tqdm for the progress bar
         with tqdm(val_loader, desc=f"Validation Epoch {epoch}", unit="batch") as tbar:
             for batch in tbar:
-                eye_left,face_features,labels,_ = batch
-                # Move data to GPU if available
+                eye_left,face_features,labels, bbox,_ = batch
                 eye_left, face_features, labels = eye_left.to(device),face_features.to(device),labels.to(device)
 
                 # Forward pass
                 outputs = model(eye_left,face_features)
                 loss = criterion(outputs, labels)
-
                 total_loss += loss.detach().item()
 
-                # Calculate accuracy
-                predicted_labels = outputs
-                l2_norm = torch.norm(predicted_labels - labels, dim=1)
-                current_correct_predictions = torch.sum(l2_norm < threshold) # Adjust threshold 
-                total_correct_predictions += current_correct_predictions
-                
-                total_samples += labels.size(0)
+                # Calculate predictions as sum in the batch
+                l2_norm = torch.norm(outputs - labels, dim=1, p=2)
+                batch_threshold_predictions = torch.sum(l2_norm < threshold) # Adjust Threshold
+                batch_bbox_predictions = torch.sum(bbox_accuracy(outputs, bbox))
+                batch_paper_predictions = torch.sum(l2_norm)
 
-                batch_accuracy = current_correct_predictions / labels.size(0)*100
+                # Calculate accuracies by dividing for the batch size 
+                batch_threshold_accuracy = batch_threshold_predictions / BATCH_SIZE
+                batch_bbox_accuracy = batch_bbox_predictions / BATCH_SIZE
+                batch_paper_accuracy = batch_paper_predictions / BATCH_SIZE
+
+                # Sum accuracies in each batch to get the total of one epoch
+                total_threshold_accuracy += batch_threshold_accuracy.detach().item()
+                total_bbox_accuracy += batch_bbox_accuracy.item()
+                total_paper_accuracy += batch_paper_accuracy.detach().item()
 
                 # Update the progress bar description with the current loss and accuracy
                 tbar.set_postfix({'batch_loss': f'{loss.detach().item():.2f}'})
-                tbar.set_postfix({'batch accuracy': f'{batch_accuracy.detach().item():.2f}%'})
+                tbar.set_postfix({'batch accuracy': f'{batch_threshold_accuracy.detach().item()*100:.2f}%'})
 
         average_loss = total_loss / len(val_loader)
-        accuracy = total_correct_predictions.item() / total_samples * 100
-        return average_loss, accuracy
+        # Calculate the final acc by dividing for the number of batches
+        threshold_accuracy = total_threshold_accuracy / len(val_loader)
+        bbox_accuracy = total_bbox_accuracy / len(val_loader)
+        paper_accuracy = total_paper_accuracy / len(val_loader)
+
+        return average_loss, threshold_accuracy, bbox_accuracy, paper_accuracy

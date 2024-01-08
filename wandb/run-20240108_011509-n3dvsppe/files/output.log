@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Epoch 0: 100%|██████████| 1151/1151 [00:37<00:00, 30.80batch/s, batch loss=178.12]
+Validation Epoch 0:   0%|          | 0/144 [00:00<?, ?batch/s, batch accuracy=34.38%]
+Training Epoch 1:   1%|▏         | 16/1151 [00:00<00:52, 21.71batch/s, batch loss=184.70]
+tensor(15)
+

@@ -1,0 +1,6 @@
+
+Validation Epoch 0:   0%|          | 0/729 [00:00<?, ?batch/s]
+torch.Size([32, 2])
+torch.Size([32, 2])
+torch.Size([32])
+tensor(0, device='cuda:0')

@@ -122,20 +122,32 @@ def log_image(dataloader, model, device, percentage=None):
         image = wandb.Image(road_view_image, caption=f"Prediction: {pred}, Actual: {label}")
         wandb.log({"Validation Examples 1 per Epoch": image})
 
-def bbox_accuracy(point, bbox):
-    """
-    Verifica se un punto si trova all'interno di un rettangolo definito dagli estremi della diagonale.
+class BBoxAccuracy:
+    def __init__(self):
+        pass
 
-    Args:
-        point (tuple): Coordinate del punto nel formato (x, y).
-        rectangle_diagonal_ends (Tensor): Tensor con le coordinate degli estremi opposti della diagonale del rettangolo.
+    def is_point_inside_bbox(self, point, bbox):
+        x, y = point
+        x_min, y_min, x_max, y_max = bbox
 
-    Returns:
-        bool: True se il punto è all'interno del rettangolo, False altrimenti.
-    """
-    x, y = point
-    (x1, y1), (x2, y2) = rectangle_diagonal_ends
+        return x_min <= x <= x_max and y_min <= y <= y_max
 
-    accuracy = min(x1, x2) <= x <= max(x1, x2) and min(y1, y2) <= y <= max(y1, y2)
+    def __call__(self, predictions, bbox):
+        """
+        :param predictions: Tensor of shape (batch_size, 2) representing (x, y) coordinates.
+        :param bbox: Tensor of shape (batch_size, 4) representing bounding box coordinates (x_min, y_min, x_max, y_max).
+        :return: Tensor of shape (batch_size,) with 1s where points are inside the bbox and 0s where they are not.
+        """
+        batch_size = predictions.size(0)
+        predictions = predictions.detach()
 
-    return accuracy
+        result = torch.zeros(batch_size, dtype=torch.int32)
+
+        for i in range(batch_size):
+            point = predictions[i]
+            current_bbox = bbox[i]
+
+            if self.is_point_inside_bbox(point, current_bbox):
+                result[i] = 1
+
+        return result
