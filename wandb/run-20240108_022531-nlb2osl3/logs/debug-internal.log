@@ -2306,3 +2306,628 @@
 2024-01-08 03:01:44,162 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
 2024-01-08 03:01:45,810 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
 2024-01-08 03:01:47,811 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:01:49,187 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:01:49,646 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:01:49,646 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:01:49,647 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:01:49,811 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:01:51,811 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:01:53,812 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:01:54,219 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:01:55,812 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:01:57,813 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:01:59,229 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:01:59,813 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:01,814 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:03,814 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:04,250 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:02:04,646 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:02:04,646 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:02:04,647 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:02:04,901 DEBUG   SenderThread:22210 [sender.py:send():382] send: stats
+2024-01-08 03:02:05,816 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:07,816 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:09,271 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:02:09,817 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:11,817 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:13,818 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:14,289 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:02:15,818 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:17,819 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:19,305 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:02:19,646 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:02:19,646 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:02:19,647 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:02:19,819 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:21,820 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:23,820 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:24,321 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:02:25,821 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:27,821 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:29,349 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:02:29,822 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:31,822 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:33,823 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:34,378 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:02:34,646 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:02:34,646 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:02:34,646 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:02:35,006 DEBUG   SenderThread:22210 [sender.py:send():382] send: stats
+2024-01-08 03:02:35,823 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:37,824 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:39,405 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:02:39,824 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:41,825 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:43,825 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:44,410 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:02:45,826 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:47,828 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:49,428 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:02:49,646 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:02:49,646 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:02:49,647 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:02:49,829 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:51,829 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:53,829 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:54,430 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:02:55,830 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:57,831 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:02:59,445 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:02:59,831 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:01,832 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:03,832 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:04,466 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:03:04,646 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:03:04,646 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:03:04,646 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:03:04,863 DEBUG   SenderThread:22210 [sender.py:send():382] send: stats
+2024-01-08 03:03:05,833 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:07,833 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:09,475 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:03:09,834 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:11,834 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:13,835 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:14,476 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:03:15,835 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:17,836 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:19,477 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:03:19,646 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:03:19,647 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:03:19,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:03:19,836 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:21,837 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:23,837 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:24,487 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:03:25,838 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:27,838 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:29,489 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:03:29,839 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:29,890 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 03:03:29,890 DEBUG   SenderThread:22210 [sender.py:send():382] send: history
+2024-01-08 03:03:29,890 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 03:03:29,891 INFO    SenderThread:22210 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 03:03:30,839 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/wandb-summary.json
+2024-01-08 03:03:31,839 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:33,840 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:34,510 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:03:34,646 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:03:34,647 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:03:34,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:03:34,971 DEBUG   SenderThread:22210 [sender.py:send():382] send: stats
+2024-01-08 03:03:35,840 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:37,840 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:39,510 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:03:39,841 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:41,841 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:43,842 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:44,522 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:03:45,842 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:47,064 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 03:03:47,064 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 03:03:47,065 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 03:03:47,065 DEBUG   SenderThread:22210 [sender.py:send():382] send: history
+2024-01-08 03:03:47,065 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 03:03:47,065 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 03:03:47,066 INFO    SenderThread:22210 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 03:03:47,066 DEBUG   SenderThread:22210 [sender.py:send():382] send: history
+2024-01-08 03:03:47,066 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 03:03:47,069 INFO    SenderThread:22210 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 03:03:47,069 DEBUG   SenderThread:22210 [sender.py:send():382] send: history
+2024-01-08 03:03:47,069 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 03:03:47,069 INFO    SenderThread:22210 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 03:03:47,069 DEBUG   SenderThread:22210 [sender.py:send():382] send: history
+2024-01-08 03:03:47,069 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 03:03:47,070 INFO    SenderThread:22210 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 03:03:47,843 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/wandb-summary.json
+2024-01-08 03:03:47,843 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:49,549 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:03:49,647 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:03:49,647 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:03:49,647 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:03:49,843 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:51,844 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:53,844 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:54,563 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:03:55,845 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:57,845 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:03:59,576 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:03:59,846 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:01,846 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:03,847 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:04,592 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:04:04,647 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:04:04,647 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:04:04,647 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:04:04,957 DEBUG   SenderThread:22210 [sender.py:send():382] send: stats
+2024-01-08 03:04:05,847 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:07,848 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:09,623 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:04:09,848 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:11,849 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:13,849 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:14,654 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:04:15,850 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:17,850 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:19,647 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:04:19,647 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:04:19,647 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:04:19,851 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:19,944 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:04:21,851 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:23,852 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:24,967 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:04:25,852 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:27,852 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:29,853 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:29,986 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:04:31,854 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:33,854 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:34,647 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:04:34,647 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:04:34,647 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:04:35,007 DEBUG   SenderThread:22210 [sender.py:send():382] send: stats
+2024-01-08 03:04:35,007 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:04:35,855 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:37,855 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:39,856 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:40,023 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:04:41,856 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:43,857 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:45,043 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:04:45,857 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:47,858 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:49,647 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:04:49,647 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:04:49,647 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:04:49,858 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:50,071 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:04:51,859 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:53,859 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:55,098 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:04:55,860 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:57,860 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:04:59,860 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:00,101 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:05:01,861 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:03,861 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:04,647 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:05:04,647 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:05:04,649 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:05:04,918 DEBUG   SenderThread:22210 [sender.py:send():382] send: stats
+2024-01-08 03:05:05,120 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:05:05,862 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:07,862 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:09,863 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:10,120 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:05:11,863 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:13,864 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:15,140 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:05:15,864 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:17,865 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:19,647 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:05:19,647 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:05:19,647 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:05:19,865 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:20,168 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:05:21,869 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:23,869 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:25,174 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:05:25,870 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:27,870 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:29,871 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:30,193 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:05:31,871 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:33,872 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:34,647 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:05:34,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:05:34,648 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:05:34,902 DEBUG   SenderThread:22210 [sender.py:send():382] send: stats
+2024-01-08 03:05:35,207 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:05:35,872 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:37,873 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:39,873 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:40,212 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:05:41,874 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:43,874 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:45,245 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:05:45,875 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:47,875 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:49,647 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:05:49,647 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:05:49,648 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:05:49,876 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:50,263 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:05:51,876 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:53,877 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:55,265 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:05:55,877 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:57,878 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:05:59,878 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:00,282 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:06:01,879 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:03,879 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:04,647 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:06:04,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:06:04,648 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:06:04,884 DEBUG   SenderThread:22210 [sender.py:send():382] send: stats
+2024-01-08 03:06:05,290 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:06:05,880 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:07,880 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:09,881 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:10,304 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:06:11,881 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:13,882 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:15,326 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:06:15,882 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:17,882 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:19,647 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:06:19,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:06:19,648 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:06:19,883 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:20,328 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:06:21,883 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:23,884 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:25,342 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:06:25,884 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:27,885 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:29,885 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:30,358 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:06:31,885 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:33,886 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:34,647 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:06:34,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:06:34,648 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:06:34,868 DEBUG   SenderThread:22210 [sender.py:send():382] send: stats
+2024-01-08 03:06:35,369 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:06:35,886 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:37,887 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:39,887 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:40,388 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:06:41,888 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:43,888 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:45,404 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:06:45,889 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:47,889 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:49,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:06:49,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:06:49,648 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:06:49,890 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:50,423 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:06:51,890 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:53,891 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:55,441 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:06:55,514 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 03:06:55,514 DEBUG   SenderThread:22210 [sender.py:send():382] send: history
+2024-01-08 03:06:55,514 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 03:06:55,515 INFO    SenderThread:22210 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 03:06:55,891 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/wandb-summary.json
+2024-01-08 03:06:55,891 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:57,892 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:06:59,892 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:00,442 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:07:01,893 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:03,893 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:04,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:07:04,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:07:04,648 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:07:04,850 DEBUG   SenderThread:22210 [sender.py:send():382] send: stats
+2024-01-08 03:07:05,443 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:07:05,894 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:07,894 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:09,894 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:10,460 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:07:11,895 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:12,695 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 03:07:12,696 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 03:07:12,696 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 03:07:12,696 DEBUG   SenderThread:22210 [sender.py:send():382] send: history
+2024-01-08 03:07:12,696 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 03:07:12,697 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 03:07:12,697 INFO    SenderThread:22210 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 03:07:12,698 DEBUG   SenderThread:22210 [sender.py:send():382] send: history
+2024-01-08 03:07:12,698 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 03:07:12,700 INFO    SenderThread:22210 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 03:07:12,700 DEBUG   SenderThread:22210 [sender.py:send():382] send: history
+2024-01-08 03:07:12,700 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 03:07:12,700 INFO    SenderThread:22210 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 03:07:12,701 DEBUG   SenderThread:22210 [sender.py:send():382] send: history
+2024-01-08 03:07:12,701 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 03:07:12,701 INFO    SenderThread:22210 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 03:07:12,895 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/wandb-summary.json
+2024-01-08 03:07:13,895 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:15,465 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:07:15,896 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:17,896 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:19,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:07:19,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:07:19,648 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:07:19,897 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:20,474 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:07:21,897 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:23,898 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:25,497 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:07:25,898 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:27,899 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:29,899 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:30,519 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:07:31,900 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:33,900 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:34,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:07:34,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:07:34,649 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:07:34,956 DEBUG   SenderThread:22210 [sender.py:send():382] send: stats
+2024-01-08 03:07:35,528 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:07:35,901 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:37,901 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:39,902 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:40,555 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:07:41,902 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:43,902 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:45,559 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:07:45,903 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:47,903 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:49,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:07:49,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:07:49,648 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:07:49,904 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:50,569 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:07:51,904 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:53,905 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:55,579 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:07:55,905 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:57,906 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:07:59,906 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:00,593 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:08:01,907 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:03,907 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:04,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:08:04,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:08:04,649 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:08:05,188 DEBUG   SenderThread:22210 [sender.py:send():382] send: stats
+2024-01-08 03:08:05,614 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:08:05,908 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:07,908 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:09,909 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:10,640 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:08:11,909 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:13,910 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:15,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:08:15,910 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:17,911 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:19,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:08:19,648 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:08:19,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:08:19,911 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:20,664 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:08:21,912 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:23,912 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:25,665 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:08:25,913 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:27,913 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:29,914 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:30,673 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:08:31,914 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:33,915 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:34,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:08:34,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:08:34,649 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:08:34,893 DEBUG   SenderThread:22210 [sender.py:send():382] send: stats
+2024-01-08 03:08:35,675 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:08:35,915 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:37,916 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:39,916 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:40,676 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:08:41,916 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:43,917 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:45,678 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:08:45,917 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:47,918 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:49,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:08:49,649 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:08:49,650 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:08:49,918 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:50,680 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:08:51,919 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:53,920 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:55,687 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:08:55,920 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:57,920 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:08:59,921 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:00,716 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:09:01,921 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:03,922 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:04,648 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:09:04,649 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:09:04,649 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:09:04,905 DEBUG   SenderThread:22210 [sender.py:send():382] send: stats
+2024-01-08 03:09:05,718 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:09:05,922 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:07,923 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:09,923 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:10,748 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:09:11,924 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:13,924 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:15,764 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:09:15,925 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:17,925 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:19,649 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:09:19,649 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:09:19,649 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:09:19,925 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:20,773 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:09:21,926 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:23,926 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:25,798 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:09:25,927 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:27,927 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:29,928 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:30,805 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:09:31,928 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:33,929 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:34,649 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:09:34,649 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:09:34,650 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:09:35,256 DEBUG   SenderThread:22210 [sender.py:send():382] send: stats
+2024-01-08 03:09:35,828 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:09:35,929 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:37,930 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:39,930 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:40,852 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:09:41,930 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:43,931 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:45,859 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:09:45,931 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:47,932 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:49,649 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:09:49,649 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:09:49,649 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:09:49,932 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:50,862 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:09:51,933 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:53,933 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:55,869 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:09:55,936 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:57,936 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:09:59,937 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:00,894 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:10:01,937 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:03,938 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:04,649 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:10:04,649 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:10:04,649 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:10:05,003 DEBUG   SenderThread:22210 [sender.py:send():382] send: stats
+2024-01-08 03:10:05,897 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:10:05,938 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:07,939 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:09,939 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:10,916 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:10:11,940 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:13,940 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:15,933 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:10:15,941 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:17,941 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:19,649 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:10:19,649 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:10:19,649 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:10:19,941 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:20,934 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:10:21,942 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:22,557 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 03:10:22,558 DEBUG   SenderThread:22210 [sender.py:send():382] send: history
+2024-01-08 03:10:22,558 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 03:10:22,558 INFO    SenderThread:22210 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 03:10:22,942 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/wandb-summary.json
+2024-01-08 03:10:23,942 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:25,939 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:10:25,943 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:27,943 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:29,944 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:30,943 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:10:31,944 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:33,945 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:34,649 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:10:34,649 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:10:34,651 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:10:34,978 DEBUG   SenderThread:22210 [sender.py:send():382] send: stats
+2024-01-08 03:10:35,945 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:35,962 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:10:37,946 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:39,699 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 03:10:39,699 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 03:10:39,700 DEBUG   SenderThread:22210 [sender.py:send():382] send: history
+2024-01-08 03:10:39,700 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 03:10:39,700 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 03:10:39,701 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-08 03:10:39,702 INFO    SenderThread:22210 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 03:10:39,702 DEBUG   SenderThread:22210 [sender.py:send():382] send: history
+2024-01-08 03:10:39,702 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 03:10:39,702 INFO    SenderThread:22210 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 03:10:39,702 DEBUG   SenderThread:22210 [sender.py:send():382] send: history
+2024-01-08 03:10:39,702 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 03:10:39,702 INFO    SenderThread:22210 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 03:10:39,703 DEBUG   SenderThread:22210 [sender.py:send():382] send: history
+2024-01-08 03:10:39,703 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: summary_record
+2024-01-08 03:10:39,703 INFO    SenderThread:22210 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-08 03:10:39,946 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/wandb-summary.json
+2024-01-08 03:10:39,947 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:41,183 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:10:41,947 INFO    Thread-12 :22210 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/anto/University/Driving-Visual-Attention/wandb/run-20240108_022531-nlb2osl3/files/output.log
+2024-01-08 03:10:42,005 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: pause
+2024-01-08 03:10:42,005 INFO    HandlerThread:22210 [handler.py:handle_request_pause():705] stopping system metrics thread
+2024-01-08 03:10:42,005 INFO    HandlerThread:22210 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-08 03:10:42,005 INFO    HandlerThread:22210 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-08 03:10:42,006 DEBUG   SystemMonitor:22210 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-08 03:10:42,006 INFO    HandlerThread:22210 [interfaces.py:finish():202] Joined disk monitor
+2024-01-08 03:10:42,006 DEBUG   SystemMonitor:22210 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-08 03:10:42,047 INFO    HandlerThread:22210 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-08 03:10:42,047 INFO    HandlerThread:22210 [interfaces.py:finish():202] Joined memory monitor
+2024-01-08 03:10:42,047 INFO    HandlerThread:22210 [interfaces.py:finish():202] Joined network monitor
+2024-01-08 03:10:42,047 DEBUG   SenderThread:22210 [sender.py:send():382] send: stats
+2024-01-08 03:10:47,049 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:10:49,649 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:10:49,649 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:10:49,650 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:10:52,845 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:10:57,846 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:11:02,847 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:11:04,649 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:11:04,649 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:11:04,692 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:11:07,960 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:11:12,961 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:11:17,961 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:11:19,649 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:11:19,650 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:11:19,650 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:11:23,953 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:11:28,954 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:11:33,956 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:11:34,650 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:11:34,651 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:11:34,692 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:11:39,946 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:11:44,947 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:11:49,652 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:11:49,652 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:11:49,653 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:11:50,936 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:11:55,938 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:12:00,939 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:12:04,651 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:12:04,651 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:12:04,692 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:12:06,927 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:12:11,929 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:12:16,929 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:12:19,650 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:12:19,650 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:12:19,696 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:12:22,899 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:12:27,900 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:12:32,901 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:12:34,650 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-08 03:12:34,651 DEBUG   SenderThread:22210 [sender.py:send_request():409] send_request: stop_status
+2024-01-08 03:12:34,693 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-08 03:12:38,035 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:12:43,036 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
+2024-01-08 03:12:48,037 DEBUG   HandlerThread:22210 [handler.py:handle_request():146] handle_request: status_report
