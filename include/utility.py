@@ -10,8 +10,7 @@ import wandb
 from torchvision import utils
 import torch.nn as nn
 
-
-# https://gist.github.com/ihoromi4/b681a9088f348942b01711f251e5f964
+#https://gist.github.com/ihoromi4/b681a9088f348942b01711f251e5f964
 def seed_everything(seed: int):
     random.seed(seed)
     os.environ['PYTHONHASHSEED'] = str(seed)
@@ -20,6 +19,7 @@ def seed_everything(seed: int):
     torch.cuda.manual_seed(seed)
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
+    return 
 
 def get_bbox_middle_point(bbox):
     x1, y1, x2, y2 = bbox

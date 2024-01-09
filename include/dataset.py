@@ -159,6 +159,7 @@ class DataLoaderVisualizer:
 
     def visualize_dataset(self):
         for driver in self.drivers:
+          seed_everything(42)
           all_paths = [item['path'] for item in self.data]
           driver_x_paths = find_driver_paths(all_paths, driver)
           driver_img_path = random.sample(driver_x_paths,1)
@@ -200,6 +201,7 @@ class DataLoaderVisualizer:
           ax4.set_title('cropped face'), ax4.set_xlabel('W'), ax4.set_ylabel('H')
           ax4.set_box_aspect(driver_photo.shape[0] / driver_photo.shape[1])
           plt.show()
+          seed_everything(42)
 
 '''
 PYTORCH DATASET CLASS 

@@ -2,10 +2,10 @@ from utility import *
 from baseline import *   
     
 class TransformerEncoder(nn.Module):
-    def __init__(self, d_model , num_heads, ntoken, num_layers):
+    def __init__(self, d_model , num_heads, num_layers):
         super(TransformerEncoder, self).__init__()
         # The transformer encoder layer
-        self.layers = nn.TransformerEncoderLayer(d_model=d_model, nhead=num_heads, dropout=0.25, batch_first=True)
+        self.layers = nn.TransformerEncoderLayer(d_model=d_model, nhead=num_heads, dropout=0.1, batch_first=True)
         self.transformer_encoder = nn.TransformerEncoder(self.layers, num_layers=num_layers)
         self.flatten = nn.Flatten(start_dim=1)
 
