@@ -1,5 +1,4 @@
-import cv2
-import numpy as np
+from utility import *
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 
@@ -38,7 +37,8 @@ def RGB_histograms(image_path, choose_dim, display=False, normalize=True):
 
     if display:
         plt.figure(figsize=(15, 3))
-        plt.imshow(image_rgb), plt.title('Image')
+        plt.imshow(image_rgb)
+        plt.axis('off')
 
         if choose_dim == '3D':
             plt.figure(figsize=(10, 5))
@@ -107,7 +107,7 @@ def HSV_histogram(image_path, choose_dim, normalize=True, display=False):
     if display:
         plt.figure(figsize=(15, 3))
         plt.subplot(121)
-        plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
+        plt.imshow(image)
         plt.title('Original Image')
         plt.axis('off')
         plt.subplot(122)
@@ -176,3 +176,32 @@ def color_distribution(image_path, number_of_colors=16, display=True):
         ax1.set_title('Image with Clustered Colors')
 
     return unique
+
+def retrieve_2_histograms(image_path1, image_path2, dimension, hist_type):
+    if dimension not in ["1D", "2D", "3D"]:
+        raise ValueError("Expected dimension must be '1D' or '2D' or '3D")
+
+    if hist_type == 'RGB':
+        if dimension == '1D':
+            r1, g1, b1 = RGB_histograms(image_path1, choose_dim=dimension)
+            r2, g2, b2 = RGB_histograms(image_path2, choose_dim=dimension)
+            return [r1, g1, b1, r2, g2, b2]
+        elif dimension == '3D':
+            rgb_3d_1 = RGB_histograms(image_path1, choose_dim=dimension)
+            rgb_3d_2 = RGB_histograms(image_path2, choose_dim=dimension)
+            return [rgb_3d_1, rgb_3d_2]
+    elif hist_type == 'HSV':
+        if dimension == '1D':
+            h1, s1, v1 = HSV_histogram(image_path1, choose_dim=dimension)
+            h2, s2, v2 = HSV_histogram(image_path2, choose_dim=dimension)
+            return [h1, s1, v1, h2, s2, v2]
+        elif dimension == '2D':
+            hs_1 = HSV_histogram(image_path1, choose_dim=dimension)
+            hs_2 = HSV_histogram(image_path2, choose_dim=dimension)
+            return [hs_1, hs_2]
+        elif dimension == '3D':
+            hsv_3d_1 = HSV_histogram(image_path1, choose_dim=dimension)
+            hsv_3d_2 = HSV_histogram(image_path2, choose_dim=dimension)
+            return [hsv_3d_1, hsv_3d_2]
+    else:
+        raise ValueError("Invalid histogram type")
