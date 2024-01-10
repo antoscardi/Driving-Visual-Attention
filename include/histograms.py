@@ -36,9 +36,10 @@ def RGB_histograms(image_path, choose_dim, display=False, normalize=True):
         hist_3D = hist_3D.flatten()
 
     if display:
-        plt.figure(figsize=(15, 3))
-        plt.imshow(image_rgb)
-        plt.axis('off')
+        fig, ax = plt.subplots()
+        ax.imshow(image_rgb)
+        ax.axis('off')
+        #plt.savefig('output_image.png', bbox_inches='tight', pad_inches=0)
 
         if choose_dim == '3D':
             plt.figure(figsize=(10, 5))

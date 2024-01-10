@@ -1,6 +1,7 @@
 import matplotlib.patches as patches
 import matplotlib.pyplot as plt
 import json
+import ijson
 import base64
 from torch.utils.data import DataLoader, Dataset
 from utility import *
@@ -16,6 +17,36 @@ def read_file(file_path):
     # Returns List[dict]: A list of dictionaries representing the data.
     with open(file_path, 'r') as file:
         data = json.load(file)
+    return data
+
+def read_big_file(file_path):
+    data = []
+    with open(file_path, "rb") as f:
+        # Create an iterator to parse the JSON file incrementally
+        objects = ijson.items(f, "item")     
+        for obj in objects:
+            # Extract the required information from each dictionary
+            label = obj.get('label')
+            img_path = obj.get('path')
+            eye_left_encoded = obj.get('eye left')
+            additional_features = obj.get('feature list')
+            bbox = obj.get('bbox')
+            face_encoded = obj.get('face') 
+            nose_position = obj.get('nose position')  
+            corner_eyes = obj.get('corner eyes')
+            # Create a dictionary with the extracted information
+            entry = {
+                'label': label,
+                'path': img_path,
+                'eye left': eye_left_encoded,
+                'feature list': additional_features,
+                'bbox': bbox,
+                'face': face_encoded,
+                'nose position': nose_position,
+                'corner eyes': corner_eyes
+            }
+            # Append the entry to the data list
+            data.append(entry)
     return data
 
 def write_file(output_path, data):
@@ -42,10 +73,11 @@ def match_in_path(path, expression):
 WRAPPER FOR DATASET CLASS 
 '''
 class DataLoaderVisualizer:
-    def __init__(self, root, file_path, percentage, predictor, face_detector, headpose_extractor,split='train'):
+    def __init__(self, root, file_path, percentage, predictor, face_detector, headpose_extractor,split='train',big_file = False):
         self.root = root + 'data/images_aligned'
         self.file_path = file_path
         self.split = split
+        self.big_file = big_file
         self.percentage = percentage
         self.face_detector = face_detector
         self.predictor = predictor
@@ -72,7 +104,10 @@ class DataLoaderVisualizer:
     def check_existence(self):
         if os.path.exists(self.file_path) and str(self.percentage) in self.file_path:
             print("The dataset has already been prepared, ready to use")
-            data = read_file(self.file_path)
+            if self.big_file:
+                data = read_big_file(self.file_path)
+            else:
+                data = read_file(self.file_path)
         else:
             data = self.load_data(self.percentage)
             # write the data to the file if it does not exist
@@ -131,24 +166,27 @@ class DataLoaderVisualizer:
                                                                f"frame_number_label={frame_number_label}, img_path ={img}, " \
                                                                f"array={gt_path}" 
                     # Get eyes
-                    result = get_eyes(join_paths(sample_path, img), self.predictor, self.face_detector)
+                    result = get_features(join_paths(sample_path, img), self.predictor, self.face_detector)
                     if result is None:
                         count += 1
                         # Skip the current image
                         continue
                     else:
-                        eye_left, pupil_left, pupil_right = result[0], result[1], result[2]
+                        eye_left, pupil_left, pupil_right,face_image_cropped, nose_position, corners_of_eyes = result[0], result[1], result[2], result[3],result[4],result[5]
                         # Get headpose angles
                         pitch,yaw,roll = get_headpose(join_paths(sample_path, img), self.headpose_extractor)                    
                         # Append data items to the list
-                        data.append({
-                            'path': join_paths(sample_path, img),
-                            'road view path': join_paths(sample_path.replace('driver_view', 'road_view'), img),
-                            'feature list': [float(pitch), float(yaw), float(roll), float(pupil_left[0]), float(pupil_left[1]), float(pupil_right[0]), float(pupil_right[1])],
-                            'label': gaze_point,
-                            'bbox': list(bbox),
-                            'eye left': base64.b64encode(cv2.imencode('.jpg', eye_left)[1]).decode('utf-8')
-                            })
+                    data.append({
+                        'path': join_paths(sample_path, img),
+                        'road view path': join_paths(sample_path.replace('driver_view', 'road_view'), img),
+                        'feature list': [float(pitch), float(yaw), float(roll), float(pupil_left[0]), float(pupil_left[1]), float(pupil_right[0]), float(pupil_right[1])],
+                        'label': gaze_point,
+                        'bbox': list(bbox),
+                        'eye left': base64.b64encode(cv2.imencode('.jpg', eye_left)[1]).decode('utf-8'),
+                        'face': base64.b64encode(cv2.imencode('.jpg', face_image_cropped)[1]).decode('utf-8'),
+                        'nose position': [float(nose_position[0]), float(nose_position[1])],
+                        'corner eyes': [float(corners_of_eyes[0][0]), float(corners_of_eyes[0][1]), float(corners_of_eyes[1][0]), float(corners_of_eyes[1][1]), float(corners_of_eyes[2][0]), float(corners_of_eyes[2][1]), float(corners_of_eyes[3][0]), float(corners_of_eyes[3][1])]
+                    })
             if count !=0:
                 print(f"In {driver} I skipped {count} images")
         return data
@@ -169,13 +207,13 @@ class DataLoaderVisualizer:
           driver_photo = cv2.imread(driver_img_path)
           driver_photo = cv2.cvtColor(driver_photo, cv2.COLOR_BGR2RGB)
           # Calculate landmarks and extract face and eye patches
-          result = get_eyes(driver_img_path, self.predictor,self.face_detector, doPlot=True)
+          result = get_features(driver_img_path, self.predictor,self.face_detector, doPlot=True)
           if result:
-              eye_left, photo_draw = result[0], result[1]
+              img, photo_draw, left_eye = result[0], result[1], result[2]
           else:
               continue
           # Get headpose and plot it on the face 
-          face = get_headpose(driver_img_path, self.headpose_extractor, doPlot = True)
+          #face = get_headpose(driver_img_path, self.headpose_extractor, doPlot = True)
           road_photo = cv2.imread(road_img_path)
           road_photo = cv2.cvtColor(road_photo, cv2.COLOR_BGR2RGB)
           # Get the bounding box
@@ -194,11 +232,11 @@ class DataLoaderVisualizer:
           ax2.add_patch(rect)
           ax2.set_title('road view photo'), ax2.set_xlabel('W'), ax2.set_ylabel('H')
           ax2.set_box_aspect(driver_photo.shape[0] / driver_photo.shape[1])
-          ax3.imshow(eye_left)
-          ax3.set_title('left eye'), ax3.set_xlabel('W'), ax3.set_ylabel('H')
+          ax3.imshow(img)
+          ax3.set_title('additional image in dataset'), ax3.set_xlabel('W'), ax3.set_ylabel('H')
           ax3.set_box_aspect(driver_photo.shape[0] / driver_photo.shape[1])
-          ax4.imshow(face)
-          ax4.set_title('cropped face'), ax4.set_xlabel('W'), ax4.set_ylabel('H')
+          ax4.imshow(left_eye)
+          ax4.set_title('left eye'), ax4.set_xlabel('W'), ax4.set_ylabel('H')
           ax4.set_box_aspect(driver_photo.shape[0] / driver_photo.shape[1])
           plt.show()
           seed_everything(42)
@@ -207,16 +245,19 @@ class DataLoaderVisualizer:
 PYTORCH DATASET CLASS 
 '''
 class DGAZEDataset(Dataset):
-    def __init__(self, split='train',save_file='train_paths.json', transform = None):
+    def __init__(self, split='train',save_file='train_paths.json', transform = None, big_file=False):
         self.split = split
         self.transform = transform
+        self.big_file = big_file
 
         if split in save_file:
             self.save_file = save_file
         else:
             raise ValueError("You used the wrong path")
-
-        self.data = read_file(self.save_file) 
+        if self.big_file:
+            self.data = read_big_file(self.save_file)
+        else:
+            self.data = read_file(self.save_file) 
 
     def __len__(self):
         return len(self.data)
@@ -227,13 +268,23 @@ class DGAZEDataset(Dataset):
             eye_left_encoded = self.data[idx]['eye left']
             additional_features = self.data[idx]['feature list']
             bbox = self.data[idx]['bbox']
-            # Decode the image
+            # Decode the eye
             eye_left_decoded = base64.b64decode(eye_left_encoded)
             eye_left_array = np.frombuffer(eye_left_decoded, dtype=np.uint8)
             eye_left = cv2.imdecode(eye_left_array, flags=cv2.IMREAD_COLOR)
             eye_left = cv2.cvtColor(eye_left, cv2.COLOR_BGR2RGB)
+            if self.big_file:
+                #face_encoded = self.data[idx]['face']
+                nose = self.data[idx]['nose position']
+                corners = self.data[idx]['corner eyes']
+                #face_decoded = base64.b64decode(face_encoded)
+                #face_array = np.frombuffer(face_decoded, dtype=np.uint8)
+                #face = cv2.imdecode(face_array, flags=cv2.IMREAD_COLOR)
+                #face = cv2.cvtColor(face, cv2.COLOR_BGR2RGB)
+                additional_features = additional_features + nose + corners
 
             if self.transform:
                 eye_left= self.transform(eye_left)
-
+                #if self.big_file:
+                    #face = self.transform(face)
             return  eye_left, torch.tensor(additional_features, dtype=torch.float32) , torch.tensor(label, dtype=torch.float32), torch.tensor(bbox, dtype=torch.float32), img_path  
