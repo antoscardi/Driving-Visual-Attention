@@ -126,12 +126,6 @@ class BBoxAccuracy:
     def __init__(self):
         pass
 
-    def is_point_inside_bbox(self, point, bbox):
-        x, y = point
-        x1, y1, x2, y2 = bbox
-
-        return min(x1, x2) <= x <= max(x1, x2) and min(y1, y2) <= y <= max(y1, y2)
-
     def __call__(self, predictions, bbox):
         """
         :param predictions: Tensor of shape (batch_size, 2) representing (x, y) coordinates.
@@ -147,7 +141,12 @@ class BBoxAccuracy:
             point = predictions[i]
             current_bbox = bbox[i]
 
-            if self.is_point_inside_bbox(point, current_bbox):
+            if is_point_inside_bbox(point, current_bbox):
                 result[i] = 1
 
         return result
+
+def is_point_inside_bbox(point, bbox):
+        x, y = point
+        x1, y1, x2, y2 = bbox                                                              
+        return min(x1, x2) <= x <= max(x1, x2) and min(y1, y2) <= y <= max(y1, y2)
