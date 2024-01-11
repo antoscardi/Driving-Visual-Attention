@@ -42,7 +42,7 @@ class EyeFeatureExtractor(nn.Module):
         return x1
 
 class MLPHead(nn.Module):
-    def __init__(self, input_size = 672 + 16, additional_features_size=7, hidden_size=256):
+    def __init__(self, input_size = 672 + 16, additional_features_size=7, hidden_size=128):
         super(MLPHead, self).__init__()
         # Process additional features
         self.fc_additional = nn.Sequential(
