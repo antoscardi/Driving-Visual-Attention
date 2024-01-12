@@ -245,7 +245,7 @@ class DataLoaderVisualizer:
 PYTORCH DATASET CLASS 
 '''
 class DGAZEDataset(Dataset):
-    def __init__(self, split='train',save_file='train_paths.json', transform = None, big_file=False):
+    def __init__(self, split='train', save_file='train_paths.json', transform = None, big_file=False):
         self.split = split
         self.transform = transform
         self.big_file = big_file
