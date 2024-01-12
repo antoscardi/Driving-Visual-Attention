@@ -265,26 +265,26 @@ class DGAZEDataset(Dataset):
     def __getitem__(self, idx):
             label = self.data[idx]['label']
             img_path = self.data[idx]['path']
-            eye_left_encoded = self.data[idx]['eye left']
+            #eye_left_encoded = self.data[idx]['eye left']
             additional_features = self.data[idx]['feature list']
             bbox = self.data[idx]['bbox']
             # Decode the eye
-            eye_left_decoded = base64.b64decode(eye_left_encoded)
-            eye_left_array = np.frombuffer(eye_left_decoded, dtype=np.uint8)
-            eye_left = cv2.imdecode(eye_left_array, flags=cv2.IMREAD_COLOR)
-            eye_left = cv2.cvtColor(eye_left, cv2.COLOR_BGR2RGB)
+            #eye_left_decoded = base64.b64decode(eye_left_encoded)
+            #eye_left_array = np.frombuffer(eye_left_decoded, dtype=np.uint8)
+            #eye_left = cv2.imdecode(eye_left_array, flags=cv2.IMREAD_COLOR)
+            #eye_left = cv2.cvtColor(eye_left, cv2.COLOR_BGR2RGB)
             if self.big_file:
-                #face_encoded = self.data[idx]['face']
+                face_encoded = self.data[idx]['face']
                 nose = self.data[idx]['nose position']
                 corners = self.data[idx]['corner eyes']
-                #face_decoded = base64.b64decode(face_encoded)
-                #face_array = np.frombuffer(face_decoded, dtype=np.uint8)
-                #face = cv2.imdecode(face_array, flags=cv2.IMREAD_COLOR)
-                #face = cv2.cvtColor(face, cv2.COLOR_BGR2RGB)
-                additional_features = additional_features + nose + corners
+                face_decoded = base64.b64decode(face_encoded)
+                face_array = np.frombuffer(face_decoded, dtype=np.uint8)
+                face = cv2.imdecode(face_array, flags=cv2.IMREAD_COLOR)
+                face = cv2.cvtColor(face, cv2.COLOR_BGR2RGB)
+                additional_features = additional_features[3:] + nose + corners
 
             if self.transform:
-                eye_left= self.transform(eye_left)
-                #if self.big_file:
-                    #face = self.transform(face)
-            return  eye_left, torch.tensor(additional_features, dtype=torch.float32) , torch.tensor(label, dtype=torch.float32), torch.tensor(bbox, dtype=torch.float32), img_path  
+                #eye_left= self.transform(eye_left)
+                if self.big_file:
+                    face = self.transform(face)
+            return  face, torch.tensor(additional_features, dtype=torch.float32) , torch.tensor(label, dtype=torch.float32), torch.tensor(bbox, dtype=torch.float32), img_path  
