@@ -3,8 +3,8 @@ from utility import *
 class ConvolutionBlock(nn.Module):
     def __init__(self):
         super().__init__()
-        self.conv_block = nn.Conv2d(in_channels=8, stride=1, out_channels=8, kernel_size=3, padding = 1)
-        self.batch_norm_block = nn.BatchNorm2d(8)
+        self.conv_block = nn.Conv2d(in_channels=16, stride=1, out_channels=16, kernel_size=3, padding = 1)
+        self.batch_norm_block = nn.BatchNorm2d(16)
         self.relu_block = nn.LeakyReLU()
 
     def forward(self, x):
@@ -19,16 +19,19 @@ class EyeFeatureExtractor(nn.Module):
     def __init__(self):
         super(EyeFeatureExtractor, self).__init__()
         # Increase channels for skip connections
-        self.conv1 = nn.Conv2d(in_channels=3, out_channels=8, kernel_size=3, stride=1, padding=1)
+        self.conv1 = nn.Conv2d(in_channels=3, out_channels=16, kernel_size=3, stride=1, padding=1)
+        self.bn1 = nn.BatchNorm2d(16)
         self.relu = nn.LeakyReLU()
         self.block = ConvolutionBlock()
         self.pool = nn.MaxPool2d(kernel_size=4, stride=2)
         self.dropout = nn.Dropout(0.1)
-        self.conv2 = nn.Conv2d(in_channels=8, out_channels=4, kernel_size=3, stride=1, padding=1)
+        self.conv2 = nn.Conv2d(in_channels=16, out_channels=4, kernel_size=3, stride=1, padding=1)
+        self.bn2 = nn.BatchNorm2d(4)
     
     def forward(self, x1):
         # 'Upsampling'
         x1 = self.conv1(x1)
+        x1 = self.bn1(x1)
         x1 = self.relu(x1)
         # Convolution block 
         x1 = self.block(x1)
@@ -36,13 +39,14 @@ class EyeFeatureExtractor(nn.Module):
         x1 = self.dropout(x1)
         # Downsampling
         x1 = self.conv2(x1)
+        x1 = self.bn2(x1)
         x1 = self.relu(x1)
         x1 = self.pool(x1)
 
         return x1
 
 class MLPHead(nn.Module):
-    def __init__(self, input_size = 672 + 16, additional_features_size=7, hidden_size=256):
+    def __init__(self, input_size = 336 + 16, additional_features_size=7, hidden_size=64):
         super(MLPHead, self).__init__()
         # Process additional features
         self.fc_additional = nn.Sequential(
@@ -67,7 +71,7 @@ class MLPHead(nn.Module):
         return gaze
     
 class GazeCNN(nn.Module):
-    def __init__(self, additional_features_size=7, hidden_size=128):
+    def __init__(self, additional_features_size=7, hidden_size=64):
         super(GazeCNN, self).__init__()
         self.eye_feature_extractor = EyeFeatureExtractor()
         self.flatten = nn.Flatten()
