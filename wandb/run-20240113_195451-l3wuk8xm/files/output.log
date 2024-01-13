@@ -1,0 +1,17 @@
+
+
+
+
+Training Epoch 0:   4%|▍         | 502/11716 [00:07<02:46, 67.42batch/s, batch loss=211.48]
+We have  access to a GPU
+0
+<torch.cuda.device object at 0x7ff89d772520>
+1
+NVIDIA GeForce RTX 3060 Laptop GPU
+cuda
+Train dataset len is 187458
+The bbox is: tensor([1397.,  506., 2550., 1010.])
+The additional features are: tensor([ -7.3503,  26.1545,  -2.1894, 227.0000, 487.0000, 367.0000, 488.0000])
+Val dataset len is 23317
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

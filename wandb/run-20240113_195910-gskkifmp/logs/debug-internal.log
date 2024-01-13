@@ -1,0 +1,12 @@
+2024-01-13 19:59:18,298 INFO    StreamThr :14431 [internal.py:wandb_internal():86] W&B internal server running at pid: 14431, started at: 2024-01-13 19:59:18.296682
+2024-01-13 19:59:18,301 DEBUG   HandlerThread:14431 [handler.py:handle_request():146] handle_request: status
+2024-01-13 19:59:18,306 INFO    WriterThread:14431 [datastore.py:open_for_write():87] open: /home/anto/University/Driving-Visual-Attention/wandb/run-20240113_195910-gskkifmp/run-gskkifmp.wandb
+2024-01-13 19:59:18,307 DEBUG   SenderThread:14431 [sender.py:send():382] send: header
+2024-01-13 19:59:18,308 DEBUG   SenderThread:14431 [sender.py:send():382] send: run
+2024-01-13 19:59:18,958 INFO    SenderThread:14431 [dir_watcher.py:__init__():211] watching files in: /home/anto/University/Driving-Visual-Attention/wandb/run-20240113_195910-gskkifmp/files
+2024-01-13 19:59:18,958 INFO    SenderThread:14431 [sender.py:_start_run_threads():1136] run started: gskkifmp with start time 1705172357.402928
+2024-01-13 19:59:23,959 DEBUG   HandlerThread:14431 [handler.py:handle_request():146] handle_request: status_report
+2024-01-13 19:59:28,960 DEBUG   HandlerThread:14431 [handler.py:handle_request():146] handle_request: status_report
+2024-01-13 19:59:33,961 DEBUG   HandlerThread:14431 [handler.py:handle_request():146] handle_request: status_report
+2024-01-13 19:59:38,963 DEBUG   HandlerThread:14431 [handler.py:handle_request():146] handle_request: status_report
+2024-01-13 19:59:43,964 DEBUG   HandlerThread:14431 [handler.py:handle_request():146] handle_request: status_report

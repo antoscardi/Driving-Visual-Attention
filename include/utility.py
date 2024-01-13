@@ -1,3 +1,4 @@
+import wandb
 import random
 import os
 import numpy as np
@@ -6,7 +7,6 @@ from tqdm import tqdm
 import torch
 import cv2
 from torchvision import transforms
-import wandb
 from torchvision import utils
 import torch.nn as nn
 
