@@ -5,13 +5,25 @@ This project is based on this [paper](http://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/
 ## 🔍 Overview
 **Drivers' attention is key to road safety!** 🚗. This project aims to estimate where a driver is looking at 👀 and whether they are paying attention to critical elements on the road. We use **Gaze Point Detection** and **Object Detection** to analyze visual focus and determine attentiveness.
 
-## 🏗️ Project Structure
-📂 **`/models`** – Pretrained and fine-tuned models (GazeCNN, Transformer, YOLOv8) 🧠💡  
-📂 **`/data`** – DGaze dataset preprocessing and annotations 📊📌  
-📂 **`/notebooks`** – Jupyter notebooks for experiments 📖✍️  
-📂 **`/scripts`** – Training & evaluation scripts ⚙️🔬  
-📂 **`/results`** – Model evaluation & analysis 📈🎯  
-📂 **`/docs`** – Project documentation 📜🖊️  
+We first develop a baseline model, **a CNN-based architecture inspired by GazeCNN**, which takes as input facial features such as eye position, nose position, and head pose to estimate the gaze point.  
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/23eb83dd-4938-4d52-8398-620a3be0fa73" width="50%">
+</p>
+
+And a **larger model** which includes the use of a **Transformer**, specifically a ResNet + Transformer hybrid (GazeTR-Hybrid), which leverages self-attention mechanisms to improve gaze estimation accuracy.  
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2b593079-5aff-4a4a-a550-f7b62451dab0" width="50%">
+</p>
+
+At the end, what we obtain is an **attention score that determines the level of attentiveness, a bounding box for the identified object of focus, and an assessment of whether the driver is paying attention to critical road elements.**  
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/766fdea6-2e3a-432d-b053-cf5f37e3acec" width="50%">
+</p>
+
+
 
 ## 🎯 Key Features
 ✅ **Gaze Estimation** using **CNN + Transformer** & **ResNet-based models** 🏁🚀  
@@ -39,7 +51,7 @@ This project is based on this [paper](http://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/
 ```bash
 # Clone the repository 🖥️
 git clone https://github.com/your-username/VisualAttentionDrivers.git
-cd VisualAttentionDrivers
+cd 
 
 # Install dependencies ⚙️
 pip install -r requirements.txt
@@ -48,16 +60,11 @@ pip install -r requirements.txt
 python run_model.py --input_path data/sample_image.jpg
 ```
 
-## 📌 Results
+## 🎯 Results
 🧐 **Where do drivers focus the most?**  
 - 🚗 **Vehicles (cars & trucks) - 32.1%**  
 - 🚶 **Pedestrians - 8.3%**  
 - 🏁 **Road Signs - 2.9%**  
-
-## 🎯 Future Work
-✅ Improve gaze estimation precision 🎯🔬  
-✅ Train on larger datasets for better generalization 📊🌍  
-✅ Integrate real-time processing for ADAS 🚗⚡  
 
 ## 👥 Contributors
 -  [Niccolò Piraino](https://github.com/Nickes10)
