@@ -1,6 +1,6 @@
 # Visual Attention Estimation in Drivers
 This is the repository for the project of the first module of the course **Electives in AI** held by **Prof. Christian Napoli** at **La Sapienza University of Rome**.
-This project is based on this [paper](http://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/Projects/DGAZE/paper.pdf), which has developed the following dataset and model contained in this [repository](https://github.com/duaisha/DGAZE). 
+This project is based on this [paper](http://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/Projects/DGAZE/paper.pdf), whose authors also provide this [repository](https://github.com/duaisha/DGAZE). 
 
 ## 📚 Table of Contents
 - [Overview](#-overview)
