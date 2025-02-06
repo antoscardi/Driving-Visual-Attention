@@ -15,7 +15,7 @@ This project is based on this [paper](http://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/
 - [License](#-license)
 
 ## 🔍 Overview
-**🚗 Drivers' attention is key to road safety!**. This project aims to estimate where a driver is looking 👀 and whether they are paying attention to critical elements on the road. We use **Gaze Point Detection** and **Object Detection** to analyze visual focus and determine attentiveness.
+**Drivers' attention is key to road safety!**🚗. This project aims to estimate where a driver is looking 👀 and whether they are paying attention to critical elements on the road. We use **Gaze Point Detection** and **Object Detection** to analyze visual focus and determine attentiveness.
 
 ## 🏗️ Project Structure
 📂 **`/models`** – Pretrained and fine-tuned models (GazeCNN, Transformer, YOLOv8) 🧠💡  
