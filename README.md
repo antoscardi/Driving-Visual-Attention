@@ -20,7 +20,7 @@ And a **larger model** which includes the use of a **Transformer**, specifically
 At the end, what we obtain is an **attention score that determines the level of attentiveness, a bounding box for the identified object of focus, and an assessment of whether the driver is paying attention to critical road elements.**  
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/766fdea6-2e3a-432d-b053-cf5f37e3acec" width="45%">
+  <img src="https://github.com/user-attachments/assets/766fdea6-2e3a-432d-b053-cf5f37e3acec" width="50%">
 </p>
 
 
