@@ -23,10 +23,10 @@ At the end, what we obtain is an **attention score that determines the level of 
   <img src="https://github.com/user-attachments/assets/766fdea6-2e3a-432d-b053-cf5f37e3acec" width="50%">
 </p>
 
-## 🎯 Key Features
+## 📌 Key Features
 ✅ **Gaze Estimation** using **CNN + Transformer** & **ResNet-based models** 🏁🚀  
 ✅ **Object Detection** using **YOLOv8** to identify key road elements 🚘🚦🚶  
-✅ **Attention Scoring** to classify attentiveness 🏎️📍  
+✅ **Attention Scoring** to classify attentiveness 🏎️👀  
 ✅ **DGaze Dataset Analysis** (3761 image pairs) 📊📷  
 ✅ **Evaluation against state-of-the-art** methods 🏆📌  
 
@@ -44,15 +44,11 @@ At the end, what we obtain is an **attention score that determines the level of 
 ## 🚀 Installation & Usage
 The dataset was provided by the authors of the paper and without it the models cannot be trained.
 ```bash
-# Clone the repository 🖥️
-git clone https://github.com/your-username/VisualAttentionDrivers.git
-cd 
+# Clone the repository 
+git clone https://github.com/antoscardi/Driving_Visual_Attention.git
 
-# Install dependencies ⚙️
-pip install -r requirements.txt
+# Run notebook
 
-# Run inference (example script) 🏁
-python run_model.py --input_path data/sample_image.jpg
 ```
 
 ## 🎯 Results
