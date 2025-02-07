@@ -31,19 +31,15 @@ At the end, what we obtain is an **attention score that determines the level of 
 ✅ **Evaluation against state-of-the-art** methods 🏆📌  
 
 ## 🏎️ How It Works
-1️⃣ **Gaze Point Detection** 🔭👀  
-   - Predicts where the driver is looking using deep learning 🧠📍  
-2️⃣ **Object Detection** 🚗🛑  
-   - YOLOv8 identifies key objects on the road 🏁🚦  
-3️⃣ **Attention Analysis** 🎯  
-   - Matches the gaze point with detected objects ✅👀  
-   - Classifies attentiveness score (0: Not Attentive ❌, 1: Distracted ❗, 2: Focused ✅)  
+- 🔭👀 **Gaze Point Detection**: Predicts where the driver is looking using deep learning models 🧠  
+- 🚗🛑 **Object Detection**: YOLOv8 identifies key objects on the road 🚦  
+- 🎯 **Attention Analysis**: Classifies attentiveness score (0: Not Attentive ❌, 1: Distracted ❗, 2: Focused ✅)  
 
 ## 🔥 Model Performance
-📌 **Best Model:** **CNN + Transformer (GazeTR-Hybrid)** 🏆🔬  
+📌 **Best Model:** **CNN + Transformer (GazeTR-Hybrid)** 🏆  
 📌 **Bounding Box Accuracy:** ~46% 🎯📦  
-📌 **Mean Absolute Error:** Competitive with state-of-the-art 🤖📈  
-📌 **YOLO Performance:** 83.61% Precision, 73.99% Recall 🏎️🚦  
+📌 **Mean Absolute Error:** Competitive with state-of-the-art 📈  
+📌 **YOLO Performance:** 83.61% Precision, 73.99% Recall 🏎️  
 
 ## 🚀 Installation & Usage
 The dataset was provided by the authors of the paper and without it the models cannot be trained.
@@ -63,7 +59,7 @@ python run_model.py --input_path data/sample_image.jpg
 🧐 **Where do drivers focus the most?**  
 - 🚗 **Vehicles (cars & trucks) - 32.1%**  
 - 🚶 **Pedestrians - 8.3%**  
-- 🏁 **Road Signs - 2.9%**  
+- 🛑 **Road Signs - 2.9%**  
 
 ## 👥 Contributors
 -  [Niccolò Piraino](https://github.com/Nickes10)
