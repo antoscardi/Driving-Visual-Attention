@@ -24,11 +24,11 @@ At the end, what we obtain is an **attention score that determines the level of 
 </p>
 
 ## 📌 Key Features
-✅ **Gaze Estimation** using **CNN + Transformer** & **ResNet-based models** 🏁🚀  
-✅ **Object Detection** using **YOLOv8** to identify key road elements 🚘🚦🚶  
-✅ **Attention Scoring** to classify attentiveness 🏎️👀  
-✅ **DGaze Dataset Analysis** (3761 image pairs) 📊📷  
-✅ **Evaluation against state-of-the-art** methods 🏆📌  
+- ✅ **Gaze Estimation** using **CNN + Transformer** & **ResNet-based models** 🏁🚀  
+- ✅ **Object Detection** using **YOLOv8** to identify key road elements 🚘🚦🚶  
+- ✅ **Attention Scoring** to classify attentiveness 🏎️👀  
+- ✅ **DGaze Dataset Analysis** (3761 image pairs) 📊📷  
+- ✅ **Evaluation against state-of-the-art** methods 🏆📌  
 
 ## 🏎️ How It Works
 - 🔭👀 **Gaze Point Detection**: Predicts where the driver is looking using deep learning models 🧠  
@@ -36,19 +36,38 @@ At the end, what we obtain is an **attention score that determines the level of 
 - 🎯 **Attention Analysis**: Classifies attentiveness score (0: Not Attentive ❌, 1: Distracted ❗, 2: Focused ✅)  
 
 ## 🔥 Model Performance
-📌 **Best Model:** **CNN + Transformer (GazeTR-Hybrid)** 🏆  
-📌 **Bounding Box Accuracy:** ~46% 🎯📦  
-📌 **Mean Absolute Error:** Competitive with state-of-the-art 📈  
-📌 **YOLO Performance:** 83.61% Precision, 73.99% Recall 🏎️  
+- **Best Model:** **CNN + Transformer (GazeTR-Hybrid)** 🏆  
+- **Bounding Box Accuracy:** ~46% 🎯📦  
+- **Mean Absolute Error:** Competitive with state-of-the-art 📈  
+- **YOLO Performance:** 83.61% Precision, 73.99% Recall 🏎️  
 
 ## 🚀 Installation & Usage
-The dataset was provided by the authors of the paper and without it the models cannot be trained.
+⚠️ **IMPORTANT NOTE:** The dataset was created and therefore provided by the authors of the paper and without it the models cannot be trained.
+
+### 📥 Clone the Repository
 ```bash
-# Clone the repository 
 git clone https://github.com/antoscardi/Driving_Visual_Attention.git
+```
 
-# Run notebook
+### ▶️ Running the Notebooks
+To execute different components of the project, run the following Jupyter notebooks separately:
 
+#### 1️⃣ Data Analysis
+This notebook processes and analyzes the dataset, performing feature extraction, color distribution analysis, and pre-processing.
+```bash
+jupyter notebook "Data Analysis.ipynb"
+```
+
+#### 2️⃣ Gaze Estimation
+Implements gaze estimation using CNN-based models and Transformers, training and evaluating models on driver gaze detection.
+```bash
+jupyter notebook "Gaze Estimation.ipynb"
+```
+
+#### 3️⃣ YOLO & Attention Detection
+Uses **YOLOv8** for object detection and **combines gaze estimation results** to compute an **attention score**, determining whether the driver is focused on key road elements.
+```bash
+jupyter notebook "YOLO & Attention.ipynb"
 ```
 
 ## 🎯 Results
