@@ -59,7 +59,7 @@ jupyter notebook "Data Analysis.ipynb"
 ```
 
 #### 2️⃣ Gaze Estimation
-Implements gaze estimation using CNN-based models and Transformers, training and evaluating models on driver gaze detection.
+Implements gaze estimation using CNN-based and Transformers-based models, training and evaluating models on driver gaze detection.
 ```bash
 jupyter notebook "Gaze Estimation.ipynb"
 ```
