@@ -23,8 +23,6 @@ At the end, what we obtain is an **attention score that determines the level of 
   <img src="https://github.com/user-attachments/assets/766fdea6-2e3a-432d-b053-cf5f37e3acec" width="50%">
 </p>
 
-
-
 ## 🎯 Key Features
 ✅ **Gaze Estimation** using **CNN + Transformer** & **ResNet-based models** 🏁🚀  
 ✅ **Object Detection** using **YOLOv8** to identify key road elements 🚘🚦🚶  
@@ -48,6 +46,7 @@ At the end, what we obtain is an **attention score that determines the level of 
 📌 **YOLO Performance:** 83.61% Precision, 73.99% Recall 🏎️🚦  
 
 ## 🚀 Installation & Usage
+The dataset was provided by the authors of the paper and without it the models cannot be trained.
 ```bash
 # Clone the repository 🖥️
 git clone https://github.com/your-username/VisualAttentionDrivers.git
