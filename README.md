@@ -1,4 +1,4 @@
-# Visual Attention Estimation in Drivers
+# 🚗 Visual Attention Estimation in Drivers
 This is the repository for the project of the first module of the course **Electives in AI** held by **Prof. Christian Napoli** at **La Sapienza University of Rome**.
 This project is based on this [paper](http://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/Projects/DGAZE/paper.pdf), whose authors also provide this [repository](https://github.com/duaisha/DGAZE). 
 
@@ -29,7 +29,7 @@ At the end, what we obtain is an **attention score that determines the level of 
 - ✅ **Attention Scoring** to classify attentiveness 🏎️👀  
 - ✅ **DGaze Dataset Analysis** (3761 image pairs) 📊📷  
 - ✅ **Evaluation against state-of-the-art** methods 🏆📌  
-
+PEGASUS
 ## 🏎️ How It Works
 - 🔭👀 **Gaze Point Detection**: Predicts where the driver is looking using deep learning models 🧠  
 - 🚗🛑 **Object Detection**: YOLOv8 identifies key objects on the road 🚦  
